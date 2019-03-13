@@ -42,6 +42,7 @@ class KaosApplication extends Application
         $this->currentDirectory = getcwd();
         $this->baseIndentLevel = 0;
         $this->registerCommand("Ling\LingTalfi\Kaos\Command\PushCommand", "push");
+        $this->registerCommand("Ling\LingTalfi\Kaos\Command\PackAndPushUniToolCommand", "unipackpush");
 
     }
 

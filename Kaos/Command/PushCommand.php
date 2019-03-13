@@ -5,6 +5,7 @@ namespace Ling\LingTalfi\Kaos\Command;
 
 
 use Ling\CliTools\Helper\VirginiaMessageHelper as H;
+use Ling\CliTools\Input\ArrayInput;
 use Ling\CliTools\Input\InputInterface;
 use Ling\CliTools\Output\OutputInterface;
 use Ling\LingTalfi\Kaos\Util\ReadmeUtil;
@@ -136,7 +137,7 @@ class PushCommand extends KaosGenericCommand
                                 //--------------------------------------------
                                 // PUSH TO GITHUB.COM
                                 //--------------------------------------------
-                                H::info(H::i($indentLevel + 1) . "Pushing planet <blue>$galaxyName/$planetName</blue> to github.com:", $output);
+                                H::info(H::i($indentLevel + 1) . "Pushing planet <blue>$galaxyName/$planetName</blue> to github.com." . PHP_EOL, $output);
 
 
                                 if (false === $newVersionAvailable) {
@@ -153,9 +154,20 @@ class PushCommand extends KaosGenericCommand
                                 passthru("git pp");
 
 
-                                
+                                //--------------------------------------------
+                                // REPACK AND PUSH UNI TOOL
+                                //--------------------------------------------
+                                if (true === $newVersionAvailable) {
+
+                                    $myInput = new ArrayInput();
+                                    $myInput->setItems([
+                                        ":unipackpush" => true,
+                                    ]);
+                                    $this->application->run($myInput, $output);
+                                }
 
 
+                                H::success(H::i($indentLevel) . "The planet <blue>$galaxyName/$planetName</blue> was pushed." . PHP_EOL, $output);
 
 
                             } else {
