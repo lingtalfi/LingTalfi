@@ -1,25 +1,25 @@
 <?php
 
 
-namespace Ling\LingTalfi\DocBuilder\CliTools;
+namespace Ling\LingTalfi\DocBuilder\LingTalfi;
 
 
 use Ling\DocTools\DocBuilder\Git\PhpPlanet\LingGitPhpPlanetDocBuilder;
 use Ling\DocTools\Exception\DocBuilderException;
 use Ling\DocTools\Translator\ParseDownTranslator;
 
-class CliToolsDocBuilder
+class LingTalfiDocBuilder
 {
 
 
     /**
-     * Launch this function to generate the documentation for the CliTools planet.
+     * Launch this function to generate the documentation for the LingTalfi planet.
      * (based on the LingGitPhpPlanetDocBuilder doc builder.
      *
      * If htmlMode is false (the default),
      * this method will generate all files in md format in the following directory:
      *
-     * - /myphp/universe/CliTools/doc
+     * - /myphp/universe/LingTalfi/doc
      *
      * Including a README.md file, that you should manually put at the root of the DocTools planet directory.
      * You can then push to github.
@@ -38,9 +38,6 @@ class CliToolsDocBuilder
      *
      *
      *
-     *
-     *
-     *
      * @param bool $htmlMode
      * @throws DocBuilderException
      */
@@ -51,8 +48,8 @@ class CliToolsDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
 
-        $planetDir = "/myphp/universe/Ling/CliTools";
-        $git = "https://github.com/lingtalfi/CliTools/blob/master";
+        $planetDir = "/myphp/universe/Ling/LingTalfi";
+        $git = "https://github.com/lingtalfi/LingTalfi/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -76,7 +73,7 @@ class CliToolsDocBuilder
              *
              */
             "reportIgnore" => [
-                "Ling\DocTools\Translator\ParseDownTranslator",
+//                "Ling\DocTools\Translator\ParseDownTranslator",
             ],
             /**
              * Your project start date.
@@ -84,7 +81,7 @@ class CliToolsDocBuilder
              * The date when the project was last updated can be generated automatically, but the project
              * start date doesn't change.
              */
-            "projectStartDate" => "2019-02-26",
+            "projectStartDate" => "2019-03-13",
 
             /**
              * @kw(CopyModule).
@@ -142,24 +139,24 @@ class CliToolsDocBuilder
              * This map in particular is the one used for the whole DocTools planet documentation (pages and api).
              */
             "keyWord2UrlMap" => [
-                "the command line page" => $doc . '/pages/command-line.md',
-                "bashtml language" => $doc . '/pages/bashtml.md',
-                "bashtml" => $doc . '/pages/bashtml.md',
-                //
-                "application" => $api . '/CliTools/Program/Application.md',
-                "Application" => $api . '/CliTools/Program/Application.md',
-                "array input" => $api . '/CliTools/Input/ArrayInput.md',
-                "command line input" => $api . '/CliTools/Input/CommandLineInput.md',
-                "CommandLineInput" => $api . '/CliTools/Input/CommandLineInput.md',
-                "bashtml formatter" => $api . '/CliTools/Formatter/BashtmlFormatter.md',
-                "BashtmlFormatter" => $api . '/CliTools/Formatter/BashtmlFormatter.md',
-                "dumb formatter" => $api . '/CliTools/Formatter/DumbFormatter.md',
-                "formatter" => $api . '/CliTools/Formatter/FormatterInterface.md',
-                "AbstractProgram class" => $api . "CliTools/Program/AbstractProgram.md",
-                //
-                "run method" => $api . "CliTools/Program/ProgramInterface/run.md",
-                //
-                "logger" => "https://github.com/lingtalfi/UniversalLogger",
+//                "the command line page" => $doc . '/pages/command-line.md',
+//                "bashtml language" => $doc . '/pages/bashtml.md',
+//                "bashtml" => $doc . '/pages/bashtml.md',
+//                //
+//                "application" => $api . '/LingTalfi/Program/Application.md',
+//                "Application" => $api . '/LingTalfi/Program/Application.md',
+//                "array input" => $api . '/LingTalfi/Input/ArrayInput.md',
+//                "command line input" => $api . '/LingTalfi/Input/CommandLineInput.md',
+//                "CommandLineInput" => $api . '/LingTalfi/Input/CommandLineInput.md',
+//                "bashtml formatter" => $api . '/LingTalfi/Formatter/BashtmlFormatter.md',
+//                "BashtmlFormatter" => $api . '/LingTalfi/Formatter/BashtmlFormatter.md',
+//                "dumb formatter" => $api . '/LingTalfi/Formatter/DumbFormatter.md',
+//                "formatter" => $api . '/LingTalfi/Formatter/FormatterInterface.md',
+//                "AbstractProgram class" => $api . "LingTalfi/Program/AbstractProgram.md",
+//                //
+//                "run method" => $api . "LingTalfi/Program/ProgramInterface/run.md",
+//                //
+//                "logger" => "https://github.com/lingtalfi/UniversalLogger",
             ],
             /**
              * An array of external classes to url.
@@ -171,7 +168,7 @@ class CliToolsDocBuilder
              * in the class synopsis.
              */
             "externalClass2Url" => [
-                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
+//                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
             ],
         ];
 
@@ -192,7 +189,7 @@ class CliToolsDocBuilder
                  * Uncomment the lines below to see my settings for local test mode.
                  */
 
-                "generatedClassBaseDir" =>  "/komin/jin_site_demo/www-doc/api",
+                "generatedClassBaseDir" => "/komin/jin_site_demo/www-doc/api",
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
@@ -207,6 +204,7 @@ class CliToolsDocBuilder
          * and since we've defined a @kw(copy module), it will also copy the whole doc to another location.
          */
         $builder->buildDoc();
+
 
         if ('cli' !== php_sapi_name()) {
 

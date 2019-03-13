@@ -19,7 +19,7 @@ class UniverseToolsDocBuilder
      * If htmlMode is false (the default),
      * this method will generate all files in md format in the following directory:
      *
-     * - /komin/jin_site_demo/universe/UniverseTools/doc
+     * - /myphp/universe/UniverseTools/doc
      *
      * Including a README.md file, that you should manually put at the root of the DocTools planet directory.
      * You can then push to github.
@@ -180,7 +180,7 @@ class UniverseToolsDocBuilder
                  * Uncomment the lines below to see my settings for local test mode.
                  */
 
-                "generatedClassBaseDir" => JIN_APP_DIR . "/www-doc/api",
+                "generatedClassBaseDir" => "/komin/jin_site_demo/www-doc/api",
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
@@ -196,10 +196,13 @@ class UniverseToolsDocBuilder
          */
         $builder->buildDoc();
 
-        /**
-         * This displays the @kw(report).
-         */
-        $builder->showReport();
+        if ('cli' !== php_sapi_name()) {
+
+            /**
+             * This displays the @kw(report).
+             */
+            $builder->showReport();
+        }
     }
 
 }
