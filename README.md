@@ -3,6 +3,10 @@ LingTalfi
 2019-03-13
 
 
+CURRENTLY UNDER DEVELOPMENT...
+
+
+
 Personal tools put in this public repo to help fighting memory loss, and for convenience.
 
 
