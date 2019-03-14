@@ -94,7 +94,7 @@ class PushCommand extends KaosGenericCommand
                     $metaInfo["version"] = $historyLogVersion;
                     $res = MetaInfoTool::writeInfo($planetDir, $metaInfo);
                     if (false === $res) {
-                        $output->write('<error>Oops</error>' . PHP_EOL);
+                        $output->write('<error>oops</error>' . PHP_EOL);
                         H::error(H::i($indentLevel + 1) . "Couldn't write the meta-info file to the planet <bold>$planetDir</bold>." . PHP_EOL, $output);
                         $error = true;
                     } else {
@@ -147,7 +147,7 @@ class PushCommand extends KaosGenericCommand
                                  * Note: I'm using git shortcut commands:
                                  * https://github.com/lingtalfi/server-notes/blob/master/doc/my-git-local-flow.md
                                  */
-                                passthru("git snap update \"" . str_replace('"', '\"', $commitText) . "\"");
+                                passthru("cd \"$planetDir\"; git snap update \"" . str_replace('"', '\"', $commitText) . "\"");
                                 if (true === $newVersionAvailable) {
                                     passthru("git t $historyLogVersion");
                                 }
@@ -161,7 +161,7 @@ class PushCommand extends KaosGenericCommand
 
                                     $myInput = new ArrayInput();
                                     $myInput->setItems([
-                                        ":unipackpush" => true,
+                                        ":packpushuni" => true,
                                     ]);
                                     $this->application->run($myInput, $output);
                                 }
@@ -176,11 +176,11 @@ class PushCommand extends KaosGenericCommand
 
 
                         } else {
-                            $output->write('<error>Oops</error>' . PHP_EOL);
+                            $output->write('<error>oops</error>' . PHP_EOL);
                             H::error(H::i($indentLevel + 2) . "Couldn't write the dependencies.byml file." . PHP_EOL, $output);
                         }
                     } catch (UniverseToolsException $e) {
-                        $output->write('<error>Oops</error>' . PHP_EOL);
+                        $output->write('<error>oops</error>' . PHP_EOL);
                         H::error(H::i($indentLevel + 2) . $e->getMessage() . PHP_EOL, $output);
                     }
                 }
