@@ -35,6 +35,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.3.1 -- 2019-03-14
+
+    - update PushCommand now displays the sitemap ping google response inline
+
 - 1.3.0 -- 2019-03-14
 
     - add InitializePlanetCommand

@@ -199,8 +199,11 @@ EEE;
                                         if (false !== $curlResponse) {
                                             $httpCode = $curlResponse->getHttpCode();
                                             $output->write('<success>ok</success> (httpCode=' . $httpCode . ')' . PHP_EOL);
+                                            $body = $curlResponse->getBody();
+                                            H::info(str_repeat('*', 50) . PHP_EOL, $output);
+                                            $output->write($body . PHP_EOL);
+                                            H::info(str_repeat('*', 50) . PHP_EOL, $output);
 
-                                            a($curlResponse->getBody());
 
                                         } else {
                                             $output->write('<error>oops</error>' . PHP_EOL);
