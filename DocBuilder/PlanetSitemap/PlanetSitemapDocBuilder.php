@@ -130,7 +130,7 @@ class PlanetSitemapDocBuilder
             /**
              * The base directory for the @kw(inserts).
              */
-            "insertsBaseDir" => "$planetDir/doc/inserts",
+            "insertsBaseDir" => "$planetDir/personal/mydoc/inserts",
             /**
              * The base url for the generated documentation api (this maps to the generatedClassBaseDir defined above).
              */
