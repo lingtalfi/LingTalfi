@@ -35,6 +35,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.1.0 -- 2019-03-14
+
+    - add PackAndPushUniToolCommand
+
 - 1.0.0 -- 2019-03-13
 
     - initial commit
