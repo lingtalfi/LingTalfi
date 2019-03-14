@@ -35,6 +35,11 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.3.0 -- 2019-03-14
+
+    - add InitializePlanetCommand
+    - update PushCommand now creates a sitemap and ask google to crawl it
+
 - 1.2.0 -- 2019-03-14
 
     - add PushUniverseSnapshotCommand
