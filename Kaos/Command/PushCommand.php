@@ -149,9 +149,9 @@ class PushCommand extends KaosGenericCommand
                                  */
                                 passthru("cd \"$planetDir\"; git snap update \"" . str_replace('"', '\"', $commitText) . "\"");
                                 if (true === $newVersionAvailable) {
-                                    passthru("git t $historyLogVersion");
+                                    passthru("cd \"$planetDir\"; git t $historyLogVersion");
                                 }
-                                passthru("git pp");
+                                passthru("cd \"$planetDir\"; git pp");
 
 
                                 //--------------------------------------------

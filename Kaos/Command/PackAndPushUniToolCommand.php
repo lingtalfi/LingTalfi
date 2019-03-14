@@ -191,9 +191,9 @@ EEE;
                         $commitText = array_shift($commitLines);
                         passthru("cd \"$naiveImporterDir\"; git snap update \"" . str_replace('"', '\"', $commitText) . "\"");
                         if ($newUniToolVersion !== $currentUniToolVersion) {
-                            passthru("git t $newUniToolVersion");
+                            passthru("cd \"$naiveImporterDir\"; git t $newUniToolVersion");
                         }
-                        passthru("git pp");
+                        passthru("cd \"$naiveImporterDir\"; git pp");
                         H::success(H::i($indentLevel + 1) . "Uni-tool was pushed successfully to github.com." . PHP_EOL, $output);
 
 
