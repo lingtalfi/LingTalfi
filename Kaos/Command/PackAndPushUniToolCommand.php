@@ -168,7 +168,21 @@ EEE;
                     $commitLines = [];
                     if ($versionDiff) {
                         foreach ($versionDiff as $item) {
-                            $commitLines[] = $item['planet'] . " " . $item['old_version'] . " --> " . $item['new_version'];
+                            $planet = $item['planet'];
+                            $sPlanet = $planet;
+                            $p = explode("/", $planet);
+                            if (2 === count($p)) {
+                                list($galaxy, $planet) = $p;
+                                if ('Ling' === $galaxy) {
+                                    /**
+                                     * boo, 0/10
+                                     */
+                                    $link = "https://github.com/lingtalfi/$planet";
+                                    $sPlanet = '[' . $item['planet'] . '](' . $link . ')';
+                                }
+                            }
+
+                            $commitLines[] = $sPlanet . " " . $item['old_version'] . " --> " . $item['new_version'];
                         }
                     } else {
                         $commitLines[] = "universe minor increment";
