@@ -141,115 +141,113 @@ class PushCommand extends KaosGenericCommand
                                 call_user_func([$docBuilderClass, "buildDoc"]);
                                 $output->write('<success>ok</success>' . PHP_EOL);
 
+                            } else {
+                                H::info(H::i($indentLevel + 2) . "No DocBuilder class found for planet <blue>$galaxyName/$planetName</blue>." . PHP_EOL, $output);
+                            }
+
+                            //--------------------------------------------
+                            // CREATE SITEMAP.TXT
+                            //--------------------------------------------
+                            H::info(H::i($indentLevel + 1) . "Creating <b>sitemap</b> at <b>$planetDir/sitemap.txt</b>...", $output);
+                            if (true === PlanetSitemapHelper::createGithubSitemap($planetDir, $githubBaseUrl)) {
+                                $output->write('<success>ok</success>' . PHP_EOL);
+
 
                                 //--------------------------------------------
-                                // CREATE SITEMAP.TXT
+                                // CREATING ROBOT.TXT
                                 //--------------------------------------------
-                                H::info(H::i($indentLevel + 1) . "Creating <b>sitemap</b> at <b>$planetDir/sitemap.txt</b>...", $output);
-                                if (true === PlanetSitemapHelper::createGithubSitemap($planetDir, $githubBaseUrl)) {
-                                    $output->write('<success>ok</success>' . PHP_EOL);
+                                $sitemapUrl = "https://raw.githubusercontent.com/$gitAccount/$planetName/master/sitemap.txt";
 
 
-                                    //--------------------------------------------
-                                    // CREATING ROBOT.TXT
-                                    //--------------------------------------------
-                                    $sitemapUrl = "https://raw.githubusercontent.com/$gitAccount/$planetName/master/sitemap.txt";
-
-
-                                    H::info(H::i($indentLevel + 1) . "Creating <b>robots.txt</b> at <b>$planetDir/robots.txt</b>...", $output);
-                                    $robotsFile = $planetDir . "/robots.txt";
-                                    $robotsContent = <<<EEE
+                                H::info(H::i($indentLevel + 1) . "Creating <b>robots.txt</b> at <b>$planetDir/robots.txt</b>...", $output);
+                                $robotsFile = $planetDir . "/robots.txt";
+                                $robotsContent = <<<EEE
 User-agent: *
 Sitemap: $sitemapUrl
 EEE;
 
-                                    if (true === FileSystemTool::mkfile($robotsFile, $robotsContent)) {
-                                        $output->write('<success>ok</success>' . PHP_EOL);
+                                if (true === FileSystemTool::mkfile($robotsFile, $robotsContent)) {
+                                    $output->write('<success>ok</success>' . PHP_EOL);
 
 
-                                        //--------------------------------------------
-                                        // PUSH TO GITHUB.COM
-                                        //--------------------------------------------
-                                        H::info(H::i($indentLevel + 1) . "Pushing planet <blue>$galaxyName/$planetName</blue> to github.com." . PHP_EOL, $output);
+                                    //--------------------------------------------
+                                    // PUSH TO GITHUB.COM
+                                    //--------------------------------------------
+                                    H::info(H::i($indentLevel + 1) . "Pushing planet <blue>$galaxyName/$planetName</blue> to github.com." . PHP_EOL, $output);
 
 
-                                        if (false === $newVersionAvailable) {
-                                            $commitText = "Routine update.";
-                                        }
-                                        /**
-                                         * Note: I'm using git shortcut commands:
-                                         * https://github.com/lingtalfi/server-notes/blob/master/doc/my-git-local-flow.md
-                                         */
-                                        passthru("cd \"$planetDir\"; git snap update \"" . str_replace('"', '\"', $commitText) . "\"");
-                                        if (true === $newVersionAvailable) {
-                                            passthru("cd \"$planetDir\"; git t $historyLogVersion");
-                                        }
-                                        passthru("cd \"$planetDir\"; git pp");
+                                    if (false === $newVersionAvailable) {
+                                        $commitText = "Routine update.";
+                                    }
+                                    /**
+                                     * Note: I'm using git shortcut commands:
+                                     * https://github.com/lingtalfi/server-notes/blob/master/doc/my-git-local-flow.md
+                                     */
+                                    passthru("cd \"$planetDir\"; git snap update \"" . str_replace('"', '\"', $commitText) . "\"");
+                                    if (true === $newVersionAvailable) {
+                                        passthru("cd \"$planetDir\"; git t $historyLogVersion");
+                                    }
+                                    passthru("cd \"$planetDir\"; git pp");
 
 
-                                        //--------------------------------------------
-                                        // SEND SITEMAP TO GOOGLE
-                                        //--------------------------------------------
-                                        H::info(H::i($indentLevel + 1) . "Asking google to crawl the sitemap...", $output);
+                                    //--------------------------------------------
+                                    // SEND SITEMAP TO GOOGLE
+                                    //--------------------------------------------
+                                    H::info(H::i($indentLevel + 1) . "Asking google to crawl the sitemap...", $output);
 
-                                        // https://support.google.com/webmasters/answer/183668?hl=en&ref_topic=4581190
-                                        $pingUrl = "http://www.google.com/ping?sitemap=$sitemapUrl";
-                                        $curl = new SimpleCurl();
-                                        $curlResponse = $curl->call($pingUrl);
-                                        if (false !== $curlResponse) {
-                                            $httpCode = $curlResponse->getHttpCode();
-                                            $output->write('<success>ok</success> (httpCode=' . $httpCode . ')' . PHP_EOL);
-                                            $body = $curlResponse->getBody();
-                                            H::info(str_repeat('*', 50) . PHP_EOL, $output);
-                                            $output->write($body . PHP_EOL);
-                                            H::info(str_repeat('*', 50) . PHP_EOL, $output);
-
-
-                                        } else {
-                                            $output->write('<error>oops</error>' . PHP_EOL);
-                                            H::warning(H::i($indentLevel + 2) . "The request didn't go well." . PHP_EOL, $output);
-                                            $curlErrors = $curl->getErrors();
-                                            if ($curlErrors) {
-                                                H::warning(H::i($indentLevel + 2) . "The following errors occurred:" . PHP_EOL, $output);
-                                                foreach ($curlErrors as $curlError) {
-                                                    H::warning(H::i($indentLevel + 3) . $curlError . PHP_EOL, $output);
-                                                }
-                                            }
-                                        }
-
-
-                                        //--------------------------------------------
-                                        // REPACK AND PUSH UNI TOOL
-                                        //--------------------------------------------
-                                        if (false === $noPacking) {
-                                            if (true === $newVersionAvailable) {
-
-                                                $myInput = new ArrayInput();
-                                                $myInput->setItems([
-                                                    ":packpushuni" => true,
-                                                ]);
-                                                $this->application->run($myInput, $output);
-                                            }
-                                        }
-
-
-                                        H::success(H::i($indentLevel) . "The planet <blue>$galaxyName/$planetName</blue> was pushed." . PHP_EOL, $output);
+                                    // https://support.google.com/webmasters/answer/183668?hl=en&ref_topic=4581190
+                                    $pingUrl = "http://www.google.com/ping?sitemap=$sitemapUrl";
+                                    $curl = new SimpleCurl();
+                                    $curlResponse = $curl->call($pingUrl);
+                                    if (false !== $curlResponse) {
+                                        $httpCode = $curlResponse->getHttpCode();
+                                        $output->write('<success>ok</success> (httpCode=' . $httpCode . ')' . PHP_EOL);
+                                        $body = $curlResponse->getBody();
+                                        H::info(str_repeat('*', 50) . PHP_EOL, $output);
+                                        $output->write($body . PHP_EOL);
+                                        H::info(str_repeat('*', 50) . PHP_EOL, $output);
 
 
                                     } else {
                                         $output->write('<error>oops</error>' . PHP_EOL);
-                                        H::error(H::i($indentLevel + 2) . "Couldn't create the robots.txt file." . PHP_EOL, $output);
+                                        H::warning(H::i($indentLevel + 2) . "The request didn't go well." . PHP_EOL, $output);
+                                        $curlErrors = $curl->getErrors();
+                                        if ($curlErrors) {
+                                            H::warning(H::i($indentLevel + 2) . "The following errors occurred:" . PHP_EOL, $output);
+                                            foreach ($curlErrors as $curlError) {
+                                                H::warning(H::i($indentLevel + 3) . $curlError . PHP_EOL, $output);
+                                            }
+                                        }
                                     }
+
+
+                                    //--------------------------------------------
+                                    // REPACK AND PUSH UNI TOOL
+                                    //--------------------------------------------
+                                    if (false === $noPacking) {
+                                        if (true === $newVersionAvailable) {
+
+                                            $myInput = new ArrayInput();
+                                            $myInput->setItems([
+                                                ":packpushuni" => true,
+                                            ]);
+                                            $this->application->run($myInput, $output);
+                                        }
+                                    }
+
+
+                                    H::success(H::i($indentLevel) . "The planet <blue>$galaxyName/$planetName</blue> was pushed." . PHP_EOL, $output);
 
 
                                 } else {
                                     $output->write('<error>oops</error>' . PHP_EOL);
-                                    H::error(H::i($indentLevel + 2) . "Couldn't create the sitemap file." . PHP_EOL, $output);
+                                    H::error(H::i($indentLevel + 2) . "Couldn't create the robots.txt file." . PHP_EOL, $output);
                                 }
 
 
                             } else {
-                                H::info(H::i($indentLevel + 2) . "No DocBuilder class found for planet <blue>$galaxyName/$planetName</blue>." . PHP_EOL, $output);
+                                $output->write('<error>oops</error>' . PHP_EOL);
+                                H::error(H::i($indentLevel + 2) . "Couldn't create the sitemap file." . PHP_EOL, $output);
                             }
 
 

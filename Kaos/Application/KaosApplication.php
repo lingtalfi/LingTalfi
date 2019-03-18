@@ -33,7 +33,7 @@ class KaosApplication extends Application
     private $baseIndentLevel;
 
     /**
-     * Builds the UniToolApplication instance.
+     * Builds the KaosApplication instance.
      */
     public function __construct()
     {
