@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ling\LingTalfi\DocBuilder\Kit;
+namespace Ling\LingTalfi\DocBuilder\Light_Kit;
 
 
 use Ling\DocTools\DocBuilder\Git\PhpPlanet\LingGitPhpPlanetDocBuilder;
@@ -10,20 +10,20 @@ use Ling\DocTools\Translator\ParseDownTranslator;
 
 
 /**
- * The KitDocBuilder class.
+ * The Light_KitDocBuilder class.
  */
-class KitDocBuilder
+class Light_KitDocBuilder
 {
 
 
     /**
-     * Launch this function to generate the documentation for the Kit planet.
+     * Launch this function to generate the documentation for the Light_Kit planet.
      * (based on the LingGitPhpPlanetDocBuilder doc builder.
      *
      * If htmlMode is false (the default),
      * this method will generate all files in md format in the following directory:
      *
-     * - /myphp/universe/Kit/doc
+     * - /myphp/universe/Light_Kit/doc
      *
      *
      *
@@ -47,8 +47,8 @@ class KitDocBuilder
         //--------------------------------------------
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
-        $planetDir = "/myphp/universe/Ling/Kit";
-        $git = "https://github.com/lingtalfi/Kit/blob/master";
+        $planetDir = "/myphp/universe/Ling/Light_Kit";
+        $git = "https://github.com/lingtalfi/Light_Kit/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -72,7 +72,7 @@ class KitDocBuilder
              *
              */
             "reportIgnore" => [
-//                "Ling\DocTools\Translator\ParseDownTranslator",
+                "Ling\Kit\PageRenderer\KitPageRenderer",
             ],
             /**
              * Your project start date.
@@ -80,7 +80,7 @@ class KitDocBuilder
              * The date when the project was last updated can be generated automatically, but the project
              * start date doesn't change.
              */
-            "projectStartDate" => "2019-04-24",
+            "projectStartDate" => "2019-04-25",
 
             /**
              * @kw(CopyModule).
@@ -138,10 +138,7 @@ class KitDocBuilder
              * This map in particular is the one used for the whole DocTools planet documentation (pages and api).
              */
             "keyWord2UrlMap" => [
-//                "the command line page" => $doc . '/pages/command-line.md',
-                "HtmlPageCopilot documentation" => 'https://github.com/lingtalfi/HtmlPageTools/blob/master/doc/api/Ling/HtmlPageTools/Copilot/HtmlPageCopilot.md',
-                "page configuration array" => $git . '/README.md#the-kit-configuration-array',
-                "babyYaml" => 'https://github.com/lingtalfi/BabyYaml',
+                "page configuration array" => 'https://github.com/lingtalfi/Kit#the-kit-configuration-array',
             ],
             /**
              * An array of external classes to url.
@@ -154,6 +151,10 @@ class KitDocBuilder
              */
             "externalClass2Url" => [
 //                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
+                "Ling\Kit\Exception\KitException" => "https://github.com/lingtalfi/Kit/blob/master/doc/api/Ling/Kit/Exception/KitException.md",
+                "Ling\Kit\PageRenderer\KitPageRenderer" => "https://github.com/lingtalfi/Kit/blob/master/doc/api/Ling/Kit/PageRenderer/KitPageRenderer.md",
+                "Ling\Kit\ConfStorage\ConfStorageInterface" => "https://github.com/lingtalfi/Kit/blob/master/doc/api/Ling/Kit/ConfStorage/ConfStorageInterface.md",
+                "Ling\Kit\WidgetHandler\WidgetHandlerInterface" => "https://github.com/lingtalfi/Kit/blob/master/doc/api/Ling/Kit/WidgetHandler/WidgetHandlerInterface.md",
                 "Ling\HtmlPageTools\Copilot\HtmlPageCopilot" => "https://github.com/lingtalfi/HtmlPageTools/blob/master/doc/api/Ling/HtmlPageTools/Copilot/HtmlPageCopilot.md",
             ],
         ];
@@ -175,7 +176,7 @@ class KitDocBuilder
                  * Uncomment the lines below to see my settings for local test mode.
                  */
 
-                "generatedClassBaseDir" => "/komin/jin_site_demo/www-doc/api",
+                "generatedClassBaseDir" =>  "/komin/jin_site_demo/www-doc/api",
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
