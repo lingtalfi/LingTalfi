@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ling\LingTalfi\DocBuilder\Kit_PicassoWidget;
+namespace Ling\LingTalfi\DocBuilder\Light_Kit_WebsiteBuilder;
 
 
 use Ling\DocTools\DocBuilder\Git\PhpPlanet\LingGitPhpPlanetDocBuilder;
@@ -10,20 +10,20 @@ use Ling\DocTools\Translator\ParseDownTranslator;
 
 
 /**
- * The Kit_PicassoWidgetDocBuilder class.
+ * The Light_Kit_WebsiteBuilderDocBuilder class.
  */
-class Kit_PicassoWidgetDocBuilder
+class Light_Kit_WebsiteBuilderDocBuilder
 {
 
 
     /**
-     * Launch this function to generate the documentation for the Kit_PicassoWidget planet.
+     * Launch this function to generate the documentation for the Light_Kit_WebsiteBuilder planet.
      * (based on the LingGitPhpPlanetDocBuilder doc builder.
      *
      * If htmlMode is false (the default),
      * this method will generate all files in md format in the following directory:
      *
-     * - /myphp/universe/Kit_PicassoWidget/doc
+     * - /myphp/universe/Light_Kit_WebsiteBuilder/doc
      *
      *
      *
@@ -47,8 +47,8 @@ class Kit_PicassoWidgetDocBuilder
         //--------------------------------------------
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
-        $planetDir = "/myphp/universe/Ling/Kit_PicassoWidget";
-        $git = "https://github.com/lingtalfi/Kit_PicassoWidget/blob/master";
+        $planetDir = "/myphp/universe/Ling/Light_Kit_WebsiteBuilder";
+        $git = "https://github.com/lingtalfi/Light_Kit_WebsiteBuilder/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -73,7 +73,6 @@ class Kit_PicassoWidgetDocBuilder
              */
             "reportIgnore" => [
 //                "Ling\DocTools\Translator\ParseDownTranslator",
-                "Ling\ZephyrTemplateEngine\ZephyrTemplateEngine",
             ],
             /**
              * Your project start date.
@@ -81,7 +80,7 @@ class Kit_PicassoWidgetDocBuilder
              * The date when the project was last updated can be generated automatically, but the project
              * start date doesn't change.
              */
-            "projectStartDate" => "2019-04-24",
+            "projectStartDate" => "2019-04-30",
 
             /**
              * @kw(CopyModule).
@@ -140,10 +139,6 @@ class Kit_PicassoWidgetDocBuilder
              */
             "keyWord2UrlMap" => [
 //                "the command line page" => $doc . '/pages/command-line.md',
-                "the HtmlPageCopilot" => 'https://github.com/lingtalfi/HtmlPageTools/blob/master/doc/api/Ling/HtmlPageTools/Copilot/HtmlPageCopilot.md',
-                "HtmlPageCopilot documentation" => 'https://github.com/lingtalfi/HtmlPageTools/blob/master/doc/api/Ling/HtmlPageTools/Copilot/HtmlPageCopilot.md',
-                "widget configuration array" => 'https://github.com/lingtalfi/Kit_PicassoWidget#the-picasso-widget-array',
-                "the widget configuration array" => 'https://github.com/lingtalfi/Kit_PicassoWidget#the-picasso-widget-array',
             ],
             /**
              * An array of external classes to url.
@@ -156,10 +151,6 @@ class Kit_PicassoWidgetDocBuilder
              */
             "externalClass2Url" => [
 //                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
-                "Ling\Kit\Exception\KitException" => "https://github.com/lingtalfi/Kit/blob/master/doc/api/Ling/Kit/Exception/KitException.md",
-                "Ling\ZephyrTemplateEngine\ZephyrTemplateEngine" => "https://github.com/lingtalfi/ZephyrTemplateEngine/blob/master/doc/api/Ling/ZephyrTemplateEngine/ZephyrTemplateEngine.md",
-                "Ling\UniversalTemplateEngine\UniversalTemplateEngineInterface" => "https://github.com/lingtalfi/UniversalTemplateEngine/blob/master/UniversalTemplateEngineInterface.php",
-                "Ling\Kit\WidgetHandler\WidgetHandlerInterface" => "https://github.com/lingtalfi/Kit/blob/master/doc/api/Ling/Kit/WidgetHandler/WidgetHandlerInterface.md",
             ],
         ];
 
