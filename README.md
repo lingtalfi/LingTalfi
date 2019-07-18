@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.11.3 -- 2019-07-18
+
+    - update docTools documentation, add links to source code for classes and methods
+    
 - 1.11.2 -- 2019-07-18
 
     - fix classes for new DocBuilder class model
