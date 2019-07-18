@@ -66,7 +66,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\Kaos\Command\KaosGenericCommand
+Ling\LingTalfi\Kaos\Command\KaosGenericCommand<br>
+See the source code of [Ling\LingTalfi\Kaos\Command\KaosGenericCommand](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Command/KaosGenericCommand.php)
+
 
 
 SeeAlso

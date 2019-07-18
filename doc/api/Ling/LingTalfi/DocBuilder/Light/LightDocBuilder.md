@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\Light\LightDocBuilder
+Ling\LingTalfi\DocBuilder\Light\LightDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\Light\LightDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light/LightDocBuilder.php)
+
 
 
 SeeAlso

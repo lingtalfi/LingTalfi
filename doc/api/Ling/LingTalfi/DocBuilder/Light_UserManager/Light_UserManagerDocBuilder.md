@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\Light_UserManager\Light_UserManagerDocBuilder
+Ling\LingTalfi\DocBuilder\Light_UserManager\Light_UserManagerDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\Light_UserManager\Light_UserManagerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_UserManager/Light_UserManagerDocBuilder.php)
+
 
 
 SeeAlso

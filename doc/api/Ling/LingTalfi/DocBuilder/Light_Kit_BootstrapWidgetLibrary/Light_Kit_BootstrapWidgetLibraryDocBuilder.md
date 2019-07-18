@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\Light_Kit_BootstrapWidgetLibrary\Light_Kit_BootstrapWidgetLibraryDocBuilder
+Ling\LingTalfi\DocBuilder\Light_Kit_BootstrapWidgetLibrary\Light_Kit_BootstrapWidgetLibraryDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\Light_Kit_BootstrapWidgetLibrary\Light_Kit_BootstrapWidgetLibraryDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_Kit_BootstrapWidgetLibrary/Light_Kit_BootstrapWidgetLibraryDocBuilder.php)
+
 
 
 SeeAlso

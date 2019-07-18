@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\Light_Kit_Demo\Light_Kit_DemoDocBuilder
+Ling\LingTalfi\DocBuilder\Light_Kit_Demo\Light_Kit_DemoDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\Light_Kit_Demo\Light_Kit_DemoDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_Kit_Demo/Light_Kit_DemoDocBuilder.php)
+
 
 
 SeeAlso

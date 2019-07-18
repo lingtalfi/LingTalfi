@@ -75,7 +75,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\Kaos\Command\PushCommand
+Ling\LingTalfi\Kaos\Command\PushCommand<br>
+See the source code of [Ling\LingTalfi\Kaos\Command\PushCommand](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Command/PushCommand.php)
+
 
 
 SeeAlso

@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\WebBox\WebBoxDocBuilder
+Ling\LingTalfi\DocBuilder\WebBox\WebBoxDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\WebBox\WebBoxDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/WebBox/WebBoxDocBuilder.php)
+
 
 
 SeeAlso

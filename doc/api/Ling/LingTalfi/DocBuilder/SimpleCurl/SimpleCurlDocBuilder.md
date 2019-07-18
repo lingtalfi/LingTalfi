@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\SimpleCurl\SimpleCurlDocBuilder
+Ling\LingTalfi\DocBuilder\SimpleCurl\SimpleCurlDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\SimpleCurl\SimpleCurlDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/SimpleCurl/SimpleCurlDocBuilder.php)
+
 
 
 SeeAlso

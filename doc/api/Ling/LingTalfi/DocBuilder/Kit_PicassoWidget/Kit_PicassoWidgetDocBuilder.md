@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\Kit_PicassoWidget\Kit_PicassoWidgetDocBuilder
+Ling\LingTalfi\DocBuilder\Kit_PicassoWidget\Kit_PicassoWidgetDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\Kit_PicassoWidget\Kit_PicassoWidgetDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Kit_PicassoWidget/Kit_PicassoWidgetDocBuilder.php)
+
 
 
 SeeAlso

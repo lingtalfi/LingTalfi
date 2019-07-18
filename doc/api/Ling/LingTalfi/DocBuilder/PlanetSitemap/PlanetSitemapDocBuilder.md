@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\PlanetSitemap\PlanetSitemapDocBuilder
+Ling\LingTalfi\DocBuilder\PlanetSitemap\PlanetSitemapDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\PlanetSitemap\PlanetSitemapDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/PlanetSitemap/PlanetSitemapDocBuilder.php)
+
 
 
 SeeAlso

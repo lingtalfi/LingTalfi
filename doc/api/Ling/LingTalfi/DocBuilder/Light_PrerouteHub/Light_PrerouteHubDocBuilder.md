@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\Light_PrerouteHub\Light_PrerouteHubDocBuilder
+Ling\LingTalfi\DocBuilder\Light_PrerouteHub\Light_PrerouteHubDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\Light_PrerouteHub\Light_PrerouteHubDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_PrerouteHub/Light_PrerouteHubDocBuilder.php)
+
 
 
 SeeAlso

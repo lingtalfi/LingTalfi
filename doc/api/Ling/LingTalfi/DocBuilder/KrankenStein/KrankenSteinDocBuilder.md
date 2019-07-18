@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\KrankenStein\KrankenSteinDocBuilder
+Ling\LingTalfi\DocBuilder\KrankenStein\KrankenSteinDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\KrankenStein\KrankenSteinDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/KrankenStein/KrankenSteinDocBuilder.php)
+
 
 
 SeeAlso

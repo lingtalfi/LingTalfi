@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\ProjectInfo\ProjectInfoDocBuilder
+Ling\LingTalfi\DocBuilder\ProjectInfo\ProjectInfoDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\ProjectInfo\ProjectInfoDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/ProjectInfo/ProjectInfoDocBuilder.php)
+
 
 
 SeeAlso

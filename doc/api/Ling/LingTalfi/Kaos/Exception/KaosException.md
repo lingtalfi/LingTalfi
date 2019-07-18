@@ -47,7 +47,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\Kaos\Exception\KaosException
+Ling\LingTalfi\Kaos\Exception\KaosException<br>
+See the source code of [Ling\LingTalfi\Kaos\Exception\KaosException](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Exception/KaosException.php)
+
 
 
 SeeAlso

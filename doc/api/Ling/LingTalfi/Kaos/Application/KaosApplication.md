@@ -148,7 +148,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\Kaos\Application\KaosApplication
+Ling\LingTalfi\Kaos\Application\KaosApplication<br>
+See the source code of [Ling\LingTalfi\Kaos\Application\KaosApplication](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Application/KaosApplication.php)
+
 
 
 SeeAlso

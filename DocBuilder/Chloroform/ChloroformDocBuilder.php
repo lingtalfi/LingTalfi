@@ -55,6 +55,7 @@ class ChloroformDocBuilder
 
 
         $options = [
+            "gitRepoUrl" => $gitRepoUrl,
             /**
              * Path to the planet dir that we want to generate the documentation for.
              */
@@ -187,7 +188,6 @@ class ChloroformDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
-                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

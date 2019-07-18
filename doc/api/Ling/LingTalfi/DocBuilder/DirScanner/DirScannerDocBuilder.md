@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\DirScanner\DirScannerDocBuilder
+Ling\LingTalfi\DocBuilder\DirScanner\DirScannerDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\DirScanner\DirScannerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/DirScanner/DirScannerDocBuilder.php)
+
 
 
 SeeAlso

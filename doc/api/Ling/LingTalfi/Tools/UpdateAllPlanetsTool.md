@@ -51,7 +51,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\Tools\UpdateAllPlanetsTool
+Ling\LingTalfi\Tools\UpdateAllPlanetsTool<br>
+See the source code of [Ling\LingTalfi\Tools\UpdateAllPlanetsTool](https://github.com/lingtalfi/LingTalfi/blob/master/Tools/UpdateAllPlanetsTool.php)
+
 
 
 SeeAlso

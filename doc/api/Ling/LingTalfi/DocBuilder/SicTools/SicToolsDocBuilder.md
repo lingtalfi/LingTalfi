@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\SicTools\SicToolsDocBuilder
+Ling\LingTalfi\DocBuilder\SicTools\SicToolsDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\SicTools\SicToolsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/SicTools/SicToolsDocBuilder.php)
+
 
 
 SeeAlso

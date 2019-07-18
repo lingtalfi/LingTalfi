@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\Light_Firewall\Light_FirewallDocBuilder
+Ling\LingTalfi\DocBuilder\Light_Firewall\Light_FirewallDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\Light_Firewall\Light_FirewallDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_Firewall/Light_FirewallDocBuilder.php)
+
 
 
 SeeAlso

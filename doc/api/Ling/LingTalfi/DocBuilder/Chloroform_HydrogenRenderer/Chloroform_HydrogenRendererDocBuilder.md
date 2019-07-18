@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\Chloroform_HydrogenRenderer\Chloroform_HydrogenRendererDocBuilder
+Ling\LingTalfi\DocBuilder\Chloroform_HydrogenRenderer\Chloroform_HydrogenRendererDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\Chloroform_HydrogenRenderer\Chloroform_HydrogenRendererDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Chloroform_HydrogenRenderer/Chloroform_HydrogenRendererDocBuilder.php)
+
 
 
 SeeAlso

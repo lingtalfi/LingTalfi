@@ -68,6 +68,11 @@ Exceptions thrown
 
 
 
+Source Code
+===========
+See the source code for method [Light_PrerouteHubDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_PrerouteHub/Light_PrerouteHubDocBuilder.php#L44-L199)
+
+
 See Also
 ================
 

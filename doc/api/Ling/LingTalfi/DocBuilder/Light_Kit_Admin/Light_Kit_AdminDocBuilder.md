@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\Light_Kit_Admin\Light_Kit_AdminDocBuilder
+Ling\LingTalfi\DocBuilder\Light_Kit_Admin\Light_Kit_AdminDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\Light_Kit_Admin\Light_Kit_AdminDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_Kit_Admin/Light_Kit_AdminDocBuilder.php)
+
 
 
 SeeAlso

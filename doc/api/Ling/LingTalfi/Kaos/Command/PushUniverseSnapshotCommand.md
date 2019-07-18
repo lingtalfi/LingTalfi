@@ -61,7 +61,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\Kaos\Command\PushUniverseSnapshotCommand
+Ling\LingTalfi\Kaos\Command\PushUniverseSnapshotCommand<br>
+See the source code of [Ling\LingTalfi\Kaos\Command\PushUniverseSnapshotCommand](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Command/PushUniverseSnapshotCommand.php)
+
 
 
 SeeAlso

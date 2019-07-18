@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\HtmlPageTools\HtmlPageToolsDocBuilder
+Ling\LingTalfi\DocBuilder\HtmlPageTools\HtmlPageToolsDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\HtmlPageTools\HtmlPageToolsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/HtmlPageTools/HtmlPageToolsDocBuilder.php)
+
 
 
 SeeAlso

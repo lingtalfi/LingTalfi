@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\LingTalfi\LingTalfiDocBuilder
+Ling\LingTalfi\DocBuilder\LingTalfi\LingTalfiDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\LingTalfi\LingTalfiDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/LingTalfi/LingTalfiDocBuilder.php)
+
 
 
 SeeAlso

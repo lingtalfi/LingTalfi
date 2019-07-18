@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\ArrayVariableResolver\ArrayVariableResolverDocBuilder
+Ling\LingTalfi\DocBuilder\ArrayVariableResolver\ArrayVariableResolverDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\ArrayVariableResolver\ArrayVariableResolverDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/ArrayVariableResolver/ArrayVariableResolverDocBuilder.php)
+
 
 
 SeeAlso

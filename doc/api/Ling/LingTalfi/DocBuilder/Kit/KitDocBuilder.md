@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\Kit\KitDocBuilder
+Ling\LingTalfi\DocBuilder\Kit\KitDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\Kit\KitDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Kit/KitDocBuilder.php)
+
 
 
 SeeAlso

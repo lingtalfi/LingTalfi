@@ -68,6 +68,11 @@ Exceptions thrown
 
 
 
+Source Code
+===========
+See the source code for method [Light_UserManagerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_UserManager/Light_UserManagerDocBuilder.php#L44-L199)
+
+
 See Also
 ================
 

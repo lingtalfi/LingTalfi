@@ -65,7 +65,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\Kaos\Util\ReadmeUtil
+Ling\LingTalfi\Kaos\Util\ReadmeUtil<br>
+See the source code of [Ling\LingTalfi\Kaos\Util\ReadmeUtil](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/ReadmeUtil.php)
+
 
 
 SeeAlso

@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\EasyConsoleMenu\EasyConsoleMenuDocBuilder
+Ling\LingTalfi\DocBuilder\EasyConsoleMenu\EasyConsoleMenuDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\EasyConsoleMenu\EasyConsoleMenuDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/EasyConsoleMenu/EasyConsoleMenuDocBuilder.php)
+
 
 
 SeeAlso

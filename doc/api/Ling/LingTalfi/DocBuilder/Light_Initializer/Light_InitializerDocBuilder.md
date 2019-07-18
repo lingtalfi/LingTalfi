@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\Light_Initializer\Light_InitializerDocBuilder
+Ling\LingTalfi\DocBuilder\Light_Initializer\Light_InitializerDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\Light_Initializer\Light_InitializerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_Initializer/Light_InitializerDocBuilder.php)
+
 
 
 SeeAlso

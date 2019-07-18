@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\CSRFTools\CSRFToolsDocBuilder
+Ling\LingTalfi\DocBuilder\CSRFTools\CSRFToolsDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\CSRFTools\CSRFToolsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/CSRFTools/CSRFToolsDocBuilder.php)
+
 
 
 SeeAlso

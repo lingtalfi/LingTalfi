@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\Light_PrettyError\Light_PrettyErrorDocBuilder
+Ling\LingTalfi\DocBuilder\Light_PrettyError\Light_PrettyErrorDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\Light_PrettyError\Light_PrettyErrorDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_PrettyError/Light_PrettyErrorDocBuilder.php)
+
 
 
 SeeAlso

@@ -62,6 +62,7 @@ class DocToolsDocBuilder
 
 
         $options = [
+            "gitRepoUrl" => $gitRepoUrl,
             /**
              * Path to the planet dir that we want to generate the documentation for.
              */
@@ -81,6 +82,7 @@ class DocToolsDocBuilder
              */
             "reportIgnore" => [
                 "Ling\DocTools\Translator\ParseDownTranslator",
+                "Ling\ParseDown\Parsedown",
             ],
             /**
              * Your project start date.
@@ -222,6 +224,7 @@ class DocToolsDocBuilder
              */
             "externalClass2Url" => [
                 "Ling\ParseDown\Parsedown" => "https://github.com/lingtalfi/ParseDown",
+
             ],
         ];
 
@@ -246,7 +249,6 @@ class DocToolsDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
-                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

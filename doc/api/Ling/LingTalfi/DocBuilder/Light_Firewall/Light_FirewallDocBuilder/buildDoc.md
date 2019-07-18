@@ -68,6 +68,11 @@ Exceptions thrown
 
 
 
+Source Code
+===========
+See the source code for method [Light_FirewallDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_Firewall/Light_FirewallDocBuilder.php#L44-L199)
+
+
 See Also
 ================
 

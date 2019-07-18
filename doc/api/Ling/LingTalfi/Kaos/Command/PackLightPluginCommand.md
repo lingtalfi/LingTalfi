@@ -105,7 +105,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\Kaos\Command\PackLightPluginCommand
+Ling\LingTalfi\Kaos\Command\PackLightPluginCommand<br>
+See the source code of [Ling\LingTalfi\Kaos\Command\PackLightPluginCommand](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Command/PackLightPluginCommand.php)
+
 
 
 SeeAlso

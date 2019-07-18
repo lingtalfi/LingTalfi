@@ -45,7 +45,9 @@ Methods
 
 Location
 =============
-Ling\LingTalfi\DocBuilder\HashMap\HashMapDocBuilder
+Ling\LingTalfi\DocBuilder\HashMap\HashMapDocBuilder<br>
+See the source code of [Ling\LingTalfi\DocBuilder\HashMap\HashMapDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/HashMap/HashMapDocBuilder.php)
+
 
 
 SeeAlso
