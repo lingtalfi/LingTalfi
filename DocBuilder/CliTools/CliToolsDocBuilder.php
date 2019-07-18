@@ -56,7 +56,8 @@ class CliToolsDocBuilder
         //--------------------------------------------
 
         $planetDir = "/myphp/universe/Ling/CliTools";
-        $git = "https://github.com/lingtalfi/CliTools/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/CliTools";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -201,6 +202,7 @@ class CliToolsDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

@@ -4,7 +4,7 @@
 
 The Light_Kit_BootstrapWidgetLibraryDocBuilder class
 ================
-2019-03-13 --> 2019-05-03
+2019-03-13 --> 2019-07-18
 
 
 
@@ -50,4 +50,4 @@ Ling\LingTalfi\DocBuilder\Light_Kit_BootstrapWidgetLibrary\Light_Kit_BootstrapWi
 
 SeeAlso
 ==============
-Previous class: [Light_KitDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit/Light_KitDocBuilder.md)<br>Next class: [Light_Kit_DemoDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Demo/Light_Kit_DemoDocBuilder.md)<br>
+Previous class: [Light_Kit_AdminDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin/Light_Kit_AdminDocBuilder.md)<br>Next class: [Light_Kit_DemoDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Demo/Light_Kit_DemoDocBuilder.md)<br>

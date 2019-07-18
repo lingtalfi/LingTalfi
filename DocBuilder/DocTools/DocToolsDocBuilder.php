@@ -55,7 +55,8 @@ class DocToolsDocBuilder
         //--------------------------------------------
 
         $planetDir = "/myphp/universe/Ling/DocTools";
-        $git = "https://github.com/lingtalfi/DocTools/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/DocTools";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -245,6 +246,7 @@ class DocToolsDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

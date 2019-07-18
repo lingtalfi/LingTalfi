@@ -56,7 +56,8 @@ class WebBoxDocBuilder
         //--------------------------------------------
 
         $planetDir = "/myphp/universe/Ling/WebBox";
-        $git = "https://github.com/lingtalfi/WebBox/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/WebBox";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -182,6 +183,7 @@ class WebBoxDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

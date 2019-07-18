@@ -48,7 +48,8 @@ class SimpleCurlDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/SimpleCurl";
-        $git = "https://github.com/lingtalfi/SimpleCurl/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/SimpleCurl";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -175,6 +176,7 @@ class SimpleCurlDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

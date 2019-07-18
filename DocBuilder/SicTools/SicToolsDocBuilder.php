@@ -48,7 +48,8 @@ class SicToolsDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/SicTools";
-        $git = "https://github.com/lingtalfi/SicTools/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/SicTools";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -179,6 +180,7 @@ class SicToolsDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

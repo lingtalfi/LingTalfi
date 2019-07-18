@@ -53,7 +53,8 @@ class LingTalfiDocBuilder
         //--------------------------------------------
 
         $planetDir = "/myphp/universe/Ling/LingTalfi";
-        $git = "https://github.com/lingtalfi/LingTalfi/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/LingTalfi";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -191,6 +192,7 @@ class LingTalfiDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

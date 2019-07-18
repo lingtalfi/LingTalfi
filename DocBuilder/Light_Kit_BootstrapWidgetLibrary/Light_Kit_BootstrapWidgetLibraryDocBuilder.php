@@ -49,7 +49,8 @@ class Light_Kit_BootstrapWidgetLibraryDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/Light_Kit_BootstrapWidgetLibrary";
-        $git = "https://github.com/lingtalfi/Light_Kit_BootstrapWidgetLibrary/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/Light_Kit_BootstrapWidgetLibrary";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -73,7 +74,8 @@ class Light_Kit_BootstrapWidgetLibraryDocBuilder
              *
              */
             "reportIgnore" => [
-//                "Ling\DocTools\Translator\ParseDownTranslator",
+                "Ling\Kit_PicassoWidget\Widget\PicassoWidget",
+                "Ling\ZephyrTemplateEngine\ZephyrTemplateEngine",
             ],
             /**
              * Your project start date.
@@ -139,7 +141,7 @@ class Light_Kit_BootstrapWidgetLibraryDocBuilder
              * This map in particular is the one used for the whole DocTools planet documentation (pages and api).
              */
             "keyWord2UrlMap" => [
-//                "the command line page" => $doc . '/pages/command-line.md',
+                "widget configuration array" => 'https://github.com/lingtalfi/Kit_PicassoWidget#the-picasso-widget-array',
             ],
             /**
              * An array of external classes to url.
@@ -151,7 +153,9 @@ class Light_Kit_BootstrapWidgetLibraryDocBuilder
              * in the class synopsis.
              */
             "externalClass2Url" => [
-//                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
+                "Ling\Kit_PicassoWidget\Widget\PicassoWidget" => "https://github.com/lingtalfi/Kit_PicassoWidget/blob/master/doc/api/Ling/Kit_PicassoWidget/Widget/PicassoWidget.md",
+                "Ling\UniversalTemplateEngine\UniversalTemplateEngineInterface" => "https://github.com/lingtalfi/UniversalTemplateEngine/blob/master/UniversalTemplateEngineInterface.php",
+                "Ling\HtmlPageTools\Copilot\HtmlPageCopilot" => "https://github.com/lingtalfi/HtmlPageTools/blob/master/doc/api/Ling/HtmlPageTools/Copilot/HtmlPageCopilot.md",
             ],
         ];
 
@@ -176,6 +180,7 @@ class Light_Kit_BootstrapWidgetLibraryDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 
@@ -184,14 +189,14 @@ class Light_Kit_BootstrapWidgetLibraryDocBuilder
         // GENERATING WIDGET VARIABLES DESCRIPTION DOCUMENTATION BEFORE DOC BUILDER...
         //--------------------------------------------
         $out = "/komin/jin_site_demo/universe/Ling/Light_Kit_BootstrapWidgetLibrary/personal/mydoc/pages/widget-variables-description.md";
-        $descrDir = "/komin/jin_site_demo/universe/Ling/Light_Kit_BootstrapWidgetLibrary/assets";
+        $descrDir = "/komin/jin_site_demo/universe/Ling/Light_Kit_BootstrapWidgetLibrary/assets/variables_description";
         $imgDir = "/komin/lingtalfi.com/app/www/img/universe/Light_Kit_BootstrapWidgetLibrary/screenshots";
         $widgetsDir = "/komin/jin_site_demo/templates/Light_Kit_BootstrapWidgetLibrary/widgets/picasso";
         $o = new VariableDescriptionDocWriterUtil();
         $o->setVariablesDescriptionDir($descrDir);
         $o->setImgBaseDir($imgDir);
         $o->setWidgetsBaseDir($widgetsDir);
-        $o->setImgBaseUrl("http://lingtalfi.com/img/universe/Light_Kit_BootstrapWidgetLibrary/screenshots");
+        $o->setImgBaseUrl("https://lingtalfi.com/img/universe/Light_Kit_BootstrapWidgetLibrary/screenshots");
         $o->setDocumentDate("2019-05-01");
         $o->setDocumentTitle("Bootstrap Widget Library");
         $o->writeDoc($out);

@@ -48,7 +48,8 @@ class Light_ZephyrTemplateDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/Light_ZephyrTemplate";
-        $git = "https://github.com/lingtalfi/Light_ZephyrTemplate/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/Light_ZephyrTemplate";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -178,6 +179,7 @@ class Light_ZephyrTemplateDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

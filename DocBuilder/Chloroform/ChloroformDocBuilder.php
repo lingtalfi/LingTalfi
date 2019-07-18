@@ -48,7 +48,8 @@ class ChloroformDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/Chloroform";
-        $git = "https://github.com/lingtalfi/Chloroform/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/Chloroform";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -186,6 +187,7 @@ class ChloroformDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

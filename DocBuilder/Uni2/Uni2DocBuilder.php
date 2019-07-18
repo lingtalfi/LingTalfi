@@ -55,7 +55,8 @@ class Uni2DocBuilder
         //--------------------------------------------
 
         $planetDir = "/myphp/universe/Ling/Uni2";
-        $git = "https://github.com/lingtalfi/Uni2/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/Uni2";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -258,6 +259,7 @@ class Uni2DocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

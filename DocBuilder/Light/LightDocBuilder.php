@@ -48,7 +48,8 @@ class LightDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/Light";
-        $git = "https://github.com/lingtalfi/Light/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/Light";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -72,7 +73,10 @@ class LightDocBuilder
              *
              */
             "reportIgnore" => [
-//                "Ling\DocTools\Translator\ParseDownTranslator",
+                "Ling\Octopus\ServiceContainer\BlueOctopusServiceContainer",
+                "Ling\Octopus\ServiceContainer\RedOctopusServiceContainer",
+                "Ling\SicTools\HotServiceResolver",
+                "Ling\Octopus\ServiceContainer\OctopusServiceContainerInterface",
             ],
             /**
              * Your project start date.
@@ -138,7 +142,10 @@ class LightDocBuilder
              * This map in particular is the one used for the whole DocTools planet documentation (pages and api).
              */
             "keyWord2UrlMap" => [
-//                "the command line page" => $doc . '/pages/command-line.md',
+                "the route page" => $doc . '/pages/route.md',
+                "Light" => $api . '/Ling/Light/Core/Light.md',
+                "BabyYaml" =>  'https://github.com/lingtalfi/BabyYaml',
+                "arrayMergeReplaceRecursive" =>  'https://github.com/lingtalfi/Bat/blob/master/ArrayTool.md#arraymergereplacerecursive',
             ],
             /**
              * An array of external classes to url.
@@ -150,6 +157,13 @@ class LightDocBuilder
              * in the class synopsis.
              */
             "externalClass2Url" => [
+                "Ling\Octopus\Exception\OctopusServiceErrorException" => "https://github.com/lingtalfi/Octopus/blob/master/Exception/OctopusServiceErrorException.php",
+                "OctopusServiceErrorException" => "https://github.com/lingtalfi/Octopus/blob/master/Exception/OctopusServiceErrorException.php",
+                "Ling\SicTools\Exception\SicBlockWillNotResolveException" => "https://github.com/lingtalfi/SicTools/blob/master/doc/api/Ling/SicTools/Exception/SicBlockWillNotResolveException.md",
+                "Ling\Octopus\ServiceContainer\BlueOctopusServiceContainer" => "https://github.com/lingtalfi/Octopus/blob/master/ServiceContainer/BlueOctopusServiceContainer.php",
+                "Ling\Octopus\ServiceContainer\OctopusServiceContainerInterface" => "https://github.com/lingtalfi/Octopus/blob/master/ServiceContainer/OctopusServiceContainerInterface.php",
+                "Ling\Octopus\ServiceContainer\RedOctopusServiceContainer" => "https://github.com/lingtalfi/Octopus/blob/master/ServiceContainer/RedOctopusServiceContainer.php",
+                "Ling\Light\ServiceContainer\LightRedServiceContainer::get" => "https://github.com/lingtalfi/Octopus/blob/master/ServiceContainer/RedOctopusServiceContainer.php",
 //                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
             ],
         ];
@@ -175,6 +189,7 @@ class LightDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

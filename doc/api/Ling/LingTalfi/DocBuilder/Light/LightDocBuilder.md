@@ -4,7 +4,7 @@
 
 The LightDocBuilder class
 ================
-2019-03-13 --> 2019-05-03
+2019-03-13 --> 2019-07-18
 
 
 
@@ -50,4 +50,4 @@ Ling\LingTalfi\DocBuilder\Light\LightDocBuilder
 
 SeeAlso
 ==============
-Previous class: [KrankenSteinDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/KrankenStein/KrankenSteinDocBuilder.md)<br>Next class: [Light_InitializerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Initializer/Light_InitializerDocBuilder.md)<br>
+Previous class: [KrankenSteinDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/KrankenStein/KrankenSteinDocBuilder.md)<br>Next class: [Light_FirewallDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Firewall/Light_FirewallDocBuilder.md)<br>

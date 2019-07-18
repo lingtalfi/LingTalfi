@@ -48,7 +48,8 @@ class CSRFToolsDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/CSRFTools";
-        $git = "https://github.com/lingtalfi/CSRFTools/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/CSRFTools";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -175,6 +176,7 @@ class CSRFToolsDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

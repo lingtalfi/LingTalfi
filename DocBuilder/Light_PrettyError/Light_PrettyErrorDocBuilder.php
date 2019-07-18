@@ -48,7 +48,8 @@ class Light_PrettyErrorDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/Light_PrettyError";
-        $git = "https://github.com/lingtalfi/Light_PrettyError/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/Light_PrettyError";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -176,6 +177,7 @@ class Light_PrettyErrorDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

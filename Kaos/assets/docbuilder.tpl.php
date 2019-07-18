@@ -48,7 +48,8 @@ class CliToolsDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/CliTools";
-        $git = "https://github.com/lingtalfi/CliTools/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/CliTools";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -171,10 +172,11 @@ class CliToolsDocBuilder
                  * Uncomment the lines below to see my settings for local test mode.
                  */
 
-                "generatedClassBaseDir" =>  "/komin/jin_site_demo/www-doc/api",
+                "generatedClassBaseDir" => "/komin/jin_site_demo/www-doc/api",
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

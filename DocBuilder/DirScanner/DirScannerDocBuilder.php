@@ -48,7 +48,8 @@ class DirScannerDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/DirScanner";
-        $git = "https://github.com/lingtalfi/DirScanner/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/DirScanner";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -175,6 +176,7 @@ class DirScannerDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

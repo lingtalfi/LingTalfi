@@ -4,7 +4,7 @@
 
 The Light_PrettyErrorDocBuilder class
 ================
-2019-03-13 --> 2019-05-03
+2019-03-13 --> 2019-07-18
 
 
 
@@ -50,4 +50,4 @@ Ling\LingTalfi\DocBuilder\Light_PrettyError\Light_PrettyErrorDocBuilder
 
 SeeAlso
 ==============
-Previous class: [Light_Kit_WebsiteBuilderDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_WebsiteBuilder/Light_Kit_WebsiteBuilderDocBuilder.md)<br>Next class: [Light_ReverseRouterDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ReverseRouter/Light_ReverseRouterDocBuilder.md)<br>
+Previous class: [Light_PrerouteHubDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PrerouteHub/Light_PrerouteHubDocBuilder.md)<br>Next class: [Light_ReverseRouterDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ReverseRouter/Light_ReverseRouterDocBuilder.md)<br>

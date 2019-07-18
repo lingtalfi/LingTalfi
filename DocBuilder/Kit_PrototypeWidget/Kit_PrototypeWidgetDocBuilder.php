@@ -48,7 +48,8 @@ class Kit_PrototypeWidgetDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/Kit_PrototypeWidget";
-        $git = "https://github.com/lingtalfi/Kit_PrototypeWidget/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/Kit_PrototypeWidget";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -178,6 +179,7 @@ class Kit_PrototypeWidgetDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

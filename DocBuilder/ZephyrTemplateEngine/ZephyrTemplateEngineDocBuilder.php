@@ -48,7 +48,8 @@ class ZephyrTemplateEngineDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/ZephyrTemplateEngine";
-        $git = "https://github.com/lingtalfi/ZephyrTemplateEngine/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/ZephyrTemplateEngine";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -176,6 +177,7 @@ class ZephyrTemplateEngineDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

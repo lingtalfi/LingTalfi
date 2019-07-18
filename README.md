@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.11.1 -- 2019-07-18
+
+    - update classes for new DocBuilder class model
+    
 - 1.11.0 -- 2019-05-03
 
     - update Kaos push command now automatically repatriating asset map for light plugins

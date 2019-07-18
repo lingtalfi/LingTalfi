@@ -48,7 +48,8 @@ class Light_Kit_DemoDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/Light_Kit_Demo";
-        $git = "https://github.com/lingtalfi/Light_Kit_Demo/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/Light_Kit_Demo";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -175,6 +176,7 @@ class Light_Kit_DemoDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

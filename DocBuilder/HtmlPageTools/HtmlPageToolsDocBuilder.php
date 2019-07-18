@@ -48,7 +48,8 @@ class HtmlPageToolsDocBuilder
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
         $planetDir = "/myphp/universe/Ling/HtmlPageTools";
-        $git = "https://github.com/lingtalfi/HtmlPageTools/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/HtmlPageTools";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -175,6 +176,7 @@ class HtmlPageToolsDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

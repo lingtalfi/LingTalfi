@@ -55,7 +55,8 @@ class UniverseToolsDocBuilder
         //--------------------------------------------
 
         $planetDir = "/myphp/universe/Ling/UniverseTools";
-        $git = "https://github.com/lingtalfi/UniverseTools/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/UniverseTools";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -187,6 +188,7 @@ class UniverseToolsDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 

@@ -4,7 +4,7 @@
 
 The Light_ZephyrTemplateDocBuilder class
 ================
-2019-03-13 --> 2019-05-03
+2019-03-13 --> 2019-07-18
 
 
 
@@ -50,4 +50,4 @@ Ling\LingTalfi\DocBuilder\Light_ZephyrTemplate\Light_ZephyrTemplateDocBuilder
 
 SeeAlso
 ==============
-Previous class: [Light_ReverseRouterDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ReverseRouter/Light_ReverseRouterDocBuilder.md)<br>Next class: [LingTalfiDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/LingTalfi/LingTalfiDocBuilder.md)<br>
+Previous class: [Light_UserManagerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_UserManager/Light_UserManagerDocBuilder.md)<br>Next class: [LingTalfiDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/LingTalfi/LingTalfiDocBuilder.md)<br>

@@ -56,7 +56,8 @@ class PlanetSitemapDocBuilder
         //--------------------------------------------
 
         $planetDir = "/myphp/universe/Ling/PlanetSitemap";
-        $git = "https://github.com/lingtalfi/PlanetSitemap/blob/master";
+        $gitRepoUrl = "https://github.com/lingtalfi/PlanetSitemap";
+        $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
 
@@ -182,6 +183,7 @@ class PlanetSitemapDocBuilder
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
+                "gitRepoUrl" => $gitRepoUrl,
             ]);
         }
 
