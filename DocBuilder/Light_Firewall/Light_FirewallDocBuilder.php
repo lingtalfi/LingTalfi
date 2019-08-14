@@ -82,7 +82,7 @@ class Light_FirewallDocBuilder
              * The date when the project was last updated can be generated automatically, but the project
              * start date doesn't change.
              */
-            "projectStartDate" => "2019-07-17",
+            "projectStartDate" => "2019-07-18",
 
             /**
              * @kw(CopyModule).
@@ -140,7 +140,7 @@ class Light_FirewallDocBuilder
              * This map in particular is the one used for the whole DocTools planet documentation (pages and api).
              */
             "keyWord2UrlMap" => [
-//                "the command line page" => $doc . '/pages/command-line.md',
+                "conception notes" => $doc . '/pages/conception-notes.md',
             ],
             /**
              * An array of external classes to url.
@@ -152,7 +152,7 @@ class Light_FirewallDocBuilder
              * in the class synopsis.
              */
             "externalClass2Url" => [
-//                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
+                "Ling\Light_PrerouteHub\Runner\LightPrerouteHubRunnerInterface" => "https://github.com/lingtalfi/Light_PrerouteHub/blob/master/doc/api/Ling/Light_PrerouteHub/Runner/LightPrerouteHubRunnerInterface.md",
             ],
         ];
 
