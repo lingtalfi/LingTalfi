@@ -4,7 +4,7 @@
 
 The Light_FlasherDocBuilder class
 ================
-2019-03-13 --> 2019-08-14
+2019-03-13 --> 2019-09-24
 
 
 
@@ -52,4 +52,4 @@ See the source code of [Ling\LingTalfi\DocBuilder\Light_Flasher\Light_FlasherDoc
 
 SeeAlso
 ==============
-Previous class: [Light_FirewallDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Firewall/Light_FirewallDocBuilder.md)<br>Next class: [Light_InitializerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Initializer/Light_InitializerDocBuilder.md)<br>
+Previous class: [Light_FirewallDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Firewall/Light_FirewallDocBuilder.md)<br>Next class: [Light_HtmlPageCopilotDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_HtmlPageCopilot/Light_HtmlPageCopilotDocBuilder.md)<br>

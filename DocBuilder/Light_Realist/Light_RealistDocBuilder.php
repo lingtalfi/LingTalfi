@@ -75,6 +75,7 @@ class Light_RealistDocBuilder
              */
             "reportIgnore" => [
 //                "Ling\DocTools\Translator\ParseDownTranslator",
+                "Ling\Light\Controller\LightController",
             ],
             /**
              * Your project start date.
@@ -140,7 +141,21 @@ class Light_RealistDocBuilder
              * This map in particular is the one used for the whole DocTools planet documentation (pages and api).
              */
             "keyWord2UrlMap" => [
-//                "the command line page" => $doc . '/pages/command-line.md',
+                "realist-tag-transfer protocol" => $doc . '/pages/realist-tag-transfer-protocol.md',
+                "openAdminTable protocol" => $doc . '/pages/open-admin-table-protocol.md',
+                "open admin table protocol" => $doc . '/pages/open-admin-table-protocol.md',
+                "the realist conception notes" => $doc . '/pages/realist-conception-notes.md',
+                "open admin table helper implementation notes" => $doc . '/pages/open-admin-table-helper-implementation-notes.md',
+                "realist conception notes" => $doc . '/pages/realist-conception-notes.md',
+                "LightReverseRouterInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ReverseRouter/LightReverseRouterInterface.md',
+                "responsive table helper tool" => 'https://github.com/lingtalfi/JResponsiveTableHelper',
+                "duelist page" => $doc . '/pages/duelist.md',
+                "the realist tag transfer protocol" => $doc . '/pages/realist-tag-transfer-protocol.md',
+                "ajax communication protocol" => 'https://github.com/lingtalfi/AjaxCommunicationProtocol',
+                "list action handler conception notes" => $doc . "/pages/list-action-handler-conception-notes.md",
+                "toolbar items" => $doc . "/pages/list-action-handler-conception-notes.md#the-toolbar-item",
+                "dynamic injection handler" => $doc . "/pages/duelist.md#dynamic-injection",
+
             ],
             /**
              * An array of external classes to url.
@@ -153,6 +168,14 @@ class Light_RealistDocBuilder
              */
             "externalClass2Url" => [
 //                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
+                "Ling\Light\Controller\LightController" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Controller/LightController.md',
+                "Ling\Light\Core\LightAwareInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/LightAwareInterface.md',
+                "Ling\Light\Controller\LightControllerInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Controller/LightControllerInterface.md',
+                "Ling\Light\Core\Light" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/Light.md',
+                "Ling\Light\Http\HttpResponseInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md',
+                "Ling\Light\ServiceContainer\LightServiceContainerInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md',
+                "Ling\ParametrizedSqlQuery\ParametrizedSqlQueryUtil" => 'https://github.com/lingtalfi/ParametrizedSqlQuery/blob/master/doc/api/Ling/ParametrizedSqlQuery/ParametrizedSqlQueryUtil.md',
+                "Ling\Light\ServiceContainer\LightServiceContainerAwareInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerAwareInterface.md',
             ],
         ];
 

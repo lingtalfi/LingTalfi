@@ -142,6 +142,8 @@ class ParametrizedSqlQueryDocBuilder
             "keyWord2UrlMap" => [
                 "conception notes" => $doc . '/pages/conception-notes.md',
                 "the conception notes" => $doc . '/pages/conception-notes.md',
+                "the open admin protocol" =>  'https://github.com/lingtalfi/Light_Realist/blob/master/doc/pages/open-admin-table-protocol.md',
+                "the routines section" =>  'https://github.com/lingtalfi/Light_Realist/blob/master/doc/pages/duelist.md#routines',
             ],
             /**
              * An array of external classes to url.
@@ -154,6 +156,7 @@ class ParametrizedSqlQueryDocBuilder
              */
             "externalClass2Url" => [
                 "Ling\SqlQuery\SqlQuery" => "https://github.com/lingtalfi/SqlQuery",
+                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger/blob/master/UniversalLoggerInterface.php",
             ],
         ];
 

@@ -79,6 +79,7 @@ class LingTalfiDocBuilder
              *
              */
             "reportIgnore" => [
+                "Ling\CliTools\Program\AbstractProgram",
             ],
             /**
              * Your project start date.
@@ -145,6 +146,7 @@ class LingTalfiDocBuilder
              */
             "keyWord2UrlMap" => [
                 "PackAndPushUniToolCommand" => "https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/PackAndPushUniToolCommand.md",
+                "uni tool" => "https://github.com/lingtalfi/universe-naive-importer",
             ],
             /**
              * An array of external classes to url.

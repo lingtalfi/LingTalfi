@@ -40,6 +40,7 @@ use Ling\UniverseTools\PlanetTool;
  *
  * - ?planet-dir=string. The path to the planet directory to push. If not set, will use the current directory.
  * - -n: no packing. If set, the PackAndPushUniTool command will NOT be executed.
+ * - -?application=string. The path to the host application. This will be used to pack universe assets automatically for instance.
  *
  *
  */
@@ -58,6 +59,7 @@ class PushCommand extends KaosGenericCommand
         $githubBaseUrl = "https://github.com/$gitAccount";
 
         $planetDir = $input->getOption('planet-dir');
+        $applicationDir = $input->getOption('application');
         $noPacking = $input->hasFlag('n');
 
 
@@ -114,6 +116,30 @@ class PushCommand extends KaosGenericCommand
 
 
                 if (false === $error) {
+                    $mapDir = $planetDir . "/assets/map";
+
+
+                    //--------------------------------------------
+                    // AUTOMATIC UNIVERSE ASSETS IMPORT
+                    //--------------------------------------------
+                    /**
+                     * More about universe assets: https://github.com/lingtalfi/NotationFan/blob/master/universe-assets.md
+                     */
+                    if (null !== $applicationDir) {
+                        $relPath = "www/libs/universe/$galaxyName/$planetName";
+                        $applicationPlanetWebAssetsDir = $applicationDir . "/$relPath";
+                        if (is_dir($applicationPlanetWebAssetsDir)) {
+                            $dst = $mapDir . "/" . $relPath;
+
+                            H::info(H::i($indentLevel) . "Copying universe assets in <b>$relPath</b>...", $output);
+                            if (true === FileSystemTool::copyDir($applicationPlanetWebAssetsDir, $dst)) {
+                                $output->write('<success>ok</success>.' . PHP_EOL);
+                            } else {
+                                $output->write('<error>oops</error>.' . PHP_EOL);
+                                H::info(H::i($indentLevel + 1) . "Couldn't copy the dir." . PHP_EOL, $output);
+                            }
+                        }
+                    }
 
 
                     //--------------------------------------------
@@ -133,7 +159,6 @@ class PushCommand extends KaosGenericCommand
                         /**
                          * We add the map if detected
                          */
-                        $mapDir = $planetDir . "/assets/map";
                         $postInstall = [];
                         if (true === $isLightPlugin || is_dir($mapDir)) {
                             $postInstall['map'] = true;

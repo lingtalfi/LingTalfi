@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.12.0 -- 2019-09-24
+
+    - update PushCommand, now automatically imports universe assets found in the application into the map assets dir
+    
 - 1.11.5 -- 2019-08-14
 
     - fix typo

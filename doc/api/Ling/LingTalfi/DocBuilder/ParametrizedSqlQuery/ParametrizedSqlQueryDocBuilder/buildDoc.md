@@ -70,7 +70,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [ParametrizedSqlQueryDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/ParametrizedSqlQuery/ParametrizedSqlQueryDocBuilder.php#L44-L200)
+See the source code for method [ParametrizedSqlQueryDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/ParametrizedSqlQuery/ParametrizedSqlQueryDocBuilder.php#L44-L203)
 
 
 See Also

@@ -4,7 +4,7 @@
 
 The Light_Kit_BootstrapWidgetLibraryDocBuilder class
 ================
-2019-03-13 --> 2019-08-14
+2019-03-13 --> 2019-09-24
 
 
 

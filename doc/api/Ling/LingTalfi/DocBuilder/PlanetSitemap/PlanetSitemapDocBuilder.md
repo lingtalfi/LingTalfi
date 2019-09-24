@@ -4,7 +4,7 @@
 
 The PlanetSitemapDocBuilder class
 ================
-2019-03-13 --> 2019-08-14
+2019-03-13 --> 2019-09-24
 
 
 
@@ -52,4 +52,4 @@ See the source code of [Ling\LingTalfi\DocBuilder\PlanetSitemap\PlanetSitemapDoc
 
 SeeAlso
 ==============
-Previous class: [ParametrizedSqlQueryDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ParametrizedSqlQuery/ParametrizedSqlQueryDocBuilder.md)<br>Next class: [ProjectInfoDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ProjectInfo/ProjectInfoDocBuilder.md)<br>
+Previous class: [ParentChildDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ParentChild/ParentChildDocBuilder.md)<br>Next class: [ProjectInfoDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ProjectInfo/ProjectInfoDocBuilder.md)<br>

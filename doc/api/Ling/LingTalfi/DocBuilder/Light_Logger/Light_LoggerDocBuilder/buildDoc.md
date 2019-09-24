@@ -70,7 +70,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [Light_LoggerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_Logger/Light_LoggerDocBuilder.php#L44-L199)
+See the source code for method [Light_LoggerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_Logger/Light_LoggerDocBuilder.php#L44-L201)
 
 
 See Also
