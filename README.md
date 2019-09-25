@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.13.0 -- 2019-09-25
+
+    - updated DocBuilder, now default htmlMode is true
+
 - 1.12.0 -- 2019-09-24
 
     - update PushCommand, now automatically imports universe assets found in the application into the map assets dir

@@ -24,7 +24,7 @@ public static [Light_RealistDocBuilder::buildDoc](https://github.com/lingtalfi/L
 Launch this function to generate the documentation for the Light_Realist planet.
 (based on the LingGitPhpPlanetDocBuilder doc builder.
 
-If htmlMode is false (the default),
+If htmlMode is true (the default),
 this method will generate all files in md format in the following directory:
 
 - /myphp/universe/Light_Realist/doc

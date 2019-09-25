@@ -24,7 +24,7 @@ public static [SqlWizardDocBuilder::buildDoc](https://github.com/lingtalfi/LingT
 Launch this function to generate the documentation for the SqlWizard planet.
 (based on the LingGitPhpPlanetDocBuilder doc builder.
 
-If htmlMode is false (the default),
+If htmlMode is true (the default),
 this method will generate all files in md format in the following directory:
 
 - /myphp/universe/SqlWizard/doc

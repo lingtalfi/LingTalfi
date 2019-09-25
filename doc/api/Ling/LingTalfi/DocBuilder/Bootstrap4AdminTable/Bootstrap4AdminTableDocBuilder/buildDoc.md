@@ -24,7 +24,7 @@ public static [Bootstrap4AdminTableDocBuilder::buildDoc](https://github.com/ling
 Launch this function to generate the documentation for the Bootstrap4AdminTable planet.
 (based on the LingGitPhpPlanetDocBuilder doc builder.
 
-If htmlMode is false (the default),
+If htmlMode is true (the default),
 this method will generate all files in md format in the following directory:
 
 - /myphp/universe/Bootstrap4AdminTable/doc

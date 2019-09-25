@@ -24,7 +24,7 @@ public static [SimplePdoWrapperDocBuilder::buildDoc](https://github.com/lingtalf
 Launch this function to generate the documentation for the SimplePdoWrapper planet.
 (based on the LingGitPhpPlanetDocBuilder doc builder.
 
-If htmlMode is false (the default),
+If htmlMode is true (the default),
 this method will generate all files in md format in the following directory:
 
 - /myphp/universe/SimplePdoWrapper/doc

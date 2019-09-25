@@ -24,7 +24,7 @@ public static [Light_BreezeGeneratorDocBuilder::buildDoc](https://github.com/lin
 Launch this function to generate the documentation for the Light_BreezeGenerator planet.
 (based on the LingGitPhpPlanetDocBuilder doc builder.
 
-If htmlMode is false (the default),
+If htmlMode is true (the default),
 this method will generate all files in md format in the following directory:
 
 - /myphp/universe/Light_BreezeGenerator/doc
