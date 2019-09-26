@@ -16,7 +16,7 @@ Description
 ================
 
 
-public static [ChloroformDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Chloroform/ChloroformDocBuilder/buildDoc.md)($htmlMode = false) : void
+public static [ChloroformDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Chloroform/ChloroformDocBuilder/buildDoc.md)($htmlMode = true) : void
 
 
 

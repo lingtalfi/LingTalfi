@@ -16,7 +16,7 @@ Description
 ================
 
 
-public static [Bootstrap4AdminTableDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Bootstrap4AdminTable/Bootstrap4AdminTableDocBuilder/buildDoc.md)($htmlMode = false) : void
+public static [Bootstrap4AdminTableDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Bootstrap4AdminTable/Bootstrap4AdminTableDocBuilder/buildDoc.md)($htmlMode = true) : void
 
 
 
@@ -70,7 +70,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [Bootstrap4AdminTableDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Bootstrap4AdminTable/Bootstrap4AdminTableDocBuilder.php#L44-L207)
+See the source code for method [Bootstrap4AdminTableDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Bootstrap4AdminTable/Bootstrap4AdminTableDocBuilder.php#L44-L209)
 
 
 See Also

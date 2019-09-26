@@ -16,7 +16,7 @@ Description
 ================
 
 
-public static [DeployDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Deploy/DeployDocBuilder/buildDoc.md)($htmlMode = false) : void
+public static [DeployDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Deploy/DeployDocBuilder/buildDoc.md)($htmlMode = true) : void
 
 
 

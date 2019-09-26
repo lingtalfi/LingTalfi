@@ -16,7 +16,7 @@ Description
 ================
 
 
-public static [ZephyrTemplateEngineDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ZephyrTemplateEngine/ZephyrTemplateEngineDocBuilder/buildDoc.md)($htmlMode = false) : void
+public static [ZephyrTemplateEngineDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ZephyrTemplateEngine/ZephyrTemplateEngineDocBuilder/buildDoc.md)($htmlMode = true) : void
 
 
 

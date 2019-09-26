@@ -16,7 +16,7 @@ Description
 ================
 
 
-public static [Light_AjaxFileUploadManagerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_AjaxFileUploadManager/Light_AjaxFileUploadManagerDocBuilder/buildDoc.md)($htmlMode = false) : void
+public static [Light_AjaxFileUploadManagerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_AjaxFileUploadManager/Light_AjaxFileUploadManagerDocBuilder/buildDoc.md)($htmlMode = true) : void
 
 
 

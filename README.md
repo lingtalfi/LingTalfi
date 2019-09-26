@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.13.1 -- 2019-09-26
+
+    - fix PushCommand having htmlMode to true instead of false
+    
 - 1.13.0 -- 2019-09-25
 
     - updated DocBuilder, now default htmlMode is true

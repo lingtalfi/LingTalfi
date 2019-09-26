@@ -16,7 +16,7 @@ Description
 ================
 
 
-public static [SqlWizardDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SqlWizard/SqlWizardDocBuilder/buildDoc.md)($htmlMode = false) : void
+public static [SqlWizardDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SqlWizard/SqlWizardDocBuilder/buildDoc.md)($htmlMode = true) : void
 
 
 

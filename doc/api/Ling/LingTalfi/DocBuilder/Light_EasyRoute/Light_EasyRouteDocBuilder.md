@@ -4,7 +4,7 @@
 
 The Light_EasyRouteDocBuilder class
 ================
-2019-03-13 --> 2019-09-24
+2019-03-13 --> 2019-09-26
 
 
 
@@ -25,7 +25,7 @@ Class synopsis
 class <span class="pl-k">Light_EasyRouteDocBuilder</span>  {
 
 - Methods
-    - public static [buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_EasyRoute/Light_EasyRouteDocBuilder/buildDoc.md)($htmlMode = false) : void
+    - public static [buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_EasyRoute/Light_EasyRouteDocBuilder/buildDoc.md)($htmlMode = true) : void
 
 }
 

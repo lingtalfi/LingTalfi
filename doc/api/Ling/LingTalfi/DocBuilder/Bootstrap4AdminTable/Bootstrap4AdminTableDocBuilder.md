@@ -4,7 +4,7 @@
 
 The Bootstrap4AdminTableDocBuilder class
 ================
-2019-03-13 --> 2019-09-24
+2019-03-13 --> 2019-09-26
 
 
 
@@ -25,7 +25,7 @@ Class synopsis
 class <span class="pl-k">Bootstrap4AdminTableDocBuilder</span>  {
 
 - Methods
-    - public static [buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Bootstrap4AdminTable/Bootstrap4AdminTableDocBuilder/buildDoc.md)($htmlMode = false) : void
+    - public static [buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Bootstrap4AdminTable/Bootstrap4AdminTableDocBuilder/buildDoc.md)($htmlMode = true) : void
 
 }
 

@@ -76,6 +76,7 @@ class Light_RealistDocBuilder
             "reportIgnore" => [
 //                "Ling\DocTools\Translator\ParseDownTranslator",
                 "Ling\Light\Controller\LightController",
+                "Ling\Light_AjaxHandler\Handler\ContainerAwareLightAjaxHandler",
             ],
             /**
              * Your project start date.
@@ -153,8 +154,11 @@ class Light_RealistDocBuilder
                 "the realist tag transfer protocol" => $doc . '/pages/realist-tag-transfer-protocol.md',
                 "ajax communication protocol" => 'https://github.com/lingtalfi/AjaxCommunicationProtocol',
                 "list action handler conception notes" => $doc . "/pages/list-action-handler-conception-notes.md",
+                "toolbar item" => $doc . "/pages/list-action-handler-conception-notes.md#the-toolbar-item",
                 "toolbar items" => $doc . "/pages/list-action-handler-conception-notes.md#the-toolbar-item",
                 "dynamic injection handler" => $doc . "/pages/duelist.md#dynamic-injection",
+                "request id" => $doc . "/pages/request-id.md",
+                "list general actions" => $doc . '/pages/realist-conception-notes.md#list-general-actions',
 
             ],
             /**
@@ -176,6 +180,8 @@ class Light_RealistDocBuilder
                 "Ling\Light\ServiceContainer\LightServiceContainerInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md',
                 "Ling\ParametrizedSqlQuery\ParametrizedSqlQueryUtil" => 'https://github.com/lingtalfi/ParametrizedSqlQuery/blob/master/doc/api/Ling/ParametrizedSqlQuery/ParametrizedSqlQueryUtil.md',
                 "Ling\Light\ServiceContainer\LightServiceContainerAwareInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerAwareInterface.md',
+                "Ling\Light_AjaxHandler\Handler\ContainerAwareLightAjaxHandler" => 'https://github.com/lingtalfi/Light_AjaxHandler/blob/master/doc/api/Ling/Light_AjaxHandler/Handler/ContainerAwareLightAjaxHandler.md',
+                "Ling\Light_AjaxHandler\Handler\LightAjaxHandlerInterface" => 'https://github.com/lingtalfi/Light_AjaxHandler/blob/master/doc/api/Ling/Light_AjaxHandler/Handler/LightAjaxHandlerInterface.md',
             ],
         ];
 

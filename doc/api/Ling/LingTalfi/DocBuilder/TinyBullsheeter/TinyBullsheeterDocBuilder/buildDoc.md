@@ -16,7 +16,7 @@ Description
 ================
 
 
-public static [TinyBullsheeterDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/TinyBullsheeter/TinyBullsheeterDocBuilder/buildDoc.md)($htmlMode = false) : void
+public static [TinyBullsheeterDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/TinyBullsheeter/TinyBullsheeterDocBuilder/buildDoc.md)($htmlMode = true) : void
 
 
 

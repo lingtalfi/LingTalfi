@@ -206,8 +206,7 @@ class PushCommand extends KaosGenericCommand
                                 H::discover(H::i($indentLevel + 2) . "Found <b>$docBuilderClass</b>." . PHP_EOL, $output);
                                 H::info(H::i($indentLevel + 2) . "Creating documentation....", $output);
 
-
-                                call_user_func([$docBuilderClass, "buildDoc"]);
+                                call_user_func([$docBuilderClass, "buildDoc"], false);
                                 $output->write('<success>ok</success>' . PHP_EOL);
 
                             } else {

@@ -16,7 +16,7 @@ Description
 ================
 
 
-public static [CSRFToolsDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/CSRFTools/CSRFToolsDocBuilder/buildDoc.md)($htmlMode = false) : void
+public static [CSRFToolsDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/CSRFTools/CSRFToolsDocBuilder/buildDoc.md)($htmlMode = true) : void
 
 
 
