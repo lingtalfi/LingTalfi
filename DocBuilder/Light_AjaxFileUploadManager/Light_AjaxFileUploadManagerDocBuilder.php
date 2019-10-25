@@ -143,6 +143,7 @@ class Light_AjaxFileUploadManagerDocBuilder
                 "AjaxFileUpload protocol" => $doc . '/pages/ajax-file-upload-protocol.md',
                 "action list" => $doc . '/pages/action-list.md',
                 "validation rules page" => $doc . '/pages/validation-rules.md',
+                "ajax file upload protocol" => $doc . '/pages/ajax-file-upload-protocol.md',
             ],
             /**
              * An array of external classes to url.

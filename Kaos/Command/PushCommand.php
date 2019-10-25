@@ -4,6 +4,7 @@
 namespace Ling\LingTalfi\Kaos\Command;
 
 
+use Ling\BabyYaml\BabyYamlUtil;
 use Ling\Bat\FileSystemTool;
 use Ling\CliTools\Helper\VirginiaMessageHelper as H;
 use Ling\CliTools\Input\ArrayInput;
@@ -76,6 +77,15 @@ class PushCommand extends KaosGenericCommand
             H::info(H::i($indentLevel) . "Pushing planet <blue>$galaxyName/$planetName</blue> ($planetDir):" . PHP_EOL, $output);
             H::info(H::i($indentLevel + 1) . "Scanning <b>README.md</b> file:" . PHP_EOL, $output);
 
+
+            //--------------------------------------------
+            // KAOS OPTIONS?
+            //--------------------------------------------
+            $kaosOptions = [];
+            $kaosOptionsFile = $planetDir . "/kaos.options.byml";
+            if (file_exists($kaosOptionsFile)) {
+                $kaosOptions = BabyYamlUtil::readFile($kaosOptionsFile);
+            }
 
             //--------------------------------------------
             // SCANNING README.MD
@@ -165,7 +175,13 @@ class PushCommand extends KaosGenericCommand
                         }
 
 
-                        if (true === DependencyTool::writeDependencies($planetDir, $postInstall)) {
+                        $ignoreFilesStartingWith = $kaosOptions['ignoreFilesStartingWith'] ?? [];
+                        $options = [
+                            "ignoreFilesStartingWith" => $ignoreFilesStartingWith,
+                        ];
+
+                        if (true === DependencyTool::writeDependencies($planetDir, $postInstall, $options)) {
+
                             $output->write('<success>ok</success>' . PHP_EOL);
 
 

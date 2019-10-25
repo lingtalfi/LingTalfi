@@ -159,6 +159,11 @@ class Light_RealistDocBuilder
                 "dynamic injection handler" => $doc . "/pages/duelist.md#dynamic-injection",
                 "request id" => $doc . "/pages/request-id.md",
                 "list general actions" => $doc . '/pages/realist-conception-notes.md#list-general-actions',
+                "list general action item" => $doc . '/pages/realist-conception-notes.md#list-general-actions',
+                "generic action item" => $doc . '/pages/generic-action-item.md',
+                "permission" => "https://github.com/lingtalfi/Light_User/blob/master/doc/pages/permission-conception-notes.md",
+                "micro permissions" => "https://github.com/lingtalfi/Light_MicroPermission",
+                "generic action items" => "https://github.com/lingtalfi/Light_Realist/blob/master/doc/pages/generic-action-item.md",
 
             ],
             /**
@@ -182,6 +187,8 @@ class Light_RealistDocBuilder
                 "Ling\Light\ServiceContainer\LightServiceContainerAwareInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerAwareInterface.md',
                 "Ling\Light_AjaxHandler\Handler\ContainerAwareLightAjaxHandler" => 'https://github.com/lingtalfi/Light_AjaxHandler/blob/master/doc/api/Ling/Light_AjaxHandler/Handler/ContainerAwareLightAjaxHandler.md',
                 "Ling\Light_AjaxHandler\Handler\LightAjaxHandlerInterface" => 'https://github.com/lingtalfi/Light_AjaxHandler/blob/master/doc/api/Ling/Light_AjaxHandler/Handler/LightAjaxHandlerInterface.md',
+                "Ling\Light_Realist\ListActionHandler\LightServiceContainerInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md',
+                "Ling\Light_Realist\ListGeneralActionHandler\LightServiceContainerInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md',
             ],
         ];
 

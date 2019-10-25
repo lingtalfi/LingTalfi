@@ -154,6 +154,9 @@ class CliToolsDocBuilder
             "externalClass2Url" => [
 //                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
             ],
+            "ignoreFilesStartingWith" => [
+//                "PHPExcel/",
+            ],
         ];
 
 
