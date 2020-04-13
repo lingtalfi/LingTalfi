@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13
+2019-03-13 -> 2020-04-13
 
 
 
@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.15.0 -- 2020-04-13
+
+    - update InitializePlanetCommand, now creates a light adapted README.md when relevant
+    
 - 1.14.1 -- 2019-10-25
 
     - update DocBuilder model, now uses LingTalfiDocToolsHelper::generateCrumbs

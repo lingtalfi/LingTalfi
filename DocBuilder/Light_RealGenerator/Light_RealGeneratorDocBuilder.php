@@ -7,6 +7,7 @@ namespace Ling\LingTalfi\DocBuilder\Light_RealGenerator;
 use Ling\DocTools\DocBuilder\Git\PhpPlanet\LingGitPhpPlanetDocBuilder;
 use Ling\DocTools\Exception\DocBuilderException;
 use Ling\DocTools\Translator\ParseDownTranslator;
+use Ling\LingTalfi\DocTools\LingTalfiDocToolsHelper;
 
 
 /**
@@ -145,6 +146,9 @@ class Light_RealGeneratorDocBuilder
                 "open admin data type" => 'https://github.com/lingtalfi/Light_Realist/blob/master/doc/pages/open-admin-table-protocol.md#the-data-types',
                 "realist" => 'https://github.com/lingtalfi/Light_Realist',
                 "realform" => 'https://github.com/lingtalfi/Light_Realform',
+                "generate method" => 'https://github.com/lingtalfi/Light_RealGenerator/blob/master/doc/api/Ling/Light_RealGenerator/Service/LightRealGeneratorService/generate.md',
+                "getGenericTagsByTable method" => 'https://github.com/lingtalfi/Light_RealGenerator/blob/master/doc/api/Ling/Light_RealGenerator/Generator/BaseConfigGenerator/getGenericTagsByTable.md',
+                "representative column" => 'https://github.com/lingtalfi/Light_RealGenerator/blob/master/doc/pages/conception-notes.md#the-representative-column',
             ],
             /**
              * An array of external classes to url.
@@ -195,6 +199,7 @@ class Light_RealGeneratorDocBuilder
          * and since we've defined a @kw(copy module), it will also copy the whole doc to another location.
          */
         $builder->buildDoc();
+        LingTalfiDocToolsHelper::generateCrumbs($builder);
 
         if ('cli' !== php_sapi_name()) {
 
