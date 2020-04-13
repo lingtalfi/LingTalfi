@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.16.0 -- 2020-04-13
+
+    - update InitializePlanetCommand, now creates a DocBuilder with conception notes link ready
+    
 - 1.15.0 -- 2020-04-13
 
     - update InitializePlanetCommand, now creates a light adapted README.md when relevant

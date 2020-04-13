@@ -141,7 +141,7 @@ class Light_UploadGemsDocBuilder
              * This map in particular is the one used for the whole DocTools planet documentation (pages and api).
              */
             "keyWord2UrlMap" => [
-//                "the command line page" => $doc . '/pages/command-line.md',
+                "UploadGems conception notes" => $doc . '/pages/conception-notes.md',
             ],
             /**
              * An array of external classes to url.
@@ -153,7 +153,7 @@ class Light_UploadGemsDocBuilder
              * in the class synopsis.
              */
             "externalClass2Url" => [
-//                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
+                "Ling\Light\ServiceContainer\LightServiceContainerInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md",
             ],
             "ignoreFilesStartingWith" => [
 //                "PHPExcel/",
