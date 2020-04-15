@@ -4,7 +4,7 @@
 
 The Light_UserRowRestrictionDocBuilder class
 ================
-2019-03-13 --> 2020-04-13
+2019-03-13 --> 2020-04-15
 
 
 

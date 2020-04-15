@@ -1,6 +1,6 @@
 Ling/LingTalfi
 ================
-2019-03-13 --> 2020-04-13
+2019-03-13 --> 2020-04-15
 
 
 
@@ -176,6 +176,8 @@ Table of contents
     - [Light_UserRowRestrictionDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_UserRowRestriction/Light_UserRowRestrictionDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_UserRowRestriction planet.
 - [Light_ZephyrTemplateDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ZephyrTemplate/Light_ZephyrTemplateDocBuilder.md) &ndash; The Light_ZephyrTemplateDocBuilder class.
     - [Light_ZephyrTemplateDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ZephyrTemplate/Light_ZephyrTemplateDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_ZephyrTemplate planet.
+- [Light_ZouUploaderDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ZouUploader/Light_ZouUploaderDocBuilder.md) &ndash; The Light_ZouUploaderDocBuilder class.
+    - [Light_ZouUploaderDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ZouUploader/Light_ZouUploaderDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_ZouUploader planet.
 - [LingTalfiDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/LingTalfi/LingTalfiDocBuilder.md) &ndash; The LingTalfiDocBuilder class.
     - [LingTalfiDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/LingTalfi/LingTalfiDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the LingTalfi planet.
 - [MysqlCreateTableUtilDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/MysqlCreateTableUtil/MysqlCreateTableUtilDocBuilder.md) &ndash; The MysqlCreateTableUtilDocBuilder class.
@@ -268,6 +270,8 @@ Table of contents
     - [ReadmeUtil::createBasicReadmeFile](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/createBasicReadmeFile.md) &ndash; was successful.
     - [ReadmeUtil::getLatestVersionInfo](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/getLatestVersionInfo.md) &ndash; section of the given README file.
     - [ReadmeUtil::getErrors](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/getErrors.md) &ndash; Returns the errors of this instance.
+- [PhpStormMetaHelper](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/PhpStormMeta/PhpStormMetaHelper.md) &ndash; The PhpStormMetaHelper class.
+    - [PhpStormMetaHelper::getPhpStormMetaMapString](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/PhpStormMeta/PhpStormMetaHelper/getPhpStormMetaMapString.md) &ndash; $container->get("my_service")-> // phpstorm will autocomplete with the methods of that service...
 - [UpdateAllPlanetsTool](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool.md) &ndash; The UpdateAllPlanetsTool class.
     - [UpdateAllPlanetsTool::recloneAll](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool/recloneAll.md) &ndash; you can use this method to "repair" that.
     - [UpdateAllPlanetsTool::updateAllPlanets](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool/updateAllPlanets.md) &ndash; An old method I used to push all planets to github.
@@ -287,5 +291,6 @@ Dependencies
 - [Uni2](https://github.com/lingtalfi/Uni2)
 - [PlanetSitemap](https://github.com/lingtalfi/PlanetSitemap)
 - [SimpleCurl](https://github.com/lingtalfi/SimpleCurl)
+- [Light](https://github.com/lingtalfi/Light)
 
 

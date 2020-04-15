@@ -4,7 +4,7 @@
 
 The ReadmeUtil class
 ================
-2019-03-13 --> 2020-04-13
+2019-03-13 --> 2020-04-15
 
 
 
@@ -90,4 +90,4 @@ See the source code of [Ling\LingTalfi\Kaos\Util\ReadmeUtil](https://github.com/
 
 SeeAlso
 ==============
-Previous class: [KaosException](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Exception/KaosException.md)<br>Next class: [UpdateAllPlanetsTool](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool.md)<br>
+Previous class: [KaosException](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Exception/KaosException.md)<br>Next class: [PhpStormMetaHelper](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/PhpStormMeta/PhpStormMetaHelper.md)<br>
