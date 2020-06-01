@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2020-04-15
+2019-03-13 -> 2020-06-01
 
 
 
@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.18.0 -- 2020-06-01
+
+    - add "kaos preferences" concept
+    
 - 1.17.0 -- 2020-04-15
 
     - add PhpStormMetaHelper class

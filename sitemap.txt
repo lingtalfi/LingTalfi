@@ -33,6 +33,10 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBui
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/DotMenu/DotMenuDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/EasyConsoleMenu/EasyConsoleMenuDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/EasyConsoleMenu/EasyConsoleMenuDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/FontAwesome/FontAwesomeDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/FontAwesome/FontAwesomeDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/GormanJsonDecoder/GormanJsonDecoderDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/GormanJsonDecoder/GormanJsonDecoderDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/HashMap/HashMapDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/HashMap/HashMapDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/HtmlPageTools/HtmlPageToolsDocBuilder/buildDoc.md
@@ -45,6 +49,8 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBui
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JFileUploader/JFileUploaderDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JPostForm/JPostFormDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JPostForm/JPostFormDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JQuery/JQueryDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JQuery/JQueryDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JSortableLists/JSortableListsDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JSortableLists/JSortableListsDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Kit/KitDocBuilder/buildDoc.md
@@ -97,6 +103,8 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBui
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_EndRoutine_CsrfPageCleaner/Light_EndRoutine_CsrfPageCleanerDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_EndRoutine_Debugger/Light_EndRoutine_DebuggerDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_EndRoutine_Debugger/Light_EndRoutine_DebuggerDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ErrorHandler/Light_ErrorHandlerDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ErrorHandler/Light_ErrorHandlerDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Events/Light_EventsDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Events/Light_EventsDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ExceptionHandler/Light_ExceptionHandlerDocBuilder/buildDoc.md
@@ -191,6 +199,8 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBui
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ProjectInfo/ProjectInfoDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Realist/RealistDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Realist/RealistDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Select2/Select2DocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Select2/Select2DocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SicTools/SicToolsDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SicTools/SicToolsDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SimpleCurl/SimpleCurlDocBuilder/buildDoc.md
@@ -201,6 +211,10 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBui
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SqlQuery/SqlQueryDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SqlWizard/SqlWizardDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SqlWizard/SqlWizardDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SvelteTemplateBuilder/SvelteTemplateBuilderDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SvelteTemplateBuilder/SvelteTemplateBuilderDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/TemporaryVirtualFileSystem/TemporaryVirtualFileSystemDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/TemporaryVirtualFileSystem/TemporaryVirtualFileSystemDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/TinyBullsheeter/TinyBullsheeterDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/TinyBullsheeter/TinyBullsheeterDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Uni2/Uni2DocBuilder/buildDoc.md
@@ -240,6 +254,8 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/C
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/PushUniverseSnapshotCommand/run.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/PushUniverseSnapshotCommand.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Exception/KaosException.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Tool/PreferencesTool/getPreferences.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Tool/PreferencesTool.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/__construct.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/addError.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/createBasicReadmeFile.md
@@ -256,3 +272,4 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool/updateAllPlanets.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/pages/conception-notes.md
