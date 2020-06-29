@@ -4,7 +4,7 @@
 
 The Light_EventsDocBuilder class
 ================
-2019-03-13 --> 2020-06-01
+2019-03-13 --> 2020-06-29
 
 
 
@@ -52,4 +52,4 @@ See the source code of [Ling\LingTalfi\DocBuilder\Light_Events\Light_EventsDocBu
 
 SeeAlso
 ==============
-Previous class: [Light_ErrorHandlerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ErrorHandler/Light_ErrorHandlerDocBuilder.md)<br>Next class: [Light_ExceptionHandlerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ExceptionHandler/Light_ExceptionHandlerDocBuilder.md)<br>
+Previous class: [Light_ErrorPopDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ErrorPop/Light_ErrorPopDocBuilder.md)<br>Next class: [Light_ExceptionHandlerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ExceptionHandler/Light_ExceptionHandlerDocBuilder.md)<br>

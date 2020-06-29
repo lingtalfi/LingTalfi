@@ -4,7 +4,7 @@
 
 The Light_ErrorHandlerDocBuilder class
 ================
-2019-03-13 --> 2020-06-01
+2019-03-13 --> 2020-06-29
 
 
 
@@ -52,4 +52,4 @@ See the source code of [Ling\LingTalfi\DocBuilder\Light_ErrorHandler\Light_Error
 
 SeeAlso
 ==============
-Previous class: [Light_EndRoutine_DebuggerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_EndRoutine_Debugger/Light_EndRoutine_DebuggerDocBuilder.md)<br>Next class: [Light_EventsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Events/Light_EventsDocBuilder.md)<br>
+Previous class: [Light_EndRoutine_DebuggerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_EndRoutine_Debugger/Light_EndRoutine_DebuggerDocBuilder.md)<br>Next class: [Light_ErrorPopDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ErrorPop/Light_ErrorPopDocBuilder.md)<br>
