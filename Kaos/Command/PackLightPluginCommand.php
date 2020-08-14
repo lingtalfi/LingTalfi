@@ -80,6 +80,7 @@ class PackLightPluginCommand extends KaosGenericCommand
                 "config/services/$pluginName.byml",
                 "config/data/$pluginName",
                 "templates/$pluginName",
+                "templates/Light_Mailer/$pluginName",
                 "www/plugins/$pluginName",
             ];
 

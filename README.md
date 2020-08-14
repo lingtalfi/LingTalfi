@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2020-06-29
+2019-03-13 -> 2020-08-14
 
 
 
@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.20.0 -- 2020-08-14
+
+    - update PackLightPluginCommand, now also packs from templates/Light_Mailer
+    
 - 1.19.0 -- 2020-06-29
 
     - add docToolExtraLoaders kaos preferences for pushing command

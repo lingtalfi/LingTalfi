@@ -169,6 +169,8 @@ class Light_RealistDocBuilder
                 "ajax handler service" => 'https://github.com/lingtalfi/Light_AjaxHandler',
                 "Light_CsrfSession plugin" => 'https://github.com/lingtalfi/Light_CsrfSession',
                 "alcp response" => 'https://github.com/lingtalfi/Light_AjaxHandler/blob/master/doc/pages/ajax-light-communication-protocol.md',
+                "late registration concept" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/design/late-service-registration.md',
+                "late registration" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/design/late-service-registration.md',
 
             ],
             /**
