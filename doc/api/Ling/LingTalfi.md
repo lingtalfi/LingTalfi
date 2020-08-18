@@ -1,6 +1,6 @@
 Ling/LingTalfi
 ================
-2019-03-13 --> 2020-08-14
+2019-03-13 --> 2020-08-18
 
 
 
@@ -168,6 +168,8 @@ Table of contents
     - [Light_Kit_WebsiteBuilderDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_WebsiteBuilder/Light_Kit_WebsiteBuilderDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Kit_WebsiteBuilder planet.
 - [Light_LightInstanceDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_LightInstance/Light_LightInstanceDocBuilder.md) &ndash; The Light_LightInstanceDocBuilder class.
     - [Light_LightInstanceDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_LightInstance/Light_LightInstanceDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_LightInstance planet.
+- [Light_LingHooksDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_LingHooks/Light_LingHooksDocBuilder.md) &ndash; The Light_LingHooksDocBuilder class.
+    - [Light_LingHooksDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_LingHooks/Light_LingHooksDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_LingHooks planet.
 - [Light_LingStandardServiceDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_LingStandardService/Light_LingStandardServiceDocBuilder.md) &ndash; The Light_LingStandardServiceDocBuilder class.
     - [Light_LingStandardServiceDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_LingStandardService/Light_LingStandardServiceDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_LingStandardService planet.
 - [Light_LoggerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Logger/Light_LoggerDocBuilder.md) &ndash; The Light_LoggerDocBuilder class.

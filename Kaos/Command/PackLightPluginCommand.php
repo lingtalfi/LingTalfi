@@ -8,6 +8,7 @@ use Ling\Bat\FileSystemTool;
 use Ling\CliTools\Helper\VirginiaMessageHelper as H;
 use Ling\CliTools\Input\InputInterface;
 use Ling\CliTools\Output\OutputInterface;
+use Ling\DirScanner\YorgDirScannerTool;
 
 /**
  * The PackLightPluginCommand class.
@@ -83,6 +84,15 @@ class PackLightPluginCommand extends KaosGenericCommand
                 "templates/Light_Mailer/$pluginName",
                 "www/plugins/$pluginName",
             ];
+
+
+            $dynamicConfigDir = $applicationDir . "/config/dynamic";
+
+            $files = YorgDirScannerTool::getFilesWithName($dynamicConfigDir, $pluginName . ".byml", false, true);
+            foreach($files as $file){
+                $items[] = FileSystemTool::getRelativePath($file, $applicationDir);
+            }
+
 
 
             foreach ($items as $relPath) {

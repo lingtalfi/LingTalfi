@@ -4,7 +4,7 @@
 
 The Light_LingStandardServiceDocBuilder class
 ================
-2019-03-13 --> 2020-08-14
+2019-03-13 --> 2020-08-18
 
 
 
@@ -52,4 +52,4 @@ See the source code of [Ling\LingTalfi\DocBuilder\Light_LingStandardService\Ligh
 
 SeeAlso
 ==============
-Previous class: [Light_LightInstanceDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_LightInstance/Light_LightInstanceDocBuilder.md)<br>Next class: [Light_LoggerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Logger/Light_LoggerDocBuilder.md)<br>
+Previous class: [Light_LingHooksDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_LingHooks/Light_LingHooksDocBuilder.md)<br>Next class: [Light_LoggerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Logger/Light_LoggerDocBuilder.md)<br>

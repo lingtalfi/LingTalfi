@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ling\LingTalfi\DocBuilder\Light;
+namespace Ling\LingTalfi\DocBuilder\Light_LingHooks;
 
 
 use Ling\DocTools\DocBuilder\Git\PhpPlanet\LingGitPhpPlanetDocBuilder;
@@ -11,20 +11,20 @@ use Ling\LingTalfi\DocTools\LingTalfiDocToolsHelper;
 
 
 /**
- * The LightDocBuilder class.
+ * The Light_LingHooksDocBuilder class.
  */
-class LightDocBuilder
+class Light_LingHooksDocBuilder
 {
 
 
     /**
-     * Launch this function to generate the documentation for the Light planet.
+     * Launch this function to generate the documentation for the Light_LingHooks planet.
      * (based on the LingGitPhpPlanetDocBuilder doc builder.
      *
      * If htmlMode is true (the default),
      * this method will generate all files in md format in the following directory:
      *
-     * - /myphp/universe/Light/doc
+     * - /myphp/universe/Light_LingHooks/doc
      *
      *
      *
@@ -48,8 +48,8 @@ class LightDocBuilder
         //--------------------------------------------
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
-        $planetDir = "/myphp/universe/Ling/Light";
-        $gitRepoUrl = "https://github.com/lingtalfi/Light";
+        $planetDir = "/myphp/universe/Ling/Light_LingHooks";
+        $gitRepoUrl = "https://github.com/lingtalfi/Light_LingHooks";
         $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
@@ -75,10 +75,7 @@ class LightDocBuilder
              *
              */
             "reportIgnore" => [
-                "Ling\Octopus\ServiceContainer\BlueOctopusServiceContainer",
-                "Ling\Octopus\ServiceContainer\RedOctopusServiceContainer",
-                "Ling\SicTools\HotServiceResolver",
-                "Ling\Octopus\ServiceContainer\OctopusServiceContainerInterface",
+//                "Ling\DocTools\Translator\ParseDownTranslator",
             ],
             /**
              * Your project start date.
@@ -86,7 +83,7 @@ class LightDocBuilder
              * The date when the project was last updated can be generated automatically, but the project
              * start date doesn't change.
              */
-            "projectStartDate" => "2019-04-09",
+            "projectStartDate" => "2020-08-17",
 
             /**
              * @kw(CopyModule).
@@ -144,13 +141,8 @@ class LightDocBuilder
              * This map in particular is the one used for the whole DocTools planet documentation (pages and api).
              */
             "keyWord2UrlMap" => [
-                "route page" => $doc . '/pages/route.md',
-                "the route page" => $doc . '/pages/route.md',
-                "Light" => $api . '/Ling/Light/Core/Light.md',
-                "BabyYaml" =>  'https://github.com/lingtalfi/BabyYaml',
-                "arrayMergeReplaceRecursive" =>  'https://github.com/lingtalfi/Bat/blob/master/ArrayTool.md#arraymergereplacerecursive',
-                "light_instance service" =>  'https://github.com/lingtalfi/Light_LightInstance',
-                "light execute notation" =>  'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/notation/light-execute-notation.md',
+                "Light_LingHooks conception notes" => $doc . '/pages/conception-notes.md',
+                "light dynamic registration event system" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/design/late-service-registration.md',
             ],
             /**
              * An array of external classes to url.
@@ -162,14 +154,12 @@ class LightDocBuilder
              * in the class synopsis.
              */
             "externalClass2Url" => [
-                "Ling\Octopus\Exception\OctopusServiceErrorException" => "https://github.com/lingtalfi/Octopus/blob/master/Exception/OctopusServiceErrorException.php",
-                "OctopusServiceErrorException" => "https://github.com/lingtalfi/Octopus/blob/master/Exception/OctopusServiceErrorException.php",
-                "Ling\SicTools\Exception\SicBlockWillNotResolveException" => "https://github.com/lingtalfi/SicTools/blob/master/doc/api/Ling/SicTools/Exception/SicBlockWillNotResolveException.md",
-                "Ling\Octopus\ServiceContainer\BlueOctopusServiceContainer" => "https://github.com/lingtalfi/Octopus/blob/master/ServiceContainer/BlueOctopusServiceContainer.php",
-                "Ling\Octopus\ServiceContainer\OctopusServiceContainerInterface" => "https://github.com/lingtalfi/Octopus/blob/master/ServiceContainer/OctopusServiceContainerInterface.php",
-                "Ling\Octopus\ServiceContainer\RedOctopusServiceContainer" => "https://github.com/lingtalfi/Octopus/blob/master/ServiceContainer/RedOctopusServiceContainer.php",
-                "Ling\Light\ServiceContainer\LightRedServiceContainer::get" => "https://github.com/lingtalfi/Octopus/blob/master/ServiceContainer/RedOctopusServiceContainer.php",
-//                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
+                "/Exception" => "https://github.com/lingtalfi//blob/master/doc/api//Exception.md",
+                "Ling\Light\ServiceContainer\LightServiceContainerInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md",
+
+            ],
+            "ignoreFilesStartingWith" => [
+//                "PHPExcel/",
             ],
         ];
 
@@ -190,7 +180,7 @@ class LightDocBuilder
                  * Uncomment the lines below to see my settings for local test mode.
                  */
 
-                "generatedClassBaseDir" =>  "/komin/jin_site_demo/www-doc/api",
+                "generatedClassBaseDir" => "/komin/jin_site_demo/www-doc/api",
                 "generatedClassBaseUrl" => "http://jindoc/api",
                 "mode" => "html", // md|html
                 "markdownTranslator" => new ParseDownTranslator(),
@@ -205,6 +195,8 @@ class LightDocBuilder
          * and since we've defined a @kw(copy module), it will also copy the whole doc to another location.
          */
         $builder->buildDoc();
+
+
         LingTalfiDocToolsHelper::generateCrumbs($builder);
 
         if ('cli' !== php_sapi_name()) {

@@ -4,7 +4,7 @@
 
 The Chloroform_Bootstrap4RendererDocBuilder class
 ================
-2019-03-13 --> 2020-08-14
+2019-03-13 --> 2020-08-18
 
 
 

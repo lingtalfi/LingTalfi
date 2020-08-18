@@ -60,7 +60,7 @@ If null, 0 should be assumed.
 
 Source Code
 ===========
-See the source code for method [PackLightPluginCommand::run](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Command/PackLightPluginCommand.php#L61-L95)
+See the source code for method [PackLightPluginCommand::run](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Command/PackLightPluginCommand.php#L62-L105)
 
 
 See Also
