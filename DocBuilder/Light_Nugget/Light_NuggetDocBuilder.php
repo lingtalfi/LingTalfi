@@ -1,29 +1,30 @@
 <?php
 
 
-namespace Ling\LingTalfi\DocBuilder\Light_Realist;
+namespace Ling\LingTalfi\DocBuilder\Light_Nugget;
 
 
 use Ling\DocTools\DocBuilder\Git\PhpPlanet\LingGitPhpPlanetDocBuilder;
 use Ling\DocTools\Exception\DocBuilderException;
 use Ling\DocTools\Translator\ParseDownTranslator;
+use Ling\LingTalfi\DocTools\LingTalfiDocToolsHelper;
 
 
 /**
- * The Light_RealistDocBuilder class.
+ * The Light_NuggetDocBuilder class.
  */
-class Light_RealistDocBuilder
+class Light_NuggetDocBuilder
 {
 
 
     /**
-     * Launch this function to generate the documentation for the Light_Realist planet.
+     * Launch this function to generate the documentation for the Light_Nugget planet.
      * (based on the LingGitPhpPlanetDocBuilder doc builder.
      *
      * If htmlMode is true (the default),
      * this method will generate all files in md format in the following directory:
      *
-     * - /myphp/universe/Light_Realist/doc
+     * - /myphp/universe/Light_Nugget/doc
      *
      *
      *
@@ -47,8 +48,8 @@ class Light_RealistDocBuilder
         //--------------------------------------------
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
-        $planetDir = "/myphp/universe/Ling/Light_Realist";
-        $gitRepoUrl = "https://github.com/lingtalfi/Light_Realist";
+        $planetDir = "/myphp/universe/Ling/Light_Nugget";
+        $gitRepoUrl = "https://github.com/lingtalfi/Light_Nugget";
         $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
@@ -75,8 +76,6 @@ class Light_RealistDocBuilder
              */
             "reportIgnore" => [
 //                "Ling\DocTools\Translator\ParseDownTranslator",
-                "Ling\Light\Controller\LightController",
-                "Ling\Light_AjaxHandler\Handler\ContainerAwareLightAjaxHandler",
             ],
             /**
              * Your project start date.
@@ -84,7 +83,7 @@ class Light_RealistDocBuilder
              * The date when the project was last updated can be generated automatically, but the project
              * start date doesn't change.
              */
-            "projectStartDate" => "2019-08-12",
+            "projectStartDate" => "2020-08-21",
 
             /**
              * @kw(CopyModule).
@@ -142,37 +141,7 @@ class Light_RealistDocBuilder
              * This map in particular is the one used for the whole DocTools planet documentation (pages and api).
              */
             "keyWord2UrlMap" => [
-                "realist-tag-transfer protocol" => $doc . '/pages/realist-tag-transfer-protocol.md',
-                "openAdminTable protocol" => $doc . '/pages/open-admin-table-protocol.md',
-                "open admin table protocol" => $doc . '/pages/open-admin-table-protocol.md',
-                "the realist conception notes" => $doc . '/pages/realist-conception-notes.md',
-                "open admin table helper implementation notes" => $doc . '/pages/open-admin-table-helper-implementation-notes.md',
-                "realist conception notes" => $doc . '/pages/realist-conception-notes.md',
-                "LightReverseRouterService" => 'https://github.com/lingtalfi/Light_ReverseRouter/blob/master/doc/api/Ling/Light_ReverseRouter/Service/LightReverseRouterService.md',
-                "responsive table helper tool" => 'https://github.com/lingtalfi/JResponsiveTableHelper',
-                "duelist page" => $doc . '/pages/duelist.md',
-                "the realist tag transfer protocol" => $doc . '/pages/realist-tag-transfer-protocol.md',
-                "ajax communication protocol" => 'https://github.com/lingtalfi/AjaxCommunicationProtocol',
-                "list action handler conception notes" => $doc . "/pages/list-action-handler-conception-notes.md",
-                "toolbar item" => $doc . "/pages/list-action-handler-conception-notes.md#the-toolbar-item",
-                "toolbar items" => $doc . "/pages/list-action-handler-conception-notes.md#the-toolbar-item",
-                "dynamic injection handler" => $doc . "/pages/duelist.md#dynamic-injection",
-                "request id" => $doc . "/pages/request-id.md",
-                "list general actions" => $doc . '/pages/realist-conception-notes.md#list-general-actions',
-                "list general action item" => $doc . '/pages/realist-conception-notes.md#list-general-actions',
-                "generic action item" => $doc . '/pages/generic-action-item.md',
-                "permission" => "https://github.com/lingtalfi/Light_User/blob/master/doc/pages/permission-conception-notes.md",
-                "micro permissions" => "https://github.com/lingtalfi/Light_MicroPermission",
-                "generic action items" => "https://github.com/lingtalfi/Light_Realist/blob/master/doc/pages/generic-action-item.md",
-                "duelist" => $doc . '/pages/duelist.md',
-                "controller hub service" => 'https://github.com/lingtalfi/Light_ControllerHub',
-                "ajax handler service" => 'https://github.com/lingtalfi/Light_AjaxHandler',
-                "Light_CsrfSession plugin" => 'https://github.com/lingtalfi/Light_CsrfSession',
-                "alcp response" => 'https://github.com/lingtalfi/Light_AjaxHandler/blob/master/doc/pages/ajax-light-communication-protocol.md',
-                "late registration concept" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/design/late-service-registration.md',
-                "late registration" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/design/late-service-registration.md',
-                "duelist developer variables concept" => 'https://github.com/lingtalfi/Light_Realist/blob/master/doc/pages/duelist.md#providing-developer-variables',
-
+                "Light_Nugget conception notes" => $doc . '/pages/conception-notes.md',
             ],
             /**
              * An array of external classes to url.
@@ -184,19 +153,11 @@ class Light_RealistDocBuilder
              * in the class synopsis.
              */
             "externalClass2Url" => [
-//                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
-                "Ling\Light\Controller\LightController" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Controller/LightController.md',
-                "Ling\Light\Core\LightAwareInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/LightAwareInterface.md',
-                "Ling\Light\Controller\LightControllerInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Controller/LightControllerInterface.md',
-                "Ling\Light\Core\Light" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/Light.md',
-                "Ling\Light\Http\HttpResponseInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md',
-                "Ling\Light\ServiceContainer\LightServiceContainerInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md',
-                "Ling\ParametrizedSqlQuery\ParametrizedSqlQueryUtil" => 'https://github.com/lingtalfi/ParametrizedSqlQuery/blob/master/doc/api/Ling/ParametrizedSqlQuery/ParametrizedSqlQueryUtil.md',
-                "Ling\Light\ServiceContainer\LightServiceContainerAwareInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerAwareInterface.md',
-                "Ling\Light_AjaxHandler\Handler\ContainerAwareLightAjaxHandler" => 'https://github.com/lingtalfi/Light_AjaxHandler/blob/master/doc/api/Ling/Light_AjaxHandler/Handler/ContainerAwareLightAjaxHandler.md',
-                "Ling\Light_AjaxHandler\Handler\LightAjaxHandlerInterface" => 'https://github.com/lingtalfi/Light_AjaxHandler/blob/master/doc/api/Ling/Light_AjaxHandler/Handler/LightAjaxHandlerInterface.md',
-                "Ling\Light_Realist\ListActionHandler\LightServiceContainerInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md',
-                "Ling\Light_Realist\ListGeneralActionHandler\LightServiceContainerInterface" => 'https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md',
+                "Ling\Light\ServiceContainer\LightServiceContainerInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md",
+
+            ],
+            "ignoreFilesStartingWith" => [
+//                "PHPExcel/",
             ],
         ];
 
@@ -232,6 +193,9 @@ class Light_RealistDocBuilder
          * and since we've defined a @kw(copy module), it will also copy the whole doc to another location.
          */
         $builder->buildDoc();
+
+
+        LingTalfiDocToolsHelper::generateCrumbs($builder);
 
         if ('cli' !== php_sapi_name()) {
 

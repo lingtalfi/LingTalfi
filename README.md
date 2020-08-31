@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2020-08-18
+2019-03-13 -> 2020-08-31
 
 
 
@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.22.0 -- 2020-08-31
+
+    - update PackLightPluginCommand, now also packs from www/libs/universe/$galaxyName/$planetName
+    
 - 1.21.0 -- 2020-08-18
 
     - update PackLightPluginCommand, now also packs from config/dynamic

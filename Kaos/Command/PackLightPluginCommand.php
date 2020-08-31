@@ -66,7 +66,9 @@ class PackLightPluginCommand extends KaosGenericCommand
         $pluginDir = $this->application->getCurrentDirectory();
         $mapDir = $pluginDir . "/assets/map";
         $indentLevel = $this->application->getBaseIndentLevel();
-        $pluginName = basename($pluginDir);
+        $p = explode("/", $pluginDir);
+        $pluginName = array_pop($p);
+        $galaxyName = array_pop($p);
 
 
         if (null !== $applicationDir) {
@@ -83,6 +85,7 @@ class PackLightPluginCommand extends KaosGenericCommand
                 "templates/$pluginName",
                 "templates/Light_Mailer/$pluginName",
                 "www/plugins/$pluginName",
+                "www/libs/universe/$galaxyName/$pluginName",
             ];
 
 

@@ -169,6 +169,8 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBui
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Mailer/Light_MailerDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_MicroPermission/Light_MicroPermissionDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_MicroPermission/Light_MicroPermissionDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Nugget/Light_NuggetDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Nugget/Light_NuggetDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PasswordProtector/Light_PasswordProtectorDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PasswordProtector/Light_PasswordProtectorDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PluginDatabaseInstaller/Light_PluginDatabaseInstallerDocBuilder/buildDoc.md

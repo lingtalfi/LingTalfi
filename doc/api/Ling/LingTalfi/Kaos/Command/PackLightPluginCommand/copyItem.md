@@ -57,7 +57,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [PackLightPluginCommand::copyItem](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Command/PackLightPluginCommand.php#L117-L138)
+See the source code for method [PackLightPluginCommand::copyItem](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Command/PackLightPluginCommand.php#L120-L141)
 
 
 See Also

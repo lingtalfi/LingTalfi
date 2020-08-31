@@ -1,6 +1,6 @@
 Ling/LingTalfi
 ================
-2019-03-13 --> 2020-08-18
+2019-03-13 --> 2020-08-31
 
 
 
@@ -178,6 +178,8 @@ Table of contents
     - [Light_MailerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Mailer/Light_MailerDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Mailer planet.
 - [Light_MicroPermissionDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_MicroPermission/Light_MicroPermissionDocBuilder.md) &ndash; The Light_MicroPermissionDocBuilder class.
     - [Light_MicroPermissionDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_MicroPermission/Light_MicroPermissionDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_MicroPermission planet.
+- [Light_NuggetDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Nugget/Light_NuggetDocBuilder.md) &ndash; The Light_NuggetDocBuilder class.
+    - [Light_NuggetDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Nugget/Light_NuggetDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Nugget planet.
 - [Light_PasswordProtectorDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PasswordProtector/Light_PasswordProtectorDocBuilder.md) &ndash; The Light_PasswordProtectorDocBuilder class.
     - [Light_PasswordProtectorDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PasswordProtector/Light_PasswordProtectorDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_PasswordProtector planet.
 - [Light_PluginDatabaseInstallerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PluginDatabaseInstaller/Light_PluginDatabaseInstallerDocBuilder.md) &ndash; The Light_PluginDatabaseInstallerDocBuilder class.
