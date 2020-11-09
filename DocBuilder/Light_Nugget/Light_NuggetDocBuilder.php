@@ -142,6 +142,7 @@ class Light_NuggetDocBuilder
              */
             "keyWord2UrlMap" => [
                 "Light_Nugget conception notes" => $doc . '/pages/conception-notes.md',
+                "baked in security system section of the Light_Nugget conception notes" => $doc . '/pages/conception-notes.md#a-baked-in-security-system-for-nugget-users',
             ],
             /**
              * An array of external classes to url.

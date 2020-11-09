@@ -70,7 +70,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [Light_NuggetDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_Nugget/Light_NuggetDocBuilder.php#L45-L207)
+See the source code for method [Light_NuggetDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_Nugget/Light_NuggetDocBuilder.php#L45-L208)
 
 
 See Also

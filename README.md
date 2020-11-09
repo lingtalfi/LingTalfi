@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2020-08-31
+2019-03-13 -> 2020-11-09
 
 
 
@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.0 -- 2020-09-11
+
+    - update docbuilder template, now has the conception variable
+    
 - 1.22.0 -- 2020-08-31
 
     - update PackLightPluginCommand, now also packs from www/libs/universe/$galaxyName/$planetName

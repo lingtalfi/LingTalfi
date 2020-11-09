@@ -53,6 +53,7 @@ class Light_UserDataDocBuilder
         $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
+        $conception = $doc . "/pages/conception-notes.md";
 
 
         $options = [
@@ -81,6 +82,7 @@ class Light_UserDataDocBuilder
                 "Ling\Light_AjaxHandler\Handler\BaseLightAjaxHandler",
                 "Ling\Light_AjaxHandler\Handler\ContainerAwareLightAjaxHandler",
                 "Ling\TemporaryVirtualFileSystem\TemporaryVirtualFileSystem",
+                "Ling\Light_HttpError\Controller\LightHttpErrorController",
 
             ],
             /**
@@ -166,8 +168,9 @@ class Light_UserDataDocBuilder
                 "file manager protocol" => "https://github.com/lingtalfi/TheBar/blob/master/discussions/file-manager-protocol.md",
                 "original file" => "https://github.com/lingtalfi/TheBar/blob/master/discussions/file-manager-protocol.md#keeporiginalurl",
                 "Light_UserData conception notes" => $doc . "/pages/conception-notes.md",
-                "TemporaryVirtualFileSystem conception notes" =>  "https://github.com/lingtalfi/TemporaryVirtualFileSystem/blob/master/doc/pages/conception-notes.md",
-                "temporary virtual file system conception notes" =>  "https://github.com/lingtalfi/TemporaryVirtualFileSystem/blob/master/doc/pages/conception-notes.md",
+                "TemporaryVirtualFileSystem conception notes" => "https://github.com/lingtalfi/TemporaryVirtualFileSystem/blob/master/doc/pages/conception-notes.md",
+                "temporary virtual file system conception notes" => "https://github.com/lingtalfi/TemporaryVirtualFileSystem/blob/master/doc/pages/conception-notes.md",
+                "source file concept in the Light_UserData conception notes" => "https://github.com/lingtalfi/TemporaryVirtualFileSystem/blob/master/doc/pages/conception-notes.md",
             ],
             /**
              * An array of external classes to url.
@@ -205,6 +208,8 @@ class Light_UserDataDocBuilder
                 "Ling\TemporaryVirtualFileSystem\TemporaryVirtualFileSystem" => "https://github.com/lingtalfi/TemporaryVirtualFileSystem/blob/master/doc/api/Ling/TemporaryVirtualFileSystem/TemporaryVirtualFileSystem.md",
                 "Ling\TemporaryVirtualFileSystem\TemporaryVirtualFileSystemInterface" => "https://github.com/lingtalfi/TemporaryVirtualFileSystem/blob/master/doc/api/Ling/TemporaryVirtualFileSystem/TemporaryVirtualFileSystemInterface.md",
                 "Ling\Light_PluginInstaller\PluginInstaller\PluginPostInstallerInterface" => "https://github.com/lingtalfi/Light_PluginInstaller/blob/master/doc/api/Ling/Light_PluginInstaller/PluginInstaller/PluginPostInstallerInterface.md",
+                "Ling\Light_HttpError\Controller\LightHttpErrorController" => "https://github.com/lingtalfi/Light_HttpError/blob/master/doc/api/Ling/Light_HttpError/Controller/LightHttpErrorController.md",
+                "Ling\Light_UserData\FileManager\LightUserDataFileManagerHandler" => "https://github.com/lingtalfi/Light_UserData/blob/master/doc/api/Ling/Light_UserData/FileManager/LightUserDataFileManagerHandler.md",
 
 
             ],
