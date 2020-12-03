@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ling\LingTalfi\DocBuilder\Light_HttpError;
+namespace Ling\LingTalfi\DocBuilder\Light_Kit_Admin_LoginNotifier;
 
 
 use Ling\DocTools\DocBuilder\Git\PhpPlanet\LingGitPhpPlanetDocBuilder;
@@ -11,20 +11,20 @@ use Ling\LingTalfi\DocTools\LingTalfiDocToolsHelper;
 
 
 /**
- * The Light_HttpErrorDocBuilder class.
+ * The Light_Kit_Admin_LoginNotifierDocBuilder class.
  */
-class Light_HttpErrorDocBuilder
+class Light_Kit_Admin_LoginNotifierDocBuilder
 {
 
 
     /**
-     * Launch this function to generate the documentation for the Light_HttpError planet.
+     * Launch this function to generate the documentation for the Light_Kit_Admin_LoginNotifier planet.
      * (based on the LingGitPhpPlanetDocBuilder doc builder.
      *
      * If htmlMode is true (the default),
      * this method will generate all files in md format in the following directory:
      *
-     * - /myphp/universe/Light_HttpError/doc
+     * - /myphp/universe/Light_Kit_Admin_LoginNotifier/doc
      *
      *
      *
@@ -48,12 +48,12 @@ class Light_HttpErrorDocBuilder
         //--------------------------------------------
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
-        $planetDir = "/myphp/universe/Ling/Light_HttpError";
-        $gitRepoUrl = "https://github.com/lingtalfi/Light_HttpError";
+        $planetDir = "/myphp/universe/Ling/Light_Kit_Admin_LoginNotifier";
+        $gitRepoUrl = "https://github.com/lingtalfi/Light_Kit_Admin_LoginNotifier";
         $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
-
+        $conception = $doc . "/pages/conception-notes.md";
 
         $options = [
             "gitRepoUrl" => $gitRepoUrl,
@@ -75,7 +75,13 @@ class Light_HttpErrorDocBuilder
              *
              */
             "reportIgnore" => [
+                "Ling\Light_Kit_Admin\Controller\RealAdminPageController",
+                "Ling\Light_Kit_Admin\Controller\AdminPageController",
+                "Ling\Light_Kit_Admin\Controller\LightKitAdminController",
                 "Ling\Light\Controller\LightController",
+                "Ling\Light_ControllerHub\ControllerHubHandler\LightBaseControllerHubHandler",
+                "Ling\Light_Kit_Admin\LightKitAdminPlugin\BaseLightKitAdminPlugin",
+                "Ling\Light_Kit_Admin\Service\LightKitAdminStandardServicePlugin",
 
             ],
             /**
@@ -84,7 +90,7 @@ class Light_HttpErrorDocBuilder
              * The date when the project was last updated can be generated automatically, but the project
              * start date doesn't change.
              */
-            "projectStartDate" => "2020-10-30",
+            "projectStartDate" => "2020-11-30",
 
             /**
              * @kw(CopyModule).
@@ -142,7 +148,13 @@ class Light_HttpErrorDocBuilder
              * This map in particular is the one used for the whole DocTools planet documentation (pages and api).
              */
             "keyWord2UrlMap" => [
-                "Light_HttpError conception notes" => $doc . '/pages/conception-notes.md',
+                "Light_Kit_Admin_LoginNotifier conception notes" => $conception,
+                "the route page" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/route.md',
+                "kit service" => 'https://github.com/lingtalfi/Light_Kit',
+                "the flasher service" => 'https://github.com/lingtalfi/Light_Flasher',
+                "babyYaml" => 'https://github.com/lingtalfi/BabyYaml',
+                "Light_PluginInstaller conception notes" => 'https://github.com/lingtalfi/Light_PluginInstaller/blob/master/doc/pages/conception-notes.md',
+                "late registration concept" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/design/late-service-registration.md',
             ],
             /**
              * An array of external classes to url.
@@ -154,12 +166,23 @@ class Light_HttpErrorDocBuilder
              * in the class synopsis.
              */
             "externalClass2Url" => [
-                "Ling\Light\Controller\LightController" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Controller/LightController.md",
-                "Ling\Light\Core\LightAwareInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/LightAwareInterface.md",
+                "Ling\Light_Kit_Admin\Exception\LightKitAdminException" => "https://github.com/lingtalfi/Light_Kit_Admin/blob/master/doc/api/Ling/Light_Kit_Admin/Exception/LightKitAdminException.md",
+                "Ling\Light_Kit_Admin\Controller\RealAdminPageController" => "https://github.com/lingtalfi/Light_Kit_Admin/blob/master/doc/api/Ling/Light_Kit_Admin/Controller/RealAdminPageController.md",
+                "Ling\Light\Controller\RouteAwareControllerInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Controller/RouteAwareControllerInterface.md",
                 "Ling\Light\Controller\LightControllerInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Controller/LightControllerInterface.md",
+                "Ling\Light\Core\LightAwareInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/LightAwareInterface.md",
                 "Ling\Light\Core\Light" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Core/Light.md",
                 "Ling\Light\Http\HttpResponseInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md",
+                "Ling\Light_ControllerHub\ControllerHubHandler\LightBaseControllerHubHandler" => "https://github.com/lingtalfi/Light_ControllerHub/blob/master/doc/api/Ling/Light_ControllerHub/ControllerHubHandler/LightBaseControllerHubHandler.md",
+                "Ling\Light_ControllerHub\ControllerHubHandler\LightControllerHubHandlerInterface" => "https://github.com/lingtalfi/Light_ControllerHub/blob/master/doc/api/Ling/Light_ControllerHub/ControllerHubHandler/LightControllerHubHandlerInterface.md",
                 "Ling\Light\ServiceContainer\LightServiceContainerInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md",
+                "Ling\Light_Kit_Admin\LightKitAdminPlugin\BaseLightKitAdminPlugin" => "https://github.com/lingtalfi/Light_Kit_Admin/blob/master/doc/api/Ling/Light_Kit_Admin/LightKitAdminPlugin/BaseLightKitAdminPlugin.md",
+                "Ling\Light_Kit_Admin\LightKitAdminPlugin\LightKitAdminPluginInterface" => "https://github.com/lingtalfi/Light_Kit_Admin/blob/master/doc/api/Ling/Light_Kit_Admin/LightKitAdminPlugin/LightKitAdminPluginInterface.md",
+                "Ling\Light_Kit_Admin\Service\LightKitAdminStandardServicePlugin" => "https://github.com/lingtalfi/Light_Kit_Admin/blob/master/doc/api/Ling/Light_Kit_Admin/Service/LightKitAdminStandardServicePlugin.md",
+                "Ling\Light_Realform\Service\LightRealformLateServiceRegistrationInterface" => "https://github.com/lingtalfi/Light_Realform/blob/master/doc/api/Ling/Light_Realform/Service/LightRealformLateServiceRegistrationInterface.md",
+                "Ling\Light_Realist\Service\LightRealistCustomServiceInterface" => "https://github.com/lingtalfi/Light_Realist/blob/master/doc/api/Ling/Light_Realist/Service/LightRealistCustomServiceInterface.md",
+                "Ling\Light_PluginInstaller\PluginInstaller\PluginInstallerInterface" => "https://github.com/lingtalfi/Light_PluginInstaller/blob/master/doc/api/Ling/Light_PluginInstaller/PluginInstaller/PluginInstallerInterface.md",
+                "Ling\Light\ServiceContainer\LightServiceContainerAwareInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerAwareInterface.md",
 
             ],
             "ignoreFilesStartingWith" => [

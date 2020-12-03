@@ -158,7 +158,6 @@ class Light_RealformDocBuilder
                 "Light_Realform conception notes" =>  $doc . '/pages/2020/conception-notes.md',
                 "the updateRic definition in the Light_Realform conception notes" =>  $doc . '/pages/2020/conception-notes.md#the-updateric-concept',
                 "the configuration file section of the Light_Realform conception notes" =>  $doc . '/pages/2020/conception-notes.md#the-configuration-file',
-                "the multiplier directive in the configuration file of the Light_Realform conception notes" =>  $doc . '/pages/2020/conception-notes.md#the-configuration-file',
             ],
             /**
              * An array of external classes to url.
