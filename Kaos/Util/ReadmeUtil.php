@@ -5,6 +5,9 @@ namespace Ling\LingTalfi\Kaos\Util;
 
 
 use Ling\Bat\FileSystemTool;
+use Ling\LingTalfi\Exception\LingTalfiException;
+use Ling\UniverseTools\MetaInfoTool;
+use Ling\UniverseTools\PlanetTool;
 
 /**
  * The ReadmeUtil class.
@@ -31,6 +34,12 @@ class ReadmeUtil
      */
     protected $serviceContent;
 
+    /**
+     * This property holds the historyLogRegex for this instance.
+     * @var string
+     */
+    private $historyLogRegex;
+
 
     /**
      * Builds the ReadmeUtil instance.
@@ -40,6 +49,7 @@ class ReadmeUtil
         $this->errors = [];
         $this->isLight = false;
         $this->serviceContent = '';
+        $this->historyLogRegex = '!History\s*Log!i';
     }
 
     /**
@@ -186,6 +196,47 @@ class ReadmeUtil
         return $ret;
     }
 
+
+    /**
+     * Returns an array of all version numbers found in the in the "History Log" section of the "read me" file.
+     * @return array
+     */
+    public function getAllVersionNumbers(string $readmePath): array
+    {
+        $lines = file($readmePath, FILE_SKIP_EMPTY_LINES);
+
+
+        //--------------------------------------------
+        // FIRST COLLECT HISTORY LINES
+        //--------------------------------------------
+        $started = false;
+        $historyLines = [];
+        foreach ($lines as $line) {
+            $line = trim($line);
+
+            if (true === $started) {
+                $historyLines[] = $line;
+            } else {
+                if (preg_match($this->historyLogRegex, $line, $match)) {
+                    $started = true;
+                }
+            }
+        }
+
+        //--------------------------------------------
+        // NOW COLLECT THE VERSION NUMBERS
+        //--------------------------------------------
+        $versionNumbers = [];
+        foreach ($historyLines as $line) {
+            if (preg_match('!-\s([0-9][^-]+)\s-+\s[0-9]{4}-[0-9]{2}-[0-9]{2}!', $line, $match)) {
+                $versionNumbers[] = $match[1];
+            }
+        }
+
+        sort($versionNumbers);
+        return $versionNumbers;
+    }
+
     /**
      * Returns the errors of this instance.
      *
@@ -197,6 +248,78 @@ class ReadmeUtil
     }
 
 
+    /**
+     *
+     * Adds an history entry to the given "read me" file, with the given message, date and version.
+     * Throws an exception if it fails.
+     *
+     * @param string $readmePath
+     * @param string $version
+     * @param string $date
+     * @param string $message
+     */
+    public function addHistoryLogEntry(string $readmePath, string $version, string $date, string $message)
+    {
+        $lines = file($readmePath, FILE_SKIP_EMPTY_LINES);
+        //--------------------------------------------
+        // FIRST COLLECT HISTORY LINES
+        //--------------------------------------------
+        $started = false;
+        $index = null;
+        foreach ($lines as $k => $line) {
+            $line = trim($line);
+            if (true === $started) {
+                if (preg_match('!- [0-9].*!', $line, $match)) {
+                    $index = $k - 1;
+                    break;
+                }
+            } else {
+                if (preg_match($this->historyLogRegex, $line, $match)) {
+                    $started = true;
+                }
+            }
+        }
+
+        if (null !== $index) {
+            array_splice($lines, $index, 1, [
+                '' . PHP_EOL,
+                "- $version -- $date" . PHP_EOL,
+                '' . PHP_EOL,
+                "    - $message" . PHP_EOL,
+                '' . PHP_EOL,
+            ]);
+            FileSystemTool::mkfile($readmePath, implode('', $lines));
+        } else {
+            throw new LingTalfiException("Didn't find a log entry section for this README file: $readmePath.");
+        }
+    }
+
+
+    /**
+     * Adds a commit message to the history log section of the README files for each planet in the given universeDir.
+     * The version number is incremented from the last version found, using a minor version number increment.
+     * The date is set to the current date.
+     *
+     *
+     *
+     * @param string $universeDir
+     * @param string $message
+     */
+    public function addCommitMessageByUniverseDir(string $universeDir, string $message)
+    {
+        $planetDirs = PlanetTool::getPlanetDirs($universeDir);
+        $date = date("Y-m-d");
+        foreach ($planetDirs as $planetDir) {
+            $lastVersion = MetaInfoTool::getVersion($planetDir);
+            $p = explode(".", $lastVersion);
+            $lastComponent = (int)array_pop($p);
+            $lastComponent++;
+            $p[] = $lastComponent;
+            $version = implode('.', $p);
+            $readmePath = $planetDir . "/README.md";
+            $this->addHistoryLogEntry($readmePath, $version, $date, $message);
+        }
+    }
 
 
 

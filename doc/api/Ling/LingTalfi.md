@@ -1,6 +1,6 @@
 Ling/LingTalfi
 ================
-2019-03-13 --> 2020-12-03
+2019-03-13 --> 2020-12-04
 
 
 
@@ -294,6 +294,10 @@ Table of contents
     - [ZephyrTemplateEngineDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ZephyrTemplateEngine/ZephyrTemplateEngineDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the ZephyrTemplateEngine planet.
 - [LingTalfiDocToolsHelper](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocTools/LingTalfiDocToolsHelper.md) &ndash; The LingTalfiDocToolsHelper class.
     - [LingTalfiDocToolsHelper::generateCrumbs](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocTools/LingTalfiDocToolsHelper/generateCrumbs.md) &ndash; The generateCrumbs method
+- [LingTalfiException](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Exception/LingTalfiException.md) &ndash; The LingTalfiException class.
+- [GranularDependencyUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil.md) &ndash; The GranularDependencyUtil class.
+    - [GranularDependencyUtil::getReadmeVersionsByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/getReadmeVersionsByPlanetDir.md) &ndash; Returns the array of all version numbers found in the README.md of the given planetDir.
+    - [GranularDependencyUtil::createLpiDepsFileByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/createLpiDepsFileByPlanetDir.md) &ndash; Creates the lpi-deps file for the given planetDir.
 - [KaosApplication](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Application/KaosApplication.md) &ndash; The KaosApplication class.
     - [KaosApplication::__construct](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Application/KaosApplication/__construct.md) &ndash; Builds the KaosApplication instance.
     - [KaosApplication::getCurrentDirectory](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Application/KaosApplication/getCurrentDirectory.md) &ndash; Returns the current directory when this instance was first instantiated.
@@ -341,7 +345,10 @@ Table of contents
     - [ReadmeUtil::setServiceContent](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/setServiceContent.md) &ndash; Sets the serviceContent.
     - [ReadmeUtil::createBasicReadmeFile](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/createBasicReadmeFile.md) &ndash; was successful.
     - [ReadmeUtil::getLatestVersionInfo](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/getLatestVersionInfo.md) &ndash; section of the given README file.
+    - [ReadmeUtil::getAllVersionNumbers](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/getAllVersionNumbers.md) &ndash; Returns an array of all version numbers found in the in the "History Log" section of the "read me" file.
     - [ReadmeUtil::getErrors](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/getErrors.md) &ndash; Returns the errors of this instance.
+    - [ReadmeUtil::addHistoryLogEntry](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/addHistoryLogEntry.md) &ndash; Adds an history entry to the given "read me" file, with the given message, date and version.
+    - [ReadmeUtil::addCommitMessageByUniverseDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/addCommitMessageByUniverseDir.md) &ndash; Adds a commit message to the history log section of the README files for each planet in the given universeDir.
 - [PhpStormMetaHelper](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/PhpStormMeta/PhpStormMetaHelper.md) &ndash; The PhpStormMetaHelper class.
     - [PhpStormMetaHelper::getPhpStormMetaMapString](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/PhpStormMeta/PhpStormMetaHelper/getPhpStormMetaMapString.md) &ndash; $container->get("my_service")-> // phpstorm will autocomplete with the methods of that service...
 - [UpdateAllPlanetsTool](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool.md) &ndash; The UpdateAllPlanetsTool class.
@@ -349,6 +356,18 @@ Table of contents
     - [UpdateAllPlanetsTool::updateAllPlanets](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool/updateAllPlanets.md) &ndash; An old method I used to push all planets to github.
     - [UpdateAllPlanetsTool::alterLinks](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool/alterLinks.md) &ndash; An old method I used to update links when when I introduced the galaxy concept into the universe.
     - [UpdateAllPlanetsTool::alter](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool/alter.md) &ndash; to convert the old system with package-info.yml to meta-info.byml and dependencies.byml...
+- [CommitUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil.md) &ndash; The CommitUtil class.
+    - [CommitUtil::commitAllPlanets](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil/commitAllPlanets.md) &ndash; Commit all planets using the kpp routine.
+- [ReadmeUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/ReadmeUtil.md) &ndash; The ReadmeUtil class.
+    - [ReadmeUtil::__construct](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/__construct.md) &ndash; Builds the ReadmeUtil instance.
+    - [ReadmeUtil::setIsLight](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/setIsLight.md) &ndash; Sets the isLight.
+    - [ReadmeUtil::setServiceContent](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/setServiceContent.md) &ndash; Sets the serviceContent.
+    - [ReadmeUtil::createBasicReadmeFile](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/createBasicReadmeFile.md) &ndash; was successful.
+    - [ReadmeUtil::getLatestVersionInfo](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/getLatestVersionInfo.md) &ndash; section of the given README file.
+    - [ReadmeUtil::getAllVersionNumbers](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/getAllVersionNumbers.md) &ndash; Returns an array of all version numbers found in the in the "History Log" section of the "read me" file.
+    - [ReadmeUtil::getErrors](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/getErrors.md) &ndash; Returns the errors of this instance.
+    - [ReadmeUtil::addHistoryLogEntry](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/addHistoryLogEntry.md) &ndash; Adds an history entry to the given "read me" file, with the given message, date and version.
+    - [ReadmeUtil::addCommitMessageByUniverseDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/addCommitMessageByUniverseDir.md) &ndash; Adds a commit message to the history log section of the README files for each planet in the given universeDir.
 
 
 Dependencies
@@ -356,10 +375,10 @@ Dependencies
 - [DocTools](https://github.com/lingtalfi/DocTools)
 - [Kit_PicassoWidget](https://github.com/lingtalfi/Kit_PicassoWidget)
 - [Bat](https://github.com/lingtalfi/Bat)
+- [BabyYaml](https://github.com/lingtalfi/BabyYaml)
+- [UniverseTools](https://github.com/lingtalfi/UniverseTools)
 - [CliTools](https://github.com/lingtalfi/CliTools)
 - [DirScanner](https://github.com/lingtalfi/DirScanner)
-- [UniverseTools](https://github.com/lingtalfi/UniverseTools)
-- [BabyYaml](https://github.com/lingtalfi/BabyYaml)
 - [Uni2](https://github.com/lingtalfi/Uni2)
 - [PlanetSitemap](https://github.com/lingtalfi/PlanetSitemap)
 - [SimpleCurl](https://github.com/lingtalfi/SimpleCurl)

@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.2 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.23.1 -- 2020-12-03
 
     - update PackLightPluginCommand, now also packs from scripts/$galaxy/$planet
