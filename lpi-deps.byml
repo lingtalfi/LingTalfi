@@ -491,3 +491,17 @@
     - Ling:PlanetSitemap:1.0.3
     - Ling:SimpleCurl:1.0.4
     - Ling:Light:0.69.17
+
+1.23.4: 
+    - Ling:DocTools:1.14.2
+    - Ling:Kit_PicassoWidget:1.30.2
+    - Ling:Bat:1.293
+    - Ling:BabyYaml:1.7.5
+    - Ling:Light_PlanetInstaller:0.0.1
+    - Ling:UniverseTools:1.21.6
+    - Ling:CliTools:1.10.6
+    - Ling:DirScanner:1.13.2
+    - Ling:Uni2:1.9.5
+    - Ling:PlanetSitemap:1.0.3
+    - Ling:SimpleCurl:1.0.4
+    - Ling:Light:0.69.18

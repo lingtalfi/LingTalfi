@@ -162,9 +162,8 @@ class PushCommand extends KaosGenericCommand
                     // LPI DEPENDENCIES
                     //--------------------------------------------
                     H::info(H::i($indentLevel + 1) . "Updating <b>lpi-deps.byml</b>...", $output);
-                    if (true === LightPlanetInstallerHelper::updateLpiDepsByPlanetDir($planetDir)) {
-                        $output->write('<success>ok</success>' . PHP_EOL);
-                    }
+                    LightPlanetInstallerHelper::updateLpiDepsByPlanetDir($planetDir);
+                    $output->write('<success>ok</success>' . PHP_EOL);
 
 
                     //--------------------------------------------

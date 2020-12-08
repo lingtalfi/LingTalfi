@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.4 -- 2020-12-08
+
+    - Fix lpi-deps not using natsort.
+
 - 1.23.3 -- 2020-12-08
 
     - fix ReadmeUtil->getAllVersionNumbers not returning natsort ordered items
