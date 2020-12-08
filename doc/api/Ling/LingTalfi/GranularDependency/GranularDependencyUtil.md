@@ -4,7 +4,7 @@
 
 The GranularDependencyUtil class
 ================
-2019-03-13 --> 2020-12-04
+2019-03-13 --> 2020-12-08
 
 
 
@@ -25,8 +25,8 @@ Class synopsis
 class <span class="pl-k">GranularDependencyUtil</span>  {
 
 - Methods
-    - public [getReadmeVersionsByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/getReadmeVersionsByPlanetDir.md)(string $planetDir) : array
-    - public [createLpiDepsFileByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/createLpiDepsFileByPlanetDir.md)(string $planetDir, ?array $options = []) : void
+    - public static [getReadmeVersionsByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/getReadmeVersionsByPlanetDir.md)(string $planetDir) : array
+    - public [getMasterDependencyFileContentByUniverseDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/getMasterDependencyFileContentByUniverseDir.md)(string $universeDir, ?array &$errors = []) : string
 
 }
 
@@ -39,7 +39,7 @@ Methods
 ==============
 
 - [GranularDependencyUtil::getReadmeVersionsByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/getReadmeVersionsByPlanetDir.md) &ndash; Returns the array of all version numbers found in the README.md of the given planetDir.
-- [GranularDependencyUtil::createLpiDepsFileByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/createLpiDepsFileByPlanetDir.md) &ndash; Creates the lpi-deps file for the given planetDir.
+- [GranularDependencyUtil::getMasterDependencyFileContentByUniverseDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/getMasterDependencyFileContentByUniverseDir.md) &ndash; Creates the master dependency file content for the given universe directory and returns it.
 
 
 

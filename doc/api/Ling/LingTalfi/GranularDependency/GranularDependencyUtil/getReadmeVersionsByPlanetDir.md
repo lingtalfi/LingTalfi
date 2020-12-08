@@ -16,7 +16,7 @@ Description
 ================
 
 
-public [GranularDependencyUtil::getReadmeVersionsByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/getReadmeVersionsByPlanetDir.md)(string $planetDir) : array
+public static [GranularDependencyUtil::getReadmeVersionsByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/getReadmeVersionsByPlanetDir.md)(string $planetDir) : array
 
 
 
@@ -49,7 +49,7 @@ Returns array.
 
 Source Code
 ===========
-See the source code for method [GranularDependencyUtil::getReadmeVersionsByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/GranularDependency/GranularDependencyUtil.php#L25-L34)
+See the source code for method [GranularDependencyUtil::getReadmeVersionsByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/GranularDependency/GranularDependencyUtil.php#L28-L37)
 
 
 See Also
@@ -57,5 +57,5 @@ See Also
 
 The [GranularDependencyUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil.md) class.
 
-Next method: [createLpiDepsFileByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/createLpiDepsFileByPlanetDir.md)<br>
+Next method: [getMasterDependencyFileContentByUniverseDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/getMasterDependencyFileContentByUniverseDir.md)<br>
 

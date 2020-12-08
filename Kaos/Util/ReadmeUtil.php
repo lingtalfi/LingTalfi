@@ -233,7 +233,7 @@ class ReadmeUtil
             }
         }
 
-        sort($versionNumbers);
+        natsort($versionNumbers);
         return $versionNumbers;
     }
 

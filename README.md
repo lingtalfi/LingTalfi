@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2020-12-03
+2019-03-13 -> 2020-12-08
 
 
 
@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.3 -- 2020-12-08
+
+    - fix ReadmeUtil->getAllVersionNumbers not returning natsort ordered items
+  
 - 1.23.2 -- 2020-12-04
 
     - Add lpi-deps.byml file

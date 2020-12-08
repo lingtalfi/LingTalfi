@@ -1,6 +1,6 @@
 Ling/LingTalfi
 ================
-2019-03-13 --> 2020-12-04
+2019-03-13 --> 2020-12-08
 
 
 
@@ -188,6 +188,8 @@ Table of contents
     - [Light_NuggetDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Nugget/Light_NuggetDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Nugget planet.
 - [Light_PasswordProtectorDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PasswordProtector/Light_PasswordProtectorDocBuilder.md) &ndash; The Light_PasswordProtectorDocBuilder class.
     - [Light_PasswordProtectorDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PasswordProtector/Light_PasswordProtectorDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_PasswordProtector planet.
+- [Light_PlanetInstallerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PlanetInstaller/Light_PlanetInstallerDocBuilder.md) &ndash; The Light_PlanetInstallerDocBuilder class.
+    - [Light_PlanetInstallerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PlanetInstaller/Light_PlanetInstallerDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_PlanetInstaller planet.
 - [Light_PluginDatabaseInstallerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PluginDatabaseInstaller/Light_PluginDatabaseInstallerDocBuilder.md) &ndash; The Light_PluginDatabaseInstallerDocBuilder class.
     - [Light_PluginDatabaseInstallerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PluginDatabaseInstaller/Light_PluginDatabaseInstallerDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_PluginDatabaseInstaller planet.
 - [Light_PluginInstallerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PluginInstaller/Light_PluginInstallerDocBuilder.md) &ndash; The Light_PluginInstallerDocBuilder class.
@@ -297,7 +299,7 @@ Table of contents
 - [LingTalfiException](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Exception/LingTalfiException.md) &ndash; The LingTalfiException class.
 - [GranularDependencyUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil.md) &ndash; The GranularDependencyUtil class.
     - [GranularDependencyUtil::getReadmeVersionsByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/getReadmeVersionsByPlanetDir.md) &ndash; Returns the array of all version numbers found in the README.md of the given planetDir.
-    - [GranularDependencyUtil::createLpiDepsFileByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/createLpiDepsFileByPlanetDir.md) &ndash; Creates the lpi-deps file for the given planetDir.
+    - [GranularDependencyUtil::getMasterDependencyFileContentByUniverseDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/GranularDependency/GranularDependencyUtil/getMasterDependencyFileContentByUniverseDir.md) &ndash; Creates the master dependency file content for the given universe directory and returns it.
 - [KaosApplication](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Application/KaosApplication.md) &ndash; The KaosApplication class.
     - [KaosApplication::__construct](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Application/KaosApplication/__construct.md) &ndash; Builds the KaosApplication instance.
     - [KaosApplication::getCurrentDirectory](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Application/KaosApplication/getCurrentDirectory.md) &ndash; Returns the current directory when this instance was first instantiated.
@@ -376,6 +378,7 @@ Dependencies
 - [Kit_PicassoWidget](https://github.com/lingtalfi/Kit_PicassoWidget)
 - [Bat](https://github.com/lingtalfi/Bat)
 - [BabyYaml](https://github.com/lingtalfi/BabyYaml)
+- [Light_PlanetInstaller](https://github.com/lingtalfi/Light_PlanetInstaller)
 - [UniverseTools](https://github.com/lingtalfi/UniverseTools)
 - [CliTools](https://github.com/lingtalfi/CliTools)
 - [DirScanner](https://github.com/lingtalfi/DirScanner)

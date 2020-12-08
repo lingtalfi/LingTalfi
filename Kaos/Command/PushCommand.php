@@ -10,6 +10,7 @@ use Ling\CliTools\Helper\VirginiaMessageHelper as H;
 use Ling\CliTools\Input\ArrayInput;
 use Ling\CliTools\Input\InputInterface;
 use Ling\CliTools\Output\OutputInterface;
+use Ling\Light_PlanetInstaller\Helper\LightPlanetInstallerHelper;
 use Ling\LingTalfi\Kaos\Tool\PreferencesTool;
 use Ling\LingTalfi\Kaos\Util\ReadmeUtil;
 use Ling\PlanetSitemap\PlanetSitemapHelper;
@@ -154,6 +155,15 @@ class PushCommand extends KaosGenericCommand
                                 H::info(H::i($indentLevel + 1) . "Couldn't copy the dir." . PHP_EOL, $output);
                             }
                         }
+                    }
+
+
+                    //--------------------------------------------
+                    // LPI DEPENDENCIES
+                    //--------------------------------------------
+                    H::info(H::i($indentLevel + 1) . "Updating <b>lpi-deps.byml</b>...", $output);
+                    if (true === LightPlanetInstallerHelper::updateLpiDepsByPlanetDir($planetDir)) {
+                        $output->write('<success>ok</success>' . PHP_EOL);
                     }
 
 

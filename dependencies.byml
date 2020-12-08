@@ -4,6 +4,7 @@ dependencies:
         - Kit_PicassoWidget
         - Bat
         - BabyYaml
+        - Light_PlanetInstaller
         - UniverseTools
         - CliTools
         - DirScanner

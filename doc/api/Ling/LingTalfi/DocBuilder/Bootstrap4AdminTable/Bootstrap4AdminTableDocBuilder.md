@@ -4,7 +4,7 @@
 
 The Bootstrap4AdminTableDocBuilder class
 ================
-2019-03-13 --> 2020-12-04
+2019-03-13 --> 2020-12-08
 
 
 
