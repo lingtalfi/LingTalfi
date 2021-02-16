@@ -6,12 +6,14 @@ dependencies:
         - BabyYaml
         - Light_PlanetInstaller
         - UniverseTools
+        - Light
+        - Light_DbSynchronizer
+        - Light_PluginInstaller
         - CliTools
         - DirScanner
         - Uni2
         - PlanetSitemap
         - SimpleCurl
-        - Light
     
 
 post_install: []

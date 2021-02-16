@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2020-12-08
+2019-03-13 -> 2021-02-16
 
 
 
@@ -33,9 +33,13 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
-- 1.23.4 -- 2020-12-08
+- 1.23.5 -- 2021-02-16
 
-    - Fix lpi-deps not using natsort.
+    - add GranularDependencyUtil and AppBoilerPlateUtil class, update ReadmeUtil, move some methods to UniverseTools
+  
+- 1.23.4 -- 2020-12-08
+  
+    - Fix lpi-deps not using natsort
 
 - 1.23.3 -- 2020-12-08
 

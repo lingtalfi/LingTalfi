@@ -4,8 +4,8 @@
 namespace Ling\LingTalfi\GranularDependency;
 
 use Ling\BabyYaml\BabyYamlUtil;
-use Ling\Light_PlanetInstaller\Helper\LightPlanetInstallerHelper;
-use Ling\LingTalfi\Kaos\Util\ReadmeUtil;
+use Ling\Bat\FileSystemTool;
+use Ling\Light_PlanetInstaller\Helper\LpiConfHelper;
 use Ling\UniverseTools\PlanetTool;
 
 /**
@@ -15,29 +15,24 @@ class GranularDependencyUtil
 {
 
 
-    //--------------------------------------------
-    //
-    //--------------------------------------------
     /**
-     * Returns the array of all version numbers found in the README.md of the given planetDir.
+     * Creates the Light_PlanetInstaller master lpi file at $rootDir/lpi-master.byml.
+     *
+     * See the @page(Light_PlanetInstaller conception notes) for more details.
+     *
+     * Feeds the $errors array when an error is triggered.
      *
      *
-     * @param string $planetDir
-     * @return array
+     * @param string $universeDir
+     * @param array $errors
      */
-    public static function getReadmeVersionsByPlanetDir(string $planetDir): array
+    public static function createMasterDependencyFileByUniverseDir(string $universeDir, array &$errors = [])
     {
-        $ret = [];
-        $readmePath = $planetDir . "/README.md";
-        if (file_exists($readmePath)) {
-            $util = new ReadmeUtil();
-            $ret = $util->getAllVersionNumbers($readmePath);
-        }
-        return $ret;
+        $dst = LpiConfHelper::getMasterFilePath();
+        $errors = [];
+        $s = self::getMasterDependencyFileContentByUniverseDir($universeDir, $errors);
+        FileSystemTool::mkfile($dst, $s);
     }
-
-
-
 
 
     /**
@@ -50,7 +45,7 @@ class GranularDependencyUtil
      * @param array $errors
      * @return string
      */
-    public function getMasterDependencyFileContentByUniverseDir(string $universeDir, array &$errors = []): string
+    public static function getMasterDependencyFileContentByUniverseDir(string $universeDir, array &$errors = []): string
     {
         $i4 = str_repeat(' ', 4);
         $s = '';

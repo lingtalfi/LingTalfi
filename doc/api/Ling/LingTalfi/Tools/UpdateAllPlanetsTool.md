@@ -4,7 +4,7 @@
 
 The UpdateAllPlanetsTool class
 ================
-2019-03-13 --> 2020-12-08
+2019-03-13 --> 2021-02-16
 
 
 
@@ -58,4 +58,4 @@ See the source code of [Ling\LingTalfi\Tools\UpdateAllPlanetsTool](https://githu
 
 SeeAlso
 ==============
-Previous class: [PhpStormMetaHelper](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/PhpStormMeta/PhpStormMetaHelper.md)<br>Next class: [CommitUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil.md)<br>
+Previous class: [PhpStormMetaHelper](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/PhpStormMeta/PhpStormMetaHelper.md)<br>Next class: [AppBoilerplateUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/AppBoilerplateUtil.md)<br>

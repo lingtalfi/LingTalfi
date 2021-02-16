@@ -75,7 +75,10 @@ class Light_PlanetInstallerDocBuilder
              *
              */
             "reportIgnore" => [
-//                "Ling\DocTools\Translator\ParseDownTranslator",
+                "Ling\CliTools\Program\Application",
+                "Ling\CliTools\Program\AbstractProgram",
+                "Ling\Light_Cli\CliTools\Program\LightCliBaseApplication",
+
             ],
             /**
              * Your project start date.
@@ -142,6 +145,9 @@ class Light_PlanetInstallerDocBuilder
              */
             "keyWord2UrlMap" => [
                 "Light_PlanetInstaller conception notes" => $conception,
+                "bashtml" => 'https://github.com/lingtalfi/CliTools/blob/master/doc/pages/bashtml.md',
+                "planet dot name" => 'https://github.com/karayabin/universe-snapshot#the-planet-dot-name',
+                "classic log levels" => 'https://github.com/lingtalfi/TheBar/blob/master/discussions/classic-log-levels.md',
             ],
             /**
              * An array of external classes to url.
@@ -153,7 +159,19 @@ class Light_PlanetInstallerDocBuilder
              * in the class synopsis.
              */
             "externalClass2Url" => [
-//                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
+                "Exception" => "https://github.com/lingtalfi//blob/master/doc/api/Exception.md",
+                "Ling\CliTools\Command\CommandInterface" => "https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Command/CommandInterface.md",
+                "Ling\CliTools\Program\Application" => "https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Program/Application.md",
+                "Ling\CliTools\Program\ProgramInterface" => "https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Program/ProgramInterface.md",
+                "Ling\CliTools\Output\OutputInterface" => "https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/OutputInterface.md",
+                "Ling\Light\ServiceContainer\LightServiceContainerInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md",
+                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger/blob/master/doc/api/Ling/UniversalLogger/UniversalLoggerInterface.md",
+                "Ling\Light\ServiceContainer\LightServiceContainerAwareInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerAwareInterface.md",
+                "Ling\Light_Cli\CliTools\Program\LightCliCommandInterface" => "https://github.com/lingtalfi/Light_Cli/blob/master/doc/api/Ling/Light_Cli/CliTools/Program/LightCliCommandInterface.md",
+                "Ling\Light_Cli\CliTools\Program\LightCliBaseApplication" => "https://github.com/lingtalfi/Light_Cli/blob/master/doc/api/Ling/Light_Cli/CliTools/Program/LightCliBaseApplication.md",
+                "Ling\Light_Cli\CliTools\Program\LightCliApplicationInterface" => "https://github.com/lingtalfi/Light_Cli/blob/master/doc/api/Ling/Light_Cli/CliTools/Program/LightCliApplicationInterface.md",
+                "Ling\Light_PlanetInstaller\Util\array array" => "https://github.com/lingtalfi/Light_PlanetInstaller/blob/master/doc/api/Ling/Light_PlanetInstaller/Util/array array.md",
+
             ],
             "ignoreFilesStartingWith" => [
 //                "PHPExcel/",
