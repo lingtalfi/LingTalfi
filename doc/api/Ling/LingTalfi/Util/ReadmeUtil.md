@@ -4,7 +4,7 @@
 
 The ReadmeUtil class
 ================
-2019-03-13 --> 2021-02-16
+2019-03-13 --> 2021-02-19
 
 
 
@@ -67,4 +67,4 @@ See the source code of [Ling\LingTalfi\Util\ReadmeUtil](https://github.com/lingt
 
 SeeAlso
 ==============
-Previous class: [CommitUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil.md)<br>
+Previous class: [KwinToLightCliCommandCodeUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil.md)<br>

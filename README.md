@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2021-02-16
+2019-03-13 -> 2021-02-19
 
 
 
@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.6 -- 2021-02-19
+
+    - add kwin related utils
+  
 - 1.23.5 -- 2021-02-16
 
     - add GranularDependencyUtil and AppBoilerPlateUtil class, update ReadmeUtil, move some methods to UniverseTools

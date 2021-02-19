@@ -1,6 +1,6 @@
 Ling/LingTalfi
 ================
-2019-03-13 --> 2021-02-16
+2019-03-13 --> 2021-02-19
 
 
 
@@ -82,6 +82,8 @@ Table of contents
     - [Kit_PrototypeWidgetDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Kit_PrototypeWidget/Kit_PrototypeWidgetDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Kit_PrototypeWidget planet.
 - [KrankenSteinDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/KrankenStein/KrankenSteinDocBuilder.md) &ndash; The KrankenSteinDocBuilder class.
     - [KrankenSteinDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/KrankenStein/KrankenSteinDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the KrankenStein planet.
+- [KwinDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Kwin/KwinDocBuilder.md) &ndash; The KwinDocBuilder class.
+    - [KwinDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Kwin/KwinDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Kwin planet.
 - [LightDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light/LightDocBuilder.md) &ndash; The LightDocBuilder class.
     - [LightDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light/LightDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light planet.
 - [Light_404LoggerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_404Logger/Light_404LoggerDocBuilder.md) &ndash; The Light_404LoggerDocBuilder class.
@@ -377,6 +379,8 @@ Table of contents
     - [AppBoilerplateUtil::upgradeBoilerplate](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/AppBoilerplateUtil/upgradeBoilerplate.md) &ndash; Upgrades the boilerplate for the Light_AppBoilerplate planet.
 - [CommitUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil.md) &ndash; The CommitUtil class.
     - [CommitUtil::commitAllPlanets](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil/commitAllPlanets.md) &ndash; Commit all planets using the kpp routine.
+- [KwinToLightCliCommandCodeUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil.md) &ndash; The KwinToLightCliCommandCodeUtil class.
+    - [KwinToLightCliCommandCodeUtil::printCodeByKwin](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil/printCodeByKwin.md) &ndash; Prints the php code corresponding to the given kwin string.
 - [ReadmeUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/ReadmeUtil.md) &ndash; The ReadmeUtil class.
     - [ReadmeUtil::__construct](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/__construct.md) &ndash; Builds the ReadmeUtil instance.
     - [ReadmeUtil::setIsLight](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/setIsLight.md) &ndash; Sets the isLight.
@@ -388,19 +392,20 @@ Table of contents
 
 Dependencies
 ============
-- [DocTools](https://github.com/lingtalfi/DocTools)
-- [Kit_PicassoWidget](https://github.com/lingtalfi/Kit_PicassoWidget)
-- [Bat](https://github.com/lingtalfi/Bat)
 - [BabyYaml](https://github.com/lingtalfi/BabyYaml)
-- [Light_PlanetInstaller](https://github.com/lingtalfi/Light_PlanetInstaller)
-- [UniverseTools](https://github.com/lingtalfi/UniverseTools)
-- [Light](https://github.com/lingtalfi/Light)
-- [Light_DbSynchronizer](https://github.com/lingtalfi/Light_DbSynchronizer)
-- [Light_PluginInstaller](https://github.com/lingtalfi/Light_PluginInstaller)
+- [Bat](https://github.com/lingtalfi/Bat)
 - [CliTools](https://github.com/lingtalfi/CliTools)
 - [DirScanner](https://github.com/lingtalfi/DirScanner)
-- [Uni2](https://github.com/lingtalfi/Uni2)
+- [DocTools](https://github.com/lingtalfi/DocTools)
+- [Kit_PicassoWidget](https://github.com/lingtalfi/Kit_PicassoWidget)
+- [Kwin](https://github.com/lingtalfi/Kwin)
+- [Light](https://github.com/lingtalfi/Light)
+- [Light_DbSynchronizer](https://github.com/lingtalfi/Light_DbSynchronizer)
+- [Light_PlanetInstaller](https://github.com/lingtalfi/Light_PlanetInstaller)
+- [Light_PluginInstaller](https://github.com/lingtalfi/Light_PluginInstaller)
 - [PlanetSitemap](https://github.com/lingtalfi/PlanetSitemap)
 - [SimpleCurl](https://github.com/lingtalfi/SimpleCurl)
+- [Uni2](https://github.com/lingtalfi/Uni2)
+- [UniverseTools](https://github.com/lingtalfi/UniverseTools)
 
 

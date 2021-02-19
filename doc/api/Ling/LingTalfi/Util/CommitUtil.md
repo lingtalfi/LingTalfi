@@ -4,7 +4,7 @@
 
 The CommitUtil class
 ================
-2019-03-13 --> 2021-02-16
+2019-03-13 --> 2021-02-19
 
 
 
@@ -52,4 +52,4 @@ See the source code of [Ling\LingTalfi\Util\CommitUtil](https://github.com/lingt
 
 SeeAlso
 ==============
-Previous class: [AppBoilerplateUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/AppBoilerplateUtil.md)<br>Next class: [ReadmeUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/ReadmeUtil.md)<br>
+Previous class: [AppBoilerplateUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/AppBoilerplateUtil.md)<br>Next class: [KwinToLightCliCommandCodeUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil.md)<br>
