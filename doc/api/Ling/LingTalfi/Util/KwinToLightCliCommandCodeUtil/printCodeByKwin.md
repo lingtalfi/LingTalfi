@@ -16,12 +16,15 @@ Description
 ================
 
 
-public [KwinToLightCliCommandCodeUtil::printCodeByKwin](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil/printCodeByKwin.md)(string $str) : void
+public [KwinToLightCliCommandCodeUtil::printCodeByKwin](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil/printCodeByKwin.md)(string $str, ?array $options = []) : void
 
 
 
 
 Prints the php code corresponding to the given kwin string.
+
+Available options are:
+- appId: string, the app id to use with aliases. Actually it's mandatory if an alias is described int the given string.
 
 
 
@@ -31,6 +34,10 @@ Parameters
 
 
 - str
+
+    
+
+- options
 
     
 
@@ -54,7 +61,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [KwinToLightCliCommandCodeUtil::printCodeByKwin](https://github.com/lingtalfi/LingTalfi/blob/master/Util/KwinToLightCliCommandCodeUtil.php#L22-L246)
+See the source code for method [KwinToLightCliCommandCodeUtil::printCodeByKwin](https://github.com/lingtalfi/LingTalfi/blob/master/Util/KwinToLightCliCommandCodeUtil.php#L29-L260)
 
 
 See Also

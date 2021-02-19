@@ -5,6 +5,7 @@ namespace Ling\LingTalfi\Util;
 
 use Ling\Kwin\Helper\MiniMarkdownToBashtmlTranslator;
 use Ling\Kwin\KwinParser;
+use Ling\LingTalfi\Exception\LingTalfiException;
 
 /**
  * The KwinToLightCliCommandCodeUtil class.
@@ -16,14 +17,22 @@ class KwinToLightCliCommandCodeUtil
     /**
      * Prints the php code corresponding to the given kwin string.
      *
+     * Available options are:
+     * - appId: string, the app id to use with aliases. Actually it's mandatory if an alias is described int the given string.
+     *
+     *
+     *
      * @param string $str
+     * @param array $options
      * @throws \Exception
      */
-    public function printCodeByKwin(string $str)
+    public function printCodeByKwin(string $str, array $options = [])
     {
+        $appId = $options['appId'] ?? null;
+
+
         $p = new KwinParser();
         $arr = $p->parseString($str);
-//        az($arr);
 
 
         $arr = MiniMarkdownToBashtmlTranslator::convertArray($arr, [
@@ -31,6 +40,8 @@ class KwinToLightCliCommandCodeUtil
             "fmtUrl" => '$url',
         ]);
 
+
+        $commandName = $arr['name'];
         $description = $arr['description'];
         $parameters = $arr['parameters'];
         $options = $arr['options'];
@@ -42,8 +53,7 @@ class KwinToLightCliCommandCodeUtil
     //--------------------------------------------
     // LightCliCommandInterface
     //--------------------------------------------    
-EEE;
-;
+EEE;;
 
         //--------------------------------------------
         // DESCRIPTION
@@ -209,6 +219,10 @@ EEE;
         if ($aliases) {
 
 
+            if (null === $appId) {
+                throw new LingTalfiException("You must define appId, otherwise I cannot generate the alias section properly.");
+            }
+
             $s .= <<<EEE
 
     /**
@@ -227,7 +241,7 @@ EEE;
                 $alias = $this->format($alias);
                 $s .= <<<EEE
 
-            "$alias",
+            "$alias" => "$appId $commandName",
 EEE;
             }
 

@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.7 -- 2021-02-19
+
+    - fix KwinToLightCliCommandCodeUtil not generating alias section correctly
+  
 - 1.23.6 -- 2021-02-19
 
     - add kwin related utils

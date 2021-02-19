@@ -25,7 +25,7 @@ Class synopsis
 class <span class="pl-k">KwinToLightCliCommandCodeUtil</span>  {
 
 - Methods
-    - public [printCodeByKwin](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil/printCodeByKwin.md)(string $str) : void
+    - public [printCodeByKwin](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil/printCodeByKwin.md)(string $str, ?array $options = []) : void
     - private [format](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil/format.md)(string $str) : string
 
 }
