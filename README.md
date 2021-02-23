@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.9 -- 2021-02-23
+
+    - Update dependencies
+
 - 1.23.8 -- 2021-02-22
 
     - adapt to new Light_PlanetInstaller api

@@ -7,6 +7,7 @@ namespace Ling\LingTalfi\Kaos\Util;
 use Ling\CliTools\Output\Output;
 use Ling\CliTools\Output\OutputInterface;
 use Ling\LingTalfi\Exception\LingTalfiException;
+use Ling\UniverseTools\LocalUniverseTool;
 use Ling\UniverseTools\MetaInfoTool;
 use Ling\UniverseTools\PlanetTool;
 use Ling\UniverseTools\Util\StandardReadmeUtil;
@@ -54,7 +55,7 @@ class CommitWizard
     public function commit(string $planetDotName, string $commitMessage)
     {
 
-        $uniDir = '/myphp/universe';
+        $uniDir = LocalUniverseTool::getLocalUniversePath();
         $planetDir = $uniDir . "/" . PlanetTool::getPlanetSlashNameByDotName($planetDotName);
         if (false === is_dir($planetDir)) {
             $this->error("planet dir doesn't exist: $planetDir. Abort.");
