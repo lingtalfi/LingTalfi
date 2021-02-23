@@ -7,7 +7,7 @@ SubscribersUtil::updateSubscribersDependenciesAndCommit
 
 
 
-SubscribersUtil::updateSubscribersDependenciesAndCommit — 
+SubscribersUtil::updateSubscribersDependenciesAndCommit — Updates the planets which depend on the given planetDot.
 
 
 
@@ -21,7 +21,8 @@ public [SubscribersUtil::updateSubscribersDependenciesAndCommit](https://github.
 
 
 
-
+Updates the planets which depend on the given planetDot.
+By update, I mean increment the version number and push them using my kpp shortcut.
 
 
 
@@ -30,12 +31,25 @@ Parameters
 ================
 
 
+- appDir
+
+    
+
+- planetDot
+
+    
+
 
 Return values
 ================
 
 Returns void.
 
+
+Exceptions thrown
+================
+
+- [Exception](http://php.net/manual/en/class.exception.php).&nbsp;
 
 
 
@@ -45,7 +59,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [SubscribersUtil::updateSubscribersDependenciesAndCommit](https://github.com/lingtalfi/LingTalfi/blob/master/Util/SubscribersUtil.php#L18-L50)
+See the source code for method [SubscribersUtil::updateSubscribersDependenciesAndCommit](https://github.com/lingtalfi/LingTalfi/blob/master/Util/SubscribersUtil.php#L29-L61)
 
 
 See Also

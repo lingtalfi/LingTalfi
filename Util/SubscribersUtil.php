@@ -15,6 +15,17 @@ use Ling\UniverseTools\PlanetTool;
 class SubscribersUtil
 {
 
+
+    /**
+     * Updates the planets which depend on the given planetDot.
+     * By update, I mean increment the version number and push them using my kpp shortcut.
+     *
+     *
+     *
+     * @param string $appDir
+     * @param string $planetDot
+     * @throws \Exception
+     */
     public function updateSubscribersDependenciesAndCommit(string $appDir, string $planetDot)
     {
 

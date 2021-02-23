@@ -37,7 +37,7 @@ class <span class="pl-k">SubscribersUtil</span>  {
 Methods
 ==============
 
-- [SubscribersUtil::updateSubscribersDependenciesAndCommit](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/SubscribersUtil/updateSubscribersDependenciesAndCommit.md) &ndash; 
+- [SubscribersUtil::updateSubscribersDependenciesAndCommit](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/SubscribersUtil/updateSubscribersDependenciesAndCommit.md) &ndash; Updates the planets which depend on the given planetDot.
 
 
 
