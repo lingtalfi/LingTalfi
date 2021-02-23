@@ -53,7 +53,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [CommitWizard::commit](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L54-L68)
+See the source code for method [CommitWizard::commit](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L55-L69)
 
 
 See Also

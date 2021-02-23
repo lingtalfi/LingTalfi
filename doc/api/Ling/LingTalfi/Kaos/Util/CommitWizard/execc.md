@@ -50,7 +50,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [CommitWizard::execc](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L176-L193)
+See the source code for method [CommitWizard::execc](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L177-L194)
 
 
 See Also

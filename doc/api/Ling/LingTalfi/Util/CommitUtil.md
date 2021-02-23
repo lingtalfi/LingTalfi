@@ -26,6 +26,7 @@ class <span class="pl-k">CommitUtil</span>  {
 
 - Methods
     - public static [commitAllPlanets](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil/commitAllPlanets.md)(string $universeDir) : void
+    - public static [regularLingCommit](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil/regularLingCommit.md)(string $planetDir, string $commitMessage, ?string $appDir = null) : void
 
 }
 
@@ -38,6 +39,7 @@ Methods
 ==============
 
 - [CommitUtil::commitAllPlanets](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil/commitAllPlanets.md) &ndash; Commit all planets using the kpp routine.
+- [CommitUtil::regularLingCommit](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil/regularLingCommit.md) &ndash; This methods emulates what I normally do when I manually commit a planet.
 
 
 

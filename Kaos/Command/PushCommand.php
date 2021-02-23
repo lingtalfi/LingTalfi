@@ -20,6 +20,7 @@ use Ling\PlanetSitemap\PlanetSitemapHelper;
 use Ling\SimpleCurl\SimpleCurl;
 use Ling\UniverseTools\DependencyTool;
 use Ling\UniverseTools\Exception\UniverseToolsException;
+use Ling\UniverseTools\LocalUniverseTool;
 use Ling\UniverseTools\MetaInfoTool;
 use Ling\UniverseTools\PlanetTool;
 
@@ -67,7 +68,7 @@ class PushCommand extends KaosGenericCommand
         $indentLevel = $this->application->getBaseIndentLevel();
         $gitAccount = "lingtalfi";
         $githubBaseUrl = "https://github.com/$gitAccount";
-        $uniDir = "/myphp/universe";
+        $uniDir = LocalUniverseTool::getLocalUniversePath();
 
         $planetDir = $input->getOption('planet-dir');
         $applicationDir = $input->getOption('application');

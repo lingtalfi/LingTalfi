@@ -5,7 +5,6 @@ namespace Ling\LingTalfi\Util;
 
 use Ling\Light_PlanetInstaller\Helper\LpiDependenciesHelper;
 use Ling\Light_PlanetInstaller\Helper\LpiVersionHelper;
-use Ling\LingTalfi\Kaos\Util\CommitWizard;
 use Ling\UniverseTools\LocalUniverseTool;
 use Ling\UniverseTools\MetaInfoTool;
 use Ling\UniverseTools\PlanetTool;
@@ -16,9 +15,8 @@ use Ling\UniverseTools\PlanetTool;
 class SubscribersUtil
 {
 
-    public function updateSubscribersDependenciesAndCommit(string $planetDot)
+    public function updateSubscribersDependenciesAndCommit(string $appDir, string $planetDot)
     {
-
 
         $uniDir = LocalUniverseTool::getLocalUniversePath();
 
@@ -34,9 +32,6 @@ class SubscribersUtil
         ]);
 
 
-        $u = new CommitWizard();
-
-
         foreach ($matches as $subscriberDot => $info) {
             list($subscriberVersion, $referencedVersion) = $info;
             $referencedVersion = LpiVersionHelper::toMiniVersionExpression($planetDot, $referencedVersion);
@@ -44,11 +39,12 @@ class SubscribersUtil
 
             if ($referencedVersion !== $currentVersion) {
                 $subscriberPlanetDir = $uniDir . "/" . PlanetTool::getPlanetSlashNameByDotName($subscriberDot);
-                MetaInfoTool::incrementVersion($subscriberPlanetDir);
-                $u->commit($subscriberDot, "Update dependencies");
-                a("Commiting $subscriberDot");
+
+                $message = "Update dependencies (pushed by SubscribersUtil)";
+                CommitUtil::regularLingCommit($subscriberPlanetDir, $message, $appDir);
 
             }
+
 
         }
     }

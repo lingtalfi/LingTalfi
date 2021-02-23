@@ -332,6 +332,8 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/C
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/PushCommand.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/PushUniverseSnapshotCommand/run.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/PushUniverseSnapshotCommand.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/UpdateSubscriberDependenciesCommand/run.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/UpdateSubscriberDependenciesCommand.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Exception/KaosException.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Tool/PreferencesTool/getPreferences.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Tool/PreferencesTool.md
@@ -372,10 +374,13 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/A
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/AppBoilerplateUtil/upgradeBoilerplate.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/AppBoilerplateUtil.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil/commitAllPlanets.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil/regularLingCommit.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil/format.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil/printCodeByKwin.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/ReadmeUtil.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/SubscribersUtil/updateSubscribersDependenciesAndCommit.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/SubscribersUtil.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/pages/conception-notes.md

@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [CommitWizard::commitCurrentByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L76-L121)
+See the source code for method [CommitWizard::commitCurrentByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L77-L122)
 
 
 See Also

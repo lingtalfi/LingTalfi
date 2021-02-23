@@ -68,4 +68,4 @@ See the source code of [Ling\LingTalfi\Kaos\Command\PushUniverseSnapshotCommand]
 
 SeeAlso
 ==============
-Previous class: [PushCommand](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/PushCommand.md)<br>Next class: [KaosException](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Exception/KaosException.md)<br>
+Previous class: [PushCommand](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/PushCommand.md)<br>Next class: [UpdateSubscriberDependenciesCommand](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/UpdateSubscriberDependenciesCommand.md)<br>

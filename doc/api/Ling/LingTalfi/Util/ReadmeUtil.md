@@ -67,4 +67,4 @@ See the source code of [Ling\LingTalfi\Util\ReadmeUtil](https://github.com/lingt
 
 SeeAlso
 ==============
-Previous class: [KwinToLightCliCommandCodeUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil.md)<br>
+Previous class: [KwinToLightCliCommandCodeUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil.md)<br>Next class: [SubscribersUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/SubscribersUtil.md)<br>

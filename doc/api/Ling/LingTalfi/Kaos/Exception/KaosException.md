@@ -54,4 +54,4 @@ See the source code of [Ling\LingTalfi\Kaos\Exception\KaosException](https://git
 
 SeeAlso
 ==============
-Previous class: [PushUniverseSnapshotCommand](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/PushUniverseSnapshotCommand.md)<br>Next class: [PreferencesTool](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Tool/PreferencesTool.md)<br>
+Previous class: [UpdateSubscriberDependenciesCommand](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/UpdateSubscriberDependenciesCommand.md)<br>Next class: [PreferencesTool](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Tool/PreferencesTool.md)<br>
