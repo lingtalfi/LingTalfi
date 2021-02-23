@@ -141,6 +141,7 @@ class Light_EasyRouteDocBuilder
              */
             "keyWord2UrlMap" => [
                 "Light.initialize_1 event" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/events.md',
+                "Light_EasyRoute conception notes" => 'https://github.com/lingtalfi/Light_EasyRoute/blob/master/doc/pages/conception-notes.md',
             ],
             /**
              * An array of external classes to url.

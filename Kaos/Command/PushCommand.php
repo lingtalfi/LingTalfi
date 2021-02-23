@@ -10,6 +10,7 @@ use Ling\CliTools\Helper\VirginiaMessageHelper as H;
 use Ling\CliTools\Input\ArrayInput;
 use Ling\CliTools\Input\InputInterface;
 use Ling\CliTools\Output\OutputInterface;
+use Ling\Light_PlanetInstaller\Helper\LpiDepsFileHelper;
 use Ling\Light_PlanetInstaller\Helper\LpiHelper;
 use Ling\LingTalfi\Kaos\Tool\PreferencesTool;
 use Ling\LingTalfi\Kaos\Util\CommitWizard;
@@ -138,6 +139,10 @@ class PushCommand extends KaosGenericCommand
                     $mapDir = $planetDir . "/assets/map";
 
 
+
+                    FileSystemTool::remove($mapDir);
+
+
                     //--------------------------------------------
                     // AUTOMATIC UNIVERSE ASSETS IMPORT
                     //--------------------------------------------
@@ -206,7 +211,7 @@ class PushCommand extends KaosGenericCommand
                             // LPI DEPENDENCIES
                             //--------------------------------------------
                             H::info(H::i($indentLevel + 1) . "Updating <b>lpi-deps.byml</b>...", $output);
-                            LpiHelper::updateLpiDepsByPlanetDir($planetDir);
+                            LpiDepsFileHelper::updateLpiDepsByPlanetDir($planetDir);
                             $output->write('<success>ok</success>' . PHP_EOL);
 
 

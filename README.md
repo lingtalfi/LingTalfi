@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2021-02-19
+2019-03-13 -> 2021-02-23
 
 
 
@@ -33,6 +33,11 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.8 -- 2021-02-22
+
+    - adapt to new Light_PlanetInstaller api
+    - push command now removes assets/map before recreating it
+  
 - 1.23.7 -- 2021-02-19
 
     - fix KwinToLightCliCommandCodeUtil not generating alias section correctly

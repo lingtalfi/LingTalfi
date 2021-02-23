@@ -593,3 +593,20 @@
     - Ling:SimpleCurl:1.0.5+
     - Ling:Uni2:1.9.8+
     - Ling:UniverseTools:1.22.24+
+
+1.23.8: 
+    - Ling:BabyYaml:1.7.7+
+    - Ling:Bat:1.305+
+    - Ling:CliTools:1.10.25+
+    - Ling:DirScanner:1.13.3+
+    - Ling:DocTools:1.14.4+
+    - Ling:Kit_PicassoWidget:1.30.2+
+    - Ling:Kwin:1.0.4+
+    - Ling:Light:0.69.25+
+    - Ling:Light_DbSynchronizer:1.2.9+
+    - Ling:Light_PlanetInstaller:1.0.10+
+    - Ling:Light_PluginInstaller:2.0.13+
+    - Ling:PlanetSitemap:1.0.4+
+    - Ling:SimpleCurl:1.0.5+
+    - Ling:Uni2:1.9.8+
+    - Ling:UniverseTools:1.22.24+

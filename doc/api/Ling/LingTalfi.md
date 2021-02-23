@@ -1,6 +1,6 @@
 Ling/LingTalfi
 ================
-2019-03-13 --> 2021-02-19
+2019-03-13 --> 2021-02-23
 
 
 
@@ -368,6 +368,7 @@ Table of contents
 - [PhpStormMetaHelper](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/PhpStormMeta/PhpStormMetaHelper.md) &ndash; The PhpStormMetaHelper class.
     - [PhpStormMetaHelper::getPhpStormMetaMapString](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/PhpStormMeta/PhpStormMetaHelper/getPhpStormMetaMapString.md) &ndash; $container->get("my_service")-> // phpstorm will autocomplete with the methods of that service...
 - [UpdateAllPlanetsTool](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool.md) &ndash; The UpdateAllPlanetsTool class.
+    - [UpdateAllPlanetsTool::upgradePlanetsLpiDepsFileAndCommit](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool/upgradePlanetsLpiDepsFileAndCommit.md) &ndash; Upgrades the given planet's lpi-deps file, and commit them.
     - [UpdateAllPlanetsTool::recloneAll](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool/recloneAll.md) &ndash; you can use this method to "repair" that.
     - [UpdateAllPlanetsTool::updateAllPlanets](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool/updateAllPlanets.md) &ndash; An old method I used to push all planets to github.
     - [UpdateAllPlanetsTool::alterLinks](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Tools/UpdateAllPlanetsTool/alterLinks.md) &ndash; An old method I used to update links when when I introduced the galaxy concept into the universe.
