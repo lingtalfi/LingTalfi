@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.12 -- 2021-02-23
+
+    - Update dependencies (pushed by SubscribersUtil)
+
 - 1.23.11 -- 2021-02-23
 
     - add UpdateSubscriberDependenciesCommand command

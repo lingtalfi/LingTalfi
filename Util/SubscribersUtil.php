@@ -51,7 +51,7 @@ class SubscribersUtil
             if ($referencedVersion !== $currentVersion) {
                 $subscriberPlanetDir = $uniDir . "/" . PlanetTool::getPlanetSlashNameByDotName($subscriberDot);
 
-                $message = "Update dependencies (pushed by SubscribersUtil)";
+                $message = "Update dependencies to $planetDot (pushed by SubscribersUtil)";
                 CommitUtil::regularLingCommit($subscriberPlanetDir, $message, $appDir);
 
             }
