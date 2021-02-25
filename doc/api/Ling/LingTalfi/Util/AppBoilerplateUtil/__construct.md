@@ -46,7 +46,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [AppBoilerplateUtil::__construct](https://github.com/lingtalfi/LingTalfi/blob/master/Util/AppBoilerplateUtil.php#L38-L42)
+See the source code for method [AppBoilerplateUtil::__construct](https://github.com/lingtalfi/LingTalfi/blob/master/Util/AppBoilerplateUtil.php#L42-L46)
 
 
 See Also

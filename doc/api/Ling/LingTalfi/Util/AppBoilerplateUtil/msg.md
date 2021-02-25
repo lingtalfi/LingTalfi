@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [AppBoilerplateUtil::msg](https://github.com/lingtalfi/LingTalfi/blob/master/Util/AppBoilerplateUtil.php#L178-L181)
+See the source code for method [AppBoilerplateUtil::msg](https://github.com/lingtalfi/LingTalfi/blob/master/Util/AppBoilerplateUtil.php#L327-L330)
 
 
 See Also
@@ -57,5 +57,5 @@ See Also
 
 The [AppBoilerplateUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/AppBoilerplateUtil.md) class.
 
-Previous method: [upgradeBoilerplate](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/AppBoilerplateUtil/upgradeBoilerplate.md)<br>
+Previous method: [newArchive](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/AppBoilerplateUtil/newArchive.md)<br>
 

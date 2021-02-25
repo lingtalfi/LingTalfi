@@ -52,7 +52,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [AppBoilerplateUtil::getBoilerplateDependencies](https://github.com/lingtalfi/LingTalfi/blob/master/Util/AppBoilerplateUtil.php#L61-L77)
+See the source code for method [AppBoilerplateUtil::getBoilerplateDependencies](https://github.com/lingtalfi/LingTalfi/blob/master/Util/AppBoilerplateUtil.php#L65-L81)
 
 
 See Also

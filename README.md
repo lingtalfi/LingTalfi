@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2021-02-23
+2019-03-13 -> 2021-02-25
 
 
 
@@ -33,10 +33,14 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.13 -- 2021-02-25
+
+    - update AppBoilerplateUtl, now only puts updated planet into zip
+  
 - 1.23.12 -- 2021-02-23
 
-    - Update dependencies (pushed by SubscribersUtil)
-
+    - update SubscribersUtil->updateSubscribersDependenciesAndCommit, now indicates the name of the planet on which it depends in the commit message
+  
 - 1.23.11 -- 2021-02-23
 
     - add UpdateSubscriberDependenciesCommand command

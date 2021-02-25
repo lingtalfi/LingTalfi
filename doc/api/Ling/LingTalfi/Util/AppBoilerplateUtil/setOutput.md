@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [AppBoilerplateUtil::setOutput](https://github.com/lingtalfi/LingTalfi/blob/master/Util/AppBoilerplateUtil.php#L49-L52)
+See the source code for method [AppBoilerplateUtil::setOutput](https://github.com/lingtalfi/LingTalfi/blob/master/Util/AppBoilerplateUtil.php#L53-L56)
 
 
 See Also
