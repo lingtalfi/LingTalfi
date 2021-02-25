@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [AppBoilerplateUtil::msg](https://github.com/lingtalfi/LingTalfi/blob/master/Util/AppBoilerplateUtil.php#L327-L330)
+See the source code for method [AppBoilerplateUtil::msg](https://github.com/lingtalfi/LingTalfi/blob/master/Util/AppBoilerplateUtil.php#L328-L331)
 
 
 See Also

@@ -52,4 +52,4 @@ See the source code of [Ling\LingTalfi\DocBuilder\Light_UserRowRestriction\Light
 
 SeeAlso
 ==============
-Previous class: [Light_UserPreferencesDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_UserPreferences/Light_UserPreferencesDocBuilder.md)<br>Next class: [Light_ZephyrTemplateDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ZephyrTemplate/Light_ZephyrTemplateDocBuilder.md)<br>
+Previous class: [Light_UserPreferencesDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_UserPreferences/Light_UserPreferencesDocBuilder.md)<br>Next class: [Light_VarsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Vars/Light_VarsDocBuilder.md)<br>

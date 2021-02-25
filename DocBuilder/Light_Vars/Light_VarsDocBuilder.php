@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ling\LingTalfi\DocBuilder\Light_EasyRoute;
+namespace Ling\LingTalfi\DocBuilder\Light_Vars;
 
 
 use Ling\DocTools\DocBuilder\Git\PhpPlanet\LingGitPhpPlanetDocBuilder;
@@ -11,20 +11,20 @@ use Ling\LingTalfi\DocTools\LingTalfiDocToolsHelper;
 
 
 /**
- * The Light_EasyRouteDocBuilder class.
+ * The Light_VarsDocBuilder class.
  */
-class Light_EasyRouteDocBuilder
+class Light_VarsDocBuilder
 {
 
 
     /**
-     * Launch this function to generate the documentation for the Light_EasyRoute planet.
+     * Launch this function to generate the documentation for the Light_Vars planet.
      * (based on the LingGitPhpPlanetDocBuilder doc builder.
      *
      * If htmlMode is true (the default),
      * this method will generate all files in md format in the following directory:
      *
-     * - /myphp/universe/Light_EasyRoute/doc
+     * - /myphp/universe/Light_Vars/doc
      *
      *
      *
@@ -48,12 +48,12 @@ class Light_EasyRouteDocBuilder
         //--------------------------------------------
         // DOC TOOLS: CREATE A DOCUMENTATION FOR A PHP PLANET FOR GIT (MARKDOWN)
         //--------------------------------------------
-        $planetDir = "/myphp/universe/Ling/Light_EasyRoute";
-        $gitRepoUrl = "https://github.com/lingtalfi/Light_EasyRoute";
+        $planetDir = "/myphp/universe/Ling/Light_Vars";
+        $gitRepoUrl = "https://github.com/lingtalfi/Light_Vars";
         $git = $gitRepoUrl . "/blob/master";
         $doc = "$git/doc";
         $api = $doc . "/api";
-
+        $conception = $doc . "/pages/conception-notes.md";
 
         $options = [
             "gitRepoUrl" => $gitRepoUrl,
@@ -83,7 +83,7 @@ class Light_EasyRouteDocBuilder
              * The date when the project was last updated can be generated automatically, but the project
              * start date doesn't change.
              */
-            "projectStartDate" => "2019-08-21",
+            "projectStartDate" => "2021-02-25",
 
             /**
              * @kw(CopyModule).
@@ -141,8 +141,9 @@ class Light_EasyRouteDocBuilder
              * This map in particular is the one used for the whole DocTools planet documentation (pages and api).
              */
             "keyWord2UrlMap" => [
-                "Light.initialize_1 event" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/events.md',
-                "Light_EasyRoute conception notes" => 'https://github.com/lingtalfi/Light_EasyRoute/blob/master/doc/pages/conception-notes.md',
+                "Light_Vars conception notes" => $conception,
+                "the bdot path" => "https://github.com/karayabin/universe-snapshot/blob/master/universe/Ling/Bat/doc/bdot-notation.md",
+                "bdot notation" => "https://github.com/karayabin/universe-snapshot/blob/master/universe/Ling/Bat/doc/bdot-notation.md",
             ],
             /**
              * An array of external classes to url.
@@ -155,8 +156,9 @@ class Light_EasyRouteDocBuilder
              */
             "externalClass2Url" => [
 //                "Ling\UniversalLogger\UniversalLoggerInterface" => "https://github.com/lingtalfi/UniversalLogger",
-                "Ling\Light\ServiceContainer\LightServiceContainerInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md",
-
+            ],
+            "ignoreFilesStartingWith" => [
+//                "PHPExcel/",
             ],
         ];
 
@@ -192,6 +194,7 @@ class Light_EasyRouteDocBuilder
          * and since we've defined a @kw(copy module), it will also copy the whole doc to another location.
          */
         $builder->buildDoc();
+
 
         LingTalfiDocToolsHelper::generateCrumbs($builder);
 

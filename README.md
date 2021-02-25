@@ -33,6 +33,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.14 -- 2021-02-25
+
+    - update AppBoilerplateUtl, now adds the .htaccess file
+  
 - 1.23.13 -- 2021-02-25
 
     - update AppBoilerplateUtl, now only puts updated planet into zip

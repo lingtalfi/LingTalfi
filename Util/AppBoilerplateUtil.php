@@ -252,6 +252,7 @@ class AppBoilerplateUtil
             "config/services/_zzz.byml",
             "universe/bigbang.php",
             "www/index.php",
+            "www/.htaccess",
         ];
         foreach ($otherFiles as $rpath) {
             $file = $boilerplateDir . "/$rpath";
