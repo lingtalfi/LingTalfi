@@ -1,6 +1,6 @@
 Ling/LingTalfi
 ================
-2019-03-13 --> 2021-02-25
+2019-03-13 --> 2021-03-05
 
 
 
@@ -176,6 +176,8 @@ Table of contents
     - [Light_Kit_BootstrapWidgetLibraryDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_BootstrapWidgetLibrary/Light_Kit_BootstrapWidgetLibraryDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Kit_BootstrapWidgetLibrary planet.
 - [Light_Kit_DemoDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Demo/Light_Kit_DemoDocBuilder.md) &ndash; The Light_Kit_DemoDocBuilder class.
     - [Light_Kit_DemoDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Demo/Light_Kit_DemoDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Kit_Demo planet.
+- [Light_Kit_EditorDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Editor/Light_Kit_EditorDocBuilder.md) &ndash; The Light_Kit_EditorDocBuilder class.
+    - [Light_Kit_EditorDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Editor/Light_Kit_EditorDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Kit_Editor planet.
 - [Light_Kit_WebsiteBuilderDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_WebsiteBuilder/Light_Kit_WebsiteBuilderDocBuilder.md) &ndash; The Light_Kit_WebsiteBuilderDocBuilder class.
     - [Light_Kit_WebsiteBuilderDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_WebsiteBuilder/Light_Kit_WebsiteBuilderDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Kit_WebsiteBuilder planet.
 - [Light_LightInstanceDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_LightInstance/Light_LightInstanceDocBuilder.md) &ndash; The Light_LightInstanceDocBuilder class.
@@ -218,6 +220,8 @@ Table of contents
     - [Light_ReverseRouterDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ReverseRouter/Light_ReverseRouterDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_ReverseRouter planet.
 - [Light_RouterDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Router/Light_RouterDocBuilder.md) &ndash; The Light_RouterDocBuilder class.
     - [Light_RouterDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Router/Light_RouterDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Router planet.
+- [Light_ServiceSwitchDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ServiceSwitch/Light_ServiceSwitchDocBuilder.md) &ndash; The Light_ServiceSwitchDocBuilder class.
+    - [Light_ServiceSwitchDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ServiceSwitch/Light_ServiceSwitchDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_ServiceSwitch planet.
 - [Light_SimpleHttpServerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_SimpleHttpServer/Light_SimpleHttpServerDocBuilder.md) &ndash; The Light_SimpleHttpServerDocBuilder class.
     - [Light_SimpleHttpServerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_SimpleHttpServer/Light_SimpleHttpServerDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_SimpleHttpServer planet.
 - [Light_SpinKitHelperDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_SpinKitHelper/Light_SpinKitHelperDocBuilder.md) &ndash; The Light_SpinKitHelperDocBuilder class.
