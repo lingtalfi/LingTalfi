@@ -38,6 +38,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.17 -- 2021-03-08
+
+    - update PackLightPluginCommand, now copies the Light_Kit_Admin/lke pages if any in the assets/map 
+  
 - 1.23.16 -- 2021-03-08
 
     - update InitializePlanetCommand command, now use new README.md template, with lt install snippet

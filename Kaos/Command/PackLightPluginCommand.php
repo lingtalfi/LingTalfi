@@ -87,6 +87,7 @@ class PackLightPluginCommand extends KaosGenericCommand
                 "www/plugins/$pluginName",
                 "www/libs/universe/$galaxyName/$pluginName",
                 "scripts/$galaxyName/$pluginName",
+                "config/open/Light_Kit_Admin/lke/pages/$pluginName",
             ];
 
 
