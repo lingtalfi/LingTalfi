@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2021-03-05
+2019-03-13 -> 2021-03-08
 
 
 
@@ -38,6 +38,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.16 -- 2021-03-08
+
+    - update InitializePlanetCommand command, now use new README.md template, with lt install snippet
+  
 - 1.23.15 -- 2021-03-05
 
     - update README.md, add install alternative
