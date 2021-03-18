@@ -145,7 +145,7 @@ class Light_404LoggerDocBuilder
                 "Light_404Logger conception notes" => $doc . '/pages/conception-notes.md',
                 "Bat\ConvertTool::convertHumanSizeToBytes" => 'https://github.com/lingtalfi/Bat/blob/master/ConvertTool.md#converthumansizetobytes',
                 "LightFileLoggerListener" => 'https://github.com/lingtalfi/Light_Logger/blob/master/doc/api/Ling/Light_Logger/Listener/LightFileLoggerListener.md',
-                "Light.on_unhandled_exception_caught event" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/events.md',
+                "Ling.Light.on_unhandled_exception_caught event" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/events.md',
                 "the Light_Logger service" => 'https://github.com/lingtalfi/Light_Logger',
             ],
             /**

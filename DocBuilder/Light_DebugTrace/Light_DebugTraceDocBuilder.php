@@ -144,8 +144,8 @@ class Light_DebugTraceDocBuilder
                 "Light_DebugTrace conception notes" => $doc . '/pages/conception-notes.md',
                 "the Light framework" => 'https://github.com/lingtalfi/Light',
                 "the Light_CsrfSimple plugin" => 'Light_CsrfSimple',
-                "Light.initialize_1 event" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/events.md',
-                "the Light.end_routine event" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/events.md',
+                "Ling.Light.initialize_1 event" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/events.md',
+                "the Ling.Light.end_routine event" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/events.md',
 
 
             ],

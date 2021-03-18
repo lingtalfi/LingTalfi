@@ -160,7 +160,7 @@ class Light_UserDataDocBuilder
                 "light events page" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/events.md',
                 "ling standard object methods" => 'https://github.com/lingtalfi/Light_BreezeGenerator/blob/master/doc/pages/ling-standard-object-methods.md',
                 "Light_PluginInstaller conception notes" => 'https://github.com/lingtalfi/Light_PluginInstaller/blob/master/doc/pages/conception-notes.md',
-                "Light_Database.on_lud_user_group_create event" => 'https://github.com/lingtalfi/Light_Database/blob/master/personal/mydoc/pages/events.md',
+                "Ling.Light_Database.on_lud_user_group_create event" => 'https://github.com/lingtalfi/Light_Database/blob/master/personal/mydoc/pages/events.md',
                 "the original file section in the conception notes" => $doc . '/pages/conception-notes.md#the-original-file',
                 "Light_UserData permissions document" => $doc . '/pages/permissions.md',
                 "alcp response" => "https://github.com/lingtalfi/Light_AjaxHandler/blob/master/doc/pages/ajax-light-communication-protocol.md",

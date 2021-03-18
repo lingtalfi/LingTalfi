@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2021-03-08
+2019-03-13 -> 2021-03-18
 
 
 
@@ -37,6 +37,10 @@ Or just download it and place it where you want otherwise.
 
 History Log
 =============
+
+- 1.23.18 -- 2021-03-18
+
+    - update PackLightPluginCommand, change some eco-structure's planetNames to dotNames 
 
 - 1.23.17 -- 2021-03-08
 
@@ -194,7 +198,7 @@ History Log
     
 - 1.9.0 -- 2019-04-26
 
-    - update Kaos packlightmap command, now repatriates config/kit/pages/$LightPlugin directory
+    - update Kaos packlightmap command, now repatriates config/Ling.Light_Kit/pages/$LightPlugin directory
 
 - 1.8.0 -- 2019-04-25
 

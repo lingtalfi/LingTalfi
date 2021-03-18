@@ -140,7 +140,7 @@ class Light_PrettyErrorDocBuilder
              * This map in particular is the one used for the whole DocTools planet documentation (pages and api).
              */
             "keyWord2UrlMap" => [
-                "Light.on_exception_caught event" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/events.md',
+                "Ling.Light.on_exception_caught event" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/events.md',
             ],
             /**
              * An array of external classes to url.
