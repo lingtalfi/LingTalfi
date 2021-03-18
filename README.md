@@ -38,6 +38,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.19 -- 2021-03-18
+
+    - fix PackLightPluginCommand not packing Ling.Light_Events open events correctly 
+  
 - 1.23.18 -- 2021-03-18
 
     - update PackLightPluginCommand, change some eco-structure's planetNames to dotNames 

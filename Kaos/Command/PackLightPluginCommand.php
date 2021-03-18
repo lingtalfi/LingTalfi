@@ -102,10 +102,14 @@ class PackLightPluginCommand extends KaosGenericCommand
             $openEventsDirRel = "config/open/Ling.Light_Events";
             $openEventsDir = $this->_applicationDir . "/" . $openEventsDirRel;
             if (true === is_dir($openEventsDir)) {
-                $dirNames = YorgDirScannerTool::getDirs($openEventsDir, false, true);
-                foreach ($dirNames as $dirName) {
-                    if (true === str_starts_with($dirName, "$galaxyName.$pluginName.")) {
-                        $this->copyItem($openEventsDirRel . "/$dirName", $output, $indentLevel + 1);
+                $files = YorgDirScannerTool::getFilesWithExtension($openEventsDir, 'byml', true, true, true);
+                foreach ($files as $fileName) {
+                    $p = explode("/", $fileName, 2);
+                    array_shift($p); // drop the event name
+                    $fileBaseName = array_shift($p);
+
+                    if ($fileBaseName === $galaxyName . "." . $pluginName . ".byml") {
+                        $this->copyItem($openEventsDirRel . "/$fileName", $output, $indentLevel + 1);
                     }
                 }
 
