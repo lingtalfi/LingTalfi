@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2021-03-18
+2019-03-13 -> 2021-03-22
 
 
 
@@ -38,6 +38,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.20 -- 2021-03-22
+
+    - remove PackLightPluginCommand packing path for packing Ling.Light_Events open events 
+  
 - 1.23.19 -- 2021-03-18
 
     - fix PackLightPluginCommand not packing Ling.Light_Events open events correctly 

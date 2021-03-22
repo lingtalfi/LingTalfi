@@ -96,26 +96,6 @@ class PackLightPluginCommand extends KaosGenericCommand
             }
 
 
-            //--------------------------------------------
-            // SPECIAL ITEMS
-            //--------------------------------------------
-            $openEventsDirRel = "config/open/Ling.Light_Events";
-            $openEventsDir = $this->_applicationDir . "/" . $openEventsDirRel;
-            if (true === is_dir($openEventsDir)) {
-                $files = YorgDirScannerTool::getFilesWithExtension($openEventsDir, 'byml', true, true, true);
-                foreach ($files as $fileName) {
-                    $p = explode("/", $fileName, 2);
-                    array_shift($p); // drop the event name
-                    $fileBaseName = array_shift($p);
-
-                    if ($fileBaseName === $galaxyName . "." . $pluginName . ".byml") {
-                        $this->copyItem($openEventsDirRel . "/$fileName", $output, $indentLevel + 1);
-                    }
-                }
-
-            }
-
-
         } else {
             H::error(H::i($indentLevel) . "Option a missing (application path)." . PHP_EOL, $output);
         }
