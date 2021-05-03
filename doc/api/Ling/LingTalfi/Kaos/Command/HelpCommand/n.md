@@ -49,7 +49,7 @@ Returns string.
 
 Source Code
 ===========
-See the source code for method [HelpCommand::n](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Command/HelpCommand.php#L110-L113)
+See the source code for method [HelpCommand::n](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Command/HelpCommand.php#L111-L114)
 
 
 See Also

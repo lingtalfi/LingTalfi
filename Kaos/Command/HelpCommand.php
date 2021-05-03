@@ -91,6 +91,7 @@ class HelpCommand extends KaosGenericCommand
 
         $output->write("- $updsd \$planetDotName: commits the subscribers of the given <b>planetDotName</b>." . PHP_EOL);
         $output->write(H::j(1) . $this->o("-app=\$appDir") . ": the app dir in which to find the planet. By detault, it's <b>/komin/jin_site_demo</b>." . PHP_EOL);
+        $output->write(H::j(1) . $this->o("f") . ": If set, forces the commit of the subscribers, even if their version number didn't change." . PHP_EOL);
 
 
         $output->write("- $help: displays this help message." . PHP_EOL);

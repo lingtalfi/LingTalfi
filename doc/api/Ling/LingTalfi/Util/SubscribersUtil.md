@@ -25,7 +25,7 @@ Class synopsis
 class <span class="pl-k">SubscribersUtil</span>  {
 
 - Methods
-    - public [updateSubscribersDependenciesAndCommit](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/SubscribersUtil/updateSubscribersDependenciesAndCommit.md)(string $appDir, string $planetDot) : void
+    - public [updateSubscribersDependenciesAndCommit](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/SubscribersUtil/updateSubscribersDependenciesAndCommit.md)(string $appDir, string $planetDot, ?array $options = []) : void
 
 }
 

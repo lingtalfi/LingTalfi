@@ -20,16 +20,20 @@ class SubscribersUtil
      * Updates the planets which depend on the given planetDot.
      * By update, I mean increment the version number and push them using my kpp shortcut.
      *
+     * Available options are:
+     * - force: bool=false. If true, the subscribers planet will be commit no matter what.
      *
      *
      * @param string $appDir
      * @param string $planetDot
+     * @param array $options
      * @throws \Exception
      */
-    public function updateSubscribersDependenciesAndCommit(string $appDir, string $planetDot)
+    public function updateSubscribersDependenciesAndCommit(string $appDir, string $planetDot, array $options = [])
     {
 
         $uniDir = LocalUniverseTool::getLocalUniversePath();
+        $forceUpdate = $options['force'] ?? false;
 
         $noLpiFiles = [];
 
@@ -48,7 +52,7 @@ class SubscribersUtil
             $referencedVersion = LpiVersionHelper::toMiniVersionExpression($planetDot, $referencedVersion);
             $referencedVersion = LpiVersionHelper::removeModifierSymbol($referencedVersion);
 
-            if ($referencedVersion !== $currentVersion) {
+            if (true === $forceUpdate || $referencedVersion !== $currentVersion) {
                 $subscriberPlanetDir = $uniDir . "/" . PlanetTool::getPlanetSlashNameByDotName($subscriberDot);
 
                 $message = "Update dependencies to $planetDot (pushed by SubscribersUtil)";

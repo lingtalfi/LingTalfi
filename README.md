@@ -38,6 +38,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.24.1 -- 2021-05-03
+
+    - add force option to updsd command
+  
 - 1.24.0 -- 2021-05-03
 
     - Fix SubscribersUtil removing light assets (drastic error)

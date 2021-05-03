@@ -24,11 +24,15 @@ class UpdateSubscriberDependenciesCommand extends KaosGenericCommand
         $defaultAppDir = "/komin/jin_site_demo";
 
         $appDir = $input->getOption("app", $defaultAppDir);
+        $force = $input->hasFlag("f");
+
 
         $planetDotName = $input->getParameter(2);
 
         $u = new SubscribersUtil();
-        $u->updateSubscribersDependenciesAndCommit($appDir, $planetDotName);
+        $u->updateSubscribersDependenciesAndCommit($appDir, $planetDotName, [
+            'force' => $force,
+        ]);
 
     }
 
