@@ -25,7 +25,6 @@ class UpdateSubscriberDependenciesCommand extends KaosGenericCommand
 
         $appDir = $input->getOption("app", $defaultAppDir);
 
-
         $planetDotName = $input->getParameter(2);
 
         $u = new SubscribersUtil();

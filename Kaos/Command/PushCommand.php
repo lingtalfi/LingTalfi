@@ -11,7 +11,6 @@ use Ling\CliTools\Input\ArrayInput;
 use Ling\CliTools\Input\InputInterface;
 use Ling\CliTools\Output\OutputInterface;
 use Ling\Light_PlanetInstaller\Helper\LpiDepsFileHelper;
-use Ling\Light_PlanetInstaller\Helper\LpiHelper;
 use Ling\LingTalfi\Kaos\Tool\PreferencesTool;
 use Ling\LingTalfi\Kaos\Util\CommitWizard;
 use Ling\LingTalfi\Kaos\Util\ReadmeUtil;
@@ -60,6 +59,7 @@ class PushCommand extends KaosGenericCommand
      */
     public function run(InputInterface $input, OutputInterface $output)
     {
+
 
         $prefs = PreferencesTool::getPreferences();
         $docToolExtraLoaders = $prefs['docToolExtraLoaders'] ?? [];
@@ -123,6 +123,8 @@ class PushCommand extends KaosGenericCommand
                     H::info(H::i($indentLevel + 1) . "Updating <b>meta-info.byml</b>...", $output);
                     $newVersionAvailable = true;
                     $metaInfo["version"] = $historyLogVersion;
+
+
                     $res = MetaInfoTool::writeInfo($planetDir, $metaInfo);
                     if (false === $res) {
                         $output->write('<error>oops</error>' . PHP_EOL);
@@ -138,7 +140,6 @@ class PushCommand extends KaosGenericCommand
 
                 if (false === $error) {
                     $mapDir = $planetDir . "/assets/map";
-
 
 
                     FileSystemTool::remove($mapDir);
@@ -222,11 +223,12 @@ class PushCommand extends KaosGenericCommand
                             //--------------------------------------------
                             if (true === $isLightPlugin) {
                                 $currentUniverseDir = dirname(dirname($currentPwd));
+
+
                                 $p = explode('/', $currentUniverseDir);
                                 $currentUniverseDirName = array_pop($p);
                                 if ('universe' === $currentUniverseDirName) {
 
-                                    $theAppDir = implode('/', $p);
 
                                     if (array_key_exists('map', $postInstall)) {
 
@@ -235,7 +237,7 @@ class PushCommand extends KaosGenericCommand
                                         $myInput = new ArrayInput();
                                         $myInput->setItems([
                                             ":packlightmap" => true,
-                                            "a" => $theAppDir,
+                                            "a" => $applicationDir,
                                         ]);
                                         $this->application->run($myInput, $output);
                                     }
@@ -379,8 +381,6 @@ EEE;
                                         H::info(H::i($indentLevel) . "Incrementing version number in meta-info.byml...", $output);
                                         $newHookVersion = MetaInfoTool::incrementVersion($hookPlanetDir);
                                         $output->write("-> $newHookVersion" . PHP_EOL);
-
-
 
 
                                         H::info(H::i($indentLevel) . "Upgrading boilerplate." . PHP_EOL, $output);

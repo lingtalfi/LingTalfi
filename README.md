@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2021-03-22
+2019-03-13 -> 2021-05-03
 
 
 
@@ -38,6 +38,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.24.0 -- 2021-05-03
+
+    - Fix SubscribersUtil removing light assets (drastic error)
+  
 - 1.23.21 -- 2021-05-03
 
     - Update dependencies to Ling.Light_PluginInstaller (pushed by SubscribersUtil)
