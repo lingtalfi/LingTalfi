@@ -38,6 +38,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.23.21 -- 2021-05-03
+
+    - Update dependencies to Ling.Light_PluginInstaller (pushed by SubscribersUtil)
+
 - 1.23.20 -- 2021-03-22
 
     - remove PackLightPluginCommand packing path for packing Ling.Light_Events open events 
