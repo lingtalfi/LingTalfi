@@ -5,6 +5,7 @@ namespace Ling\LingTalfi\Kaos\Command;
 
 
 use Ling\BabyYaml\BabyYamlUtil;
+use Ling\Bat\ClassTool;
 use Ling\Bat\FileSystemTool;
 use Ling\CliTools\Helper\VirginiaMessageHelper as H;
 use Ling\CliTools\Input\ArrayInput;
@@ -61,8 +62,10 @@ class PushCommand extends KaosGenericCommand
     {
 
 
+
         $prefs = PreferencesTool::getPreferences();
         $docToolExtraLoaders = $prefs['docToolExtraLoaders'] ?? [];
+
 
 
         $indentLevel = $this->application->getBaseIndentLevel();
@@ -73,7 +76,6 @@ class PushCommand extends KaosGenericCommand
         $planetDir = $input->getOption('planet-dir');
         $applicationDir = $input->getOption('application');
         $noPacking = $input->hasFlag('n');
-
 
         if (null === $planetDir) {
             $planetDir = $this->application->getCurrentDirectory();
@@ -233,7 +235,7 @@ class PushCommand extends KaosGenericCommand
                                     if (array_key_exists('map', $postInstall)) {
 
 
-                                        H::info(H::i($indentLevel + 1) . "Light plugin with map assets detected, calling <b>kaos packlightmap</b> command.", $output);
+                                        H::info(H::i($indentLevel + 1) . "Light plugin with map assets detected, calling <b>kaos packlightmap</b> command." . PHP_EOL, $output);
                                         $myInput = new ArrayInput();
                                         $myInput->setItems([
                                             ":packlightmap" => true,
@@ -243,6 +245,7 @@ class PushCommand extends KaosGenericCommand
                                     }
                                 }
                             }
+
 
 
                             //--------------------------------------------
@@ -376,11 +379,7 @@ EEE;
                                     if (true === in_array($planetDotName, $deps)) {
                                         $output->write("found hook to Light_AppBoilerplate." . PHP_EOL);
 
-                                        $hookPlanetDir = $uniDir . "/Ling/Light_AppBoilerplate";
 
-                                        H::info(H::i($indentLevel) . "Incrementing version number in meta-info.byml...", $output);
-                                        $newHookVersion = MetaInfoTool::incrementVersion($hookPlanetDir);
-                                        $output->write("-> $newHookVersion" . PHP_EOL);
 
 
                                         H::info(H::i($indentLevel) . "Upgrading boilerplate." . PHP_EOL, $output);

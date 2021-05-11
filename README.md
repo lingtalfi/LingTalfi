@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2021-05-03
+2019-03-13 -> 2021-05-11
 
 
 
@@ -37,6 +37,10 @@ Or just download it and place it where you want otherwise.
 
 History Log
 =============
+
+- 1.25.0 -- 2021-05-11
+
+    - Update CommitWizard, add commitListFromFile method, commit's increment option now defaults to true
 
 - 1.24.2 -- 2021-05-03
 
