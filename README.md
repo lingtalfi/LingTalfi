@@ -38,6 +38,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.25.2 -- 2021-05-31
+
+    - Removing trailing plus in lpi-deps file (to work with Light_PlanetInstaller:2.0.0 api
+
 - 1.25.1 -- 2021-05-31
 
     - update bigbang.php file (in light app boilerplate asset)
