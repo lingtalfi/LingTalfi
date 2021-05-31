@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [CommitWizard::setOutput](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L69-L72)
+See the source code for method [CommitWizard::setOutput](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L71-L74)
 
 
 See Also

@@ -26,6 +26,7 @@ Commits the given planet with the given message.
 Available options are:
 
 - increment: bool=true, whether to increment the version number in the readme's "history log" section
+- app: string=null, the path to the host application. If null, the value of the applicationPath property of this class will be used.
 
 
 
@@ -61,7 +62,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [CommitWizard::commit](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L121-L138)
+See the source code for method [CommitWizard::commit](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L124-L146)
 
 
 See Also

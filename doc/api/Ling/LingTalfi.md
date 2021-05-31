@@ -1,6 +1,6 @@
 Ling/LingTalfi
 ================
-2019-03-13 --> 2021-05-11
+2019-03-13 --> 2021-05-31
 
 
 
@@ -351,7 +351,7 @@ Table of contents
     - [AbstractProgram::setLoggerChannel](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Program/AbstractProgram/setLoggerChannel.md) &ndash; Sets the loggerChannel.
     - [AbstractProgram::setErrorIsVerbose](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Program/AbstractProgram/setErrorIsVerbose.md) &ndash; Sets the errorIsVerbose.
     - AbstractProgram::setUseExitStatus &ndash; Sets the useExitStatus.
-    - [AbstractProgram::run](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Program/AbstractProgram/run.md) &ndash; Starts the interactive program.
+    - [AbstractProgram::run](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Program/AbstractProgram/run.md) &ndash; Executes the program, and returns the exit code, if defined by the concrete class.
 - [HelpCommand](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/HelpCommand.md) &ndash; The HelpCommand class.
     - [HelpCommand::run](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/HelpCommand/run.md) &ndash; Runs the command.
     - [KaosGenericCommand::__construct](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/KaosGenericCommand/__construct.md) &ndash; Builds the KaosGenericCommand instance.
@@ -380,8 +380,8 @@ Table of contents
     - [PushUniverseSnapshotCommand::run](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/PushUniverseSnapshotCommand/run.md) &ndash; Runs the command.
     - [KaosGenericCommand::__construct](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/KaosGenericCommand/__construct.md) &ndash; Builds the KaosGenericCommand instance.
     - [KaosGenericCommand::setApplication](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/KaosGenericCommand/setApplication.md) &ndash; Sets the application.
-- [UpdateSubscriberDependenciesCommand](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/UpdateSubscriberDependenciesCommand.md) &ndash; The UpdateSubscriberDependenciesCommand class
-    - [UpdateSubscriberDependenciesCommand::run](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/UpdateSubscriberDependenciesCommand/run.md) &ndash; Runs the command.
+- [SyncDependencies](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/SyncDependencies.md) &ndash; The SyncDependencies class.
+    - [SyncDependencies::run](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/SyncDependencies/run.md) &ndash; Runs the command.
     - [KaosGenericCommand::__construct](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/KaosGenericCommand/__construct.md) &ndash; Builds the KaosGenericCommand instance.
     - [KaosGenericCommand::setApplication](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Command/KaosGenericCommand/setApplication.md) &ndash; Sets the application.
 - [KaosException](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Exception/KaosException.md) &ndash; The KaosException class.
@@ -412,9 +412,6 @@ Table of contents
     - [AppBoilerplateUtil::setOutput](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/AppBoilerplateUtil/setOutput.md) &ndash; Sets the output.
     - [AppBoilerplateUtil::getBoilerplateDependencies](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/AppBoilerplateUtil/getBoilerplateDependencies.md) &ndash; Returns the dependencies packed in the boilerplate.
     - [AppBoilerplateUtil::upgradeBoilerplate](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/AppBoilerplateUtil/upgradeBoilerplate.md) &ndash; Upgrades the boilerplate for the Light_AppBoilerplate planet.
-- [CommitUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil.md) &ndash; The CommitUtil class.
-    - [CommitUtil::commitAllPlanets](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil/commitAllPlanets.md) &ndash; Commit all planets using the kpp routine.
-    - [CommitUtil::regularLingCommit](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/CommitUtil/regularLingCommit.md) &ndash; This methods emulates what I normally do when I manually commit a planet.
 - [KwinToLightCliCommandCodeUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil.md) &ndash; The KwinToLightCliCommandCodeUtil class.
     - [KwinToLightCliCommandCodeUtil::printCodeByKwin](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/KwinToLightCliCommandCodeUtil/printCodeByKwin.md) &ndash; Prints the php code corresponding to the given kwin string.
 - [ReadmeUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/ReadmeUtil.md) &ndash; The ReadmeUtil class.
@@ -424,8 +421,6 @@ Table of contents
     - [ReadmeUtil::createBasicReadmeFile](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/createBasicReadmeFile.md) &ndash; was successful.
     - [ReadmeUtil::getLatestVersionInfo](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/getLatestVersionInfo.md) &ndash; Proxy to the standardReadmeUtil's getLatestVersionInfo method.
     - [ReadmeUtil::getErrors](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/ReadmeUtil/getErrors.md) &ndash; Returns the errors of this instance.
-- [SubscribersUtil](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/SubscribersUtil.md) &ndash; The SubscribersUtil class.
-    - [SubscribersUtil::updateSubscribersDependenciesAndCommit](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Util/SubscribersUtil/updateSubscribersDependenciesAndCommit.md) &ndash; Updates the planets which depend on the given planetDot.
 
 
 Dependencies

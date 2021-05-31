@@ -4,7 +4,7 @@
 
 The CommitWizard class
 ================
-2019-03-13 --> 2021-05-11
+2019-03-13 --> 2021-05-31
 
 
 
@@ -50,12 +50,13 @@ class <span class="pl-k">CommitWizard</span>  {
     - public [setOutput](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/setOutput.md)([Ling\CliTools\Output\OutputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/OutputInterface.md) $output) : void
     - public [commitListFromFile](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/commitListFromFile.md)(string $filePath, string $commitMsg, ?array $options = []) : void
     - public [commit](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/commit.md)(string $planetDotName, string $commitMessage, ?array $options = []) : void
-    - public [commitByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/commitByPlanetDir.md)(string $planetDir) : void
+    - public [commitByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/commitByPlanetDir.md)(string $planetDir, ?string $appPath = null) : void
     - private [msg](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/msg.md)(string $msg) : void
     - private [msgError](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/msgError.md)(string $msg) : void
     - private [msgSuccess](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/msgSuccess.md)(string $msg) : void
     - private [error](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/error.md)(string $msg, ?int $code = null) : void
     - private [getOutput](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/getOutput.md)() : [OutputInterface](https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/OutputInterface.md)
+    - private static [commitAllPlanets](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/commitAllPlanets.md)(string $universeDir) : void
 
 }
 
@@ -92,6 +93,7 @@ Methods
 - [CommitWizard::msgSuccess](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/msgSuccess.md) &ndash; Writes a success message to the output.
 - [CommitWizard::error](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/error.md) &ndash; Throws an exception.
 - [CommitWizard::getOutput](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/getOutput.md) &ndash; Returns the current output interface.
+- [CommitWizard::commitAllPlanets](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/commitAllPlanets.md) &ndash; Commit all planets using the kpp routine.
 
 
 

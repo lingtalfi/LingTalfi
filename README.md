@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2021-05-11
+2019-03-13 -> 2021-05-31
 
 
 
@@ -38,6 +38,12 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.25.1 -- 2021-05-31
+
+    - update bigbang.php file (in light app boilerplate asset)
+    - update boilerplate, now depends on Uni2
+    - removed updsd command
+  
 - 1.25.0 -- 2021-05-11
 
     - Update CommitWizard, add commitListFromFile method, commit's increment option now defaults to true

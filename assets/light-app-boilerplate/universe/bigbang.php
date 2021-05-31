@@ -1,7 +1,7 @@
 <?php
 
 //------------------------------------------------------------------------------/
-// THIS IS BIG BANG SCRIPT FOR A JIN (aka modern uni) APP, from whence the universe can be used
+// THIS IS THE BIG BANG SCRIPT FOR THE UNIVERSE FRAMEWORK
 //------------------------------------------------------------------------------/
 use Ling\BumbleBee\Autoload\ButineurAutoloader;
 
@@ -16,6 +16,10 @@ if (is_dir($classDir)) {
     $butineur->addLocation($classDir); // make the "class" directory searchable
 }
 ButineurAutoloader::getInst()->start();
+
+
+const UNIVERSE_BANG_PATH = __FILE__;
+
 
 
 //--------------------------------------------
@@ -53,6 +57,7 @@ if (!function_exists('a')) {
         call_user_func_array('a', func_get_args());
         exit;
     }
+
 
     function azf()
     {

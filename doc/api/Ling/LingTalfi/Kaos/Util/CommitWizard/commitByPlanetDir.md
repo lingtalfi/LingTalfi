@@ -16,7 +16,7 @@ Description
 ================
 
 
-public [CommitWizard::commitByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/commitByPlanetDir.md)(string $planetDir) : void
+public [CommitWizard::commitByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/commitByPlanetDir.md)(string $planetDir, ?string $appPath = null) : void
 
 
 
@@ -31,6 +31,10 @@ Parameters
 
 
 - planetDir
+
+    
+
+- appPath
 
     
 
@@ -49,7 +53,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [CommitWizard::commitByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L146-L170)
+See the source code for method [CommitWizard::commitByPlanetDir](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L155-L195)
 
 
 See Also

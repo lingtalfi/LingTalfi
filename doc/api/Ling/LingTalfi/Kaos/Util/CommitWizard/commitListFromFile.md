@@ -71,7 +71,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [CommitWizard::commitListFromFile](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L95-L105)
+See the source code for method [CommitWizard::commitListFromFile](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L97-L107)
 
 
 See Also

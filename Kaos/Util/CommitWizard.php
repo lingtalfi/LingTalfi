@@ -5,9 +5,11 @@ namespace Ling\LingTalfi\Kaos\Util;
 
 
 use Ling\BabyYaml\BabyYamlUtil;
+use Ling\CliTools\Input\WritableCommandLineInput;
 use Ling\CliTools\Output\Output;
 use Ling\CliTools\Output\OutputInterface;
 use Ling\LingTalfi\Exception\LingTalfiException;
+use Ling\LingTalfi\Kaos\Application\KaosApplication;
 use Ling\UniverseTools\LocalUniverseTool;
 use Ling\UniverseTools\PlanetTool;
 use Ling\UniverseTools\Util\StandardReadmeUtil;
@@ -112,6 +114,7 @@ class CommitWizard
      * Available options are:
      *
      * - increment: bool=true, whether to increment the version number in the readme's "history log" section
+     * - app: string=null, the path to the host application. If null, the value of the applicationPath property of this class will be used.
      *
      *
      * @param string $planetDotName
@@ -122,6 +125,11 @@ class CommitWizard
     {
 
         $increment = $options['increment'] ?? true;
+        $appPath = $options['app'] ?? null;
+
+        if (null === $appPath) {
+            $appPath = $this->applicationPath;
+        }
         $uniDir = LocalUniverseTool::getLocalUniversePath();
         $planetDir = $uniDir . "/" . PlanetTool::getPlanetSlashNameByDotName($planetDotName);
         if (false === is_dir($planetDir)) {
@@ -134,7 +142,7 @@ class CommitWizard
         $u->addCommitMessageByPlanetDir($planetDir, $commitMessage, [
             "increment" => $increment,
         ]);
-        $this->commitByPlanetDir($planetDir);
+        $this->commitByPlanetDir($planetDir, $appPath);
     }
 
 
@@ -142,11 +150,15 @@ class CommitWizard
      * Commits (and pushes to github.com) the given planet, using the actual last commit message from the readme's history log section.
      *
      * @param string $planetDir
+     * @param string|null $appPath
      */
-    public function commitByPlanetDir(string $planetDir)
+    public function commitByPlanetDir(string $planetDir, string $appPath = null)
     {
 
 
+        if (null === $appPath) {
+            $appPath = $this->applicationPath;
+        }
         $readMeFile = $planetDir . "/README.md";
         $readMeUtil = new ReadmeUtil();
         $this->msg("Parsing info from README.md..." . PHP_EOL);
@@ -155,13 +167,26 @@ class CommitWizard
         if (false !== $info) {
 
             $this->msgSuccess("ok." . PHP_EOL);
-            $kaosPath = realpath(__DIR__ . "/../../script/kaos.php");
-            $cmd = "cd \"$planetDir\" && /usr/local/bin/php -f \"$kaosPath\" -- push application=\"" . $this->applicationPath . "\"";
 
-            $this->msg("Executing command: $cmd." . PHP_EOL);
-            passthru($cmd);
+
+            $this->msg("Calling push command for dir <b>$planetDir</b>." . PHP_EOL);
+
+
+            // cd to the planet dir
+            chdir($planetDir);
+
+
+            // then call the kpp command, which basically does the following
+            $output = new Output();
+            $app = new KaosApplication();
+            $input = new WritableCommandLineInput();
+            $input->setParameters(["push"]);
+            $input->setOptions(["application" => $appPath]);
+            $app->run($input, $output);
+
+
         } else {
-            $this->msgError("Parsing failed." . PHP_EOL);
+            $this->msgError("Parsing of readme file failed ($readMeFile)." . PHP_EOL);
             $errors = $readMeUtil->getErrors();
             foreach ($errors as $error) {
                 $this->msgError($error);
@@ -228,5 +253,19 @@ class CommitWizard
             $this->output = new Output();
         }
         return $this->output;
+    }
+
+
+    //--------------------------------------------
+    //
+    //--------------------------------------------
+    /**
+     * Commit all planets using the kpp routine.
+     *
+     * @param string $universeDir
+     */
+    private static function commitAllPlanets(string $universeDir)
+    {
+        az("See/execute my script in app/scripts/Ling/LingTalfi/commit-all.php");
     }
 }

@@ -46,7 +46,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [CommitWizard::__construct](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L58-L62)
+See the source code for method [CommitWizard::__construct](https://github.com/lingtalfi/LingTalfi/blob/master/Kaos/Util/CommitWizard.php#L60-L64)
 
 
 See Also
