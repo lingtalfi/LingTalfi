@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2021-05-31
+2019-03-13 -> 2021-06-04
 
 
 
@@ -38,6 +38,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.25.3 -- 2021-06-04
+
+    - fix InitializePlanetCommand not writing service section correctly in the README
+  
 - 1.25.2 -- 2021-05-31
 
     - Removing trailing plus in lpi-deps file (to work with Light_PlanetInstaller:2.0.0 api

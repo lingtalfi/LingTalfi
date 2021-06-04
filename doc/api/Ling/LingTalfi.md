@@ -1,6 +1,6 @@
 Ling/LingTalfi
 ================
-2019-03-13 --> 2021-05-31
+2019-03-13 --> 2021-06-04
 
 
 
@@ -34,6 +34,8 @@ Table of contents
     - [ClassCookerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ClassCooker/ClassCookerDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the ClassCooker planet.
 - [CliToolsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/CliTools/CliToolsDocBuilder.md) &ndash; The CliToolsDocBuilder class.
     - [CliToolsDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/CliTools/CliToolsDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the CliTools planet.
+- [ConventionToolsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ConventionTools/ConventionToolsDocBuilder.md) &ndash; The ConventionToolsDocBuilder class.
+    - [ConventionToolsDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ConventionTools/ConventionToolsDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the ConventionTools planet.
 - [CsvDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Csv/CsvDocBuilder.md) &ndash; The CsvDocBuilder class.
     - [CsvDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Csv/CsvDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Csv planet.
 - [CyclicChainDetectorDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/CyclicChainDetector/CyclicChainDetectorDocBuilder.md) &ndash; The CyclicChainDetectorDocBuilder class.
@@ -208,6 +210,8 @@ Table of contents
     - [Light_MailerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Mailer/Light_MailerDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Mailer planet.
 - [Light_MicroPermissionDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_MicroPermission/Light_MicroPermissionDocBuilder.md) &ndash; The Light_MicroPermissionDocBuilder class.
     - [Light_MicroPermissionDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_MicroPermission/Light_MicroPermissionDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_MicroPermission planet.
+- [Light_MiniTrustChallengerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_MiniTrustChallenger/Light_MiniTrustChallengerDocBuilder.md) &ndash; The Light_MiniTrustChallengerDocBuilder class.
+    - [Light_MiniTrustChallengerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_MiniTrustChallenger/Light_MiniTrustChallengerDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_MiniTrustChallenger planet.
 - [Light_NuggetDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Nugget/Light_NuggetDocBuilder.md) &ndash; The Light_NuggetDocBuilder class.
     - [Light_NuggetDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Nugget/Light_NuggetDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Nugget planet.
 - [Light_PasswordProtectorDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PasswordProtector/Light_PasswordProtectorDocBuilder.md) &ndash; The Light_PasswordProtectorDocBuilder class.
