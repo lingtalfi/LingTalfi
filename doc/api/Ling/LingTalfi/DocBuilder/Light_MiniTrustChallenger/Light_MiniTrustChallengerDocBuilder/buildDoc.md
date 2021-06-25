@@ -70,7 +70,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [Light_MiniTrustChallengerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_MiniTrustChallenger/Light_MiniTrustChallengerDocBuilder.php#L45-L206)
+See the source code for method [Light_MiniTrustChallengerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/DocBuilder/Light_MiniTrustChallenger/Light_MiniTrustChallengerDocBuilder.php#L45-L207)
 
 
 See Also

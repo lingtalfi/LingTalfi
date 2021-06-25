@@ -1,6 +1,6 @@
 LingTalfi
 ===========
-2019-03-13 -> 2021-06-04
+2019-03-13 -> 2021-06-25
 
 
 
@@ -38,6 +38,11 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.25.4 -- 2021-06-25
+
+    - update api, generated README now starts with version 0.0.1 (instead of 1.0.0)
+    - add .git detection in kpp command
+  
 - 1.25.3 -- 2021-06-04
 
     - fix InitializePlanetCommand not writing service section correctly in the README

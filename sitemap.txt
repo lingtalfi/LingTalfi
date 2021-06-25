@@ -53,6 +53,8 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBui
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/HtmlPageTools/HtmlPageToolsDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/InvoiceGenerator/InvoiceGeneratorDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/InvoiceGenerator/InvoiceGeneratorDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JAlcp/JAlcpDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JAlcp/JAlcpDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JBee/JBeeDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JBee/JBeeDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JBootstrapAutocomplete/JBootstrapAutocompleteDocBuilder/buildDoc.md
@@ -169,14 +171,20 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBui
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_Generator/Light_Kit_Admin_GeneratorDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_JimToolbox_PhpstormWidgetLinks/Light_Kit_Admin_JimToolbox_PhpstormWidgetLinksDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_JimToolbox_PhpstormWidgetLinks/Light_Kit_Admin_JimToolbox_PhpstormWidgetLinksDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_Kit_Editor/Light_Kit_Admin_Kit_EditorDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_Kit_Editor/Light_Kit_Admin_Kit_EditorDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_LoginNotifier/Light_Kit_Admin_LoginNotifierDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_LoginNotifier/Light_Kit_Admin_LoginNotifierDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_MailStats/Light_Kit_Admin_MailStatsDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_MailStats/Light_Kit_Admin_MailStatsDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_TaskScheduler/Light_Kit_Admin_TaskSchedulerDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_TaskScheduler/Light_Kit_Admin_TaskSchedulerDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_UserData/Light_Kit_Admin_UserDataDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_UserData/Light_Kit_Admin_UserDataDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_UserDatabase/Light_Kit_Admin_UserDatabaseDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_UserDatabase/Light_Kit_Admin_UserDatabaseDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_UserNotifications/Light_Kit_Admin_UserNotificationsDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_UserNotifications/Light_Kit_Admin_UserNotificationsDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_UserPreferences/Light_Kit_Admin_UserPreferencesDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_Admin_UserPreferences/Light_Kit_Admin_UserPreferencesDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit_BootstrapWidgetLibrary/Light_Kit_BootstrapWidgetLibraryDocBuilder/buildDoc.md
@@ -199,6 +207,8 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBui
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Logger/Light_LoggerDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_LoginNotifier/Light_LoginNotifierDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_LoginNotifier/Light_LoginNotifierDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_MailStats/Light_MailStatsDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_MailStats/Light_MailStatsDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Mailer/Light_MailerDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Mailer/Light_MailerDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_MicroPermission/Light_MicroPermissionDocBuilder/buildDoc.md
@@ -219,6 +229,8 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBui
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PrerouteHub/Light_PrerouteHubDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PrettyError/Light_PrettyErrorDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PrettyError/Light_PrettyErrorDocBuilder.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ProjectVars/Light_ProjectVarsDocBuilder/buildDoc.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_ProjectVars/Light_ProjectVarsDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_QuickMailAlert/Light_QuickMailAlertDocBuilder/buildDoc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_QuickMailAlert/Light_QuickMailAlertDocBuilder.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_RealGenerator/Light_RealGeneratorDocBuilder/buildDoc.md
@@ -379,6 +391,7 @@ https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/U
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/commitByPlanetDir.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/commitCurrentByPlanetDir.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/commitListFromFile.md
+https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/commitPlanets.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/error.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/execc.md
 https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/Kaos/Util/CommitWizard/getOutput.md

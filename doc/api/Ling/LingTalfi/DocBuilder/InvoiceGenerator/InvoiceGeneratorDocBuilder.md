@@ -4,7 +4,7 @@
 
 The InvoiceGeneratorDocBuilder class
 ================
-2019-03-13 --> 2021-06-04
+2019-03-13 --> 2021-06-25
 
 
 
@@ -52,4 +52,4 @@ See the source code of [Ling\LingTalfi\DocBuilder\InvoiceGenerator\InvoiceGenera
 
 SeeAlso
 ==============
-Previous class: [HtmlPageToolsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/HtmlPageTools/HtmlPageToolsDocBuilder.md)<br>Next class: [JBeeDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JBee/JBeeDocBuilder.md)<br>
+Previous class: [HtmlPageToolsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/HtmlPageTools/HtmlPageToolsDocBuilder.md)<br>Next class: [JAlcpDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JAlcp/JAlcpDocBuilder.md)<br>

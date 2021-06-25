@@ -147,6 +147,10 @@ class Light_Kit_StoreDocBuilder
                 "Light_Kit_Store conception notes" => $conception,
                 "alcp response" => "https://github.com/lingtalfi/Light_AjaxHandler/blob/master/doc/pages/alcp-response.md",
                 "Light_PlanetInstaller conception notes" => "https://github.com/lingtalfi/Light_PlanetInstaller/blob/master/doc/pages/conception-notes.md",
+                "ling standard object methods" => "https://github.com/lingtalfi/Light_BreezeGenerator/blob/master/doc/pages/ling-standard-object-methods.md",
+                "alcp service" => "https://github.com/lingtalfi/TheBar/blob/master/discussions/alcp-service.md",
+                "kit service" => "https://github.com/lingtalfi/Light_Kit",
+                "the LightKitPageRenderer->renderPage method" => "https://github.com/lingtalfi/Light_Kit/blob/master/doc/api/Ling/Light_Kit/PageRenderer/LightKitPageRenderer/renderPage.md",
             ],
             /**
              * An array of external classes to url.
@@ -169,6 +173,11 @@ class Light_Kit_StoreDocBuilder
                 "Ling\Light_PlanetInstaller\PlanetInstaller\LightPlanetInstallerInit3HookInterface" => "https://github.com/lingtalfi/Light_PlanetInstaller/blob/master/doc/api/Ling/Light_PlanetInstaller/PlanetInstaller/LightPlanetInstallerInit3HookInterface.md",
                 "Ling\CliTools\Output\OutputInterface" => "https://github.com/lingtalfi/CliTools/blob/master/doc/api/Ling/CliTools/Output/OutputInterface.md",
                 "Ling\Light\ServiceContainer\LightServiceContainerInterface" => "https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md",
+                "Ling\Light_Database\Service\LightDatabaseService" => "https://github.com/lingtalfi/Light_Database/blob/master/doc/api/Ling/Light_Database/Service/LightDatabaseService.md",
+                "Ling\SimplePdoWrapper\SimplePdoWrapperInterface" => "https://github.com/lingtalfi/SimplePdoWrapper/blob/master/doc/api/Ling/SimplePdoWrapper/SimplePdoWrapperInterface.md",
+                "Ling\Light_PasswordProtector\Service\LightPasswordProtector" => "https://github.com/lingtalfi/Light_PasswordProtector/blob/master/doc/api/Ling/Light_PasswordProtector/Service/LightPasswordProtector.md",
+                "Ling\Light_Kit\PageRenderer\LightKitPageRenderer" => "https://github.com/lingtalfi/Light_Kit/blob/master/doc/api/Ling/Light_Kit/PageRenderer/LightKitPageRenderer.md",
+                "Ling\Light_PlanetInstaller\PlanetInstaller\LightPlanetInstallerInit2HookInterface" => "https://github.com/lingtalfi/Light_PlanetInstaller/blob/master/doc/api/Ling/Light_PlanetInstaller/PlanetInstaller/LightPlanetInstallerInit2HookInterface.md",
 
             ],
             "ignoreFilesStartingWith" => [

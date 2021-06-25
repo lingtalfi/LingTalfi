@@ -5,7 +5,6 @@ namespace Ling\LingTalfi\Kaos\Command;
 
 
 use Ling\BabyYaml\BabyYamlUtil;
-use Ling\Bat\ClassTool;
 use Ling\Bat\FileSystemTool;
 use Ling\CliTools\Helper\VirginiaMessageHelper as H;
 use Ling\CliTools\Input\ArrayInput;
@@ -62,10 +61,8 @@ class PushCommand extends KaosGenericCommand
     {
 
 
-
         $prefs = PreferencesTool::getPreferences();
         $docToolExtraLoaders = $prefs['docToolExtraLoaders'] ?? [];
-
 
 
         $indentLevel = $this->application->getBaseIndentLevel();
@@ -86,6 +83,14 @@ class PushCommand extends KaosGenericCommand
         if (false !== $pInfo) {
 
             list($galaxyName, $planetName) = $pInfo;
+
+
+            $gitDir = $planetDir . "/.git";
+            if (false === is_dir($gitDir)) {
+                $output->write("<error>oops, the .git directory was not found in $gitDir</error>" . PHP_EOL);
+                return;
+            }
+
 
             H::info(H::i($indentLevel) . "Pushing planet <blue>$galaxyName/$planetName</blue> ($planetDir):" . PHP_EOL, $output);
             H::info(H::i($indentLevel + 1) . "Scanning <b>README.md</b> file:" . PHP_EOL, $output);
@@ -247,7 +252,6 @@ class PushCommand extends KaosGenericCommand
                             }
 
 
-
                             //--------------------------------------------
                             // DOC BUILDER
                             //--------------------------------------------
@@ -378,8 +382,6 @@ EEE;
                                     $planetDotName = $galaxyName . ".$planetName";
                                     if (true === in_array($planetDotName, $deps)) {
                                         $output->write("found hook to Light_AppBoilerplate." . PHP_EOL);
-
-
 
 
                                         H::info(H::i($indentLevel) . "Upgrading boilerplate." . PHP_EOL, $output);
