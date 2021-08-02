@@ -105,6 +105,8 @@ class PushCommand extends KaosGenericCommand
                 $kaosOptions = BabyYamlUtil::readFile($kaosOptionsFile);
             }
 
+            $hostingAppDir = $kaosOptions['hosting_app'] ?? null;
+
             //--------------------------------------------
             // SCANNING README.MD
             //--------------------------------------------
@@ -158,9 +160,14 @@ class PushCommand extends KaosGenericCommand
                     /**
                      * More about universe assets: https://github.com/lingtalfi/NotationFan/blob/master/universe-assets.md
                      */
-                    if (null !== $applicationDir) {
+                    if (null !== $hostingAppDir || null !== $applicationDir) {
+
+
+                        // using hosting app dir first if defined
+                        $_appDir = $hostingAppDir ?? $applicationDir;
+
                         $relPath = "www/libs/universe/$galaxyName/$planetName";
-                        $applicationPlanetWebAssetsDir = $applicationDir . "/$relPath";
+                        $applicationPlanetWebAssetsDir = $_appDir . "/$relPath";
                         if (is_dir($applicationPlanetWebAssetsDir)) {
                             $dst = $mapDir . "/" . $relPath;
 
@@ -240,11 +247,14 @@ class PushCommand extends KaosGenericCommand
                                     if (array_key_exists('map', $postInstall)) {
 
 
+                                        $_appDir = $hostingAppDir ?? $applicationDir;
+
+
                                         H::info(H::i($indentLevel + 1) . "Light plugin with map assets detected, calling <b>kaos packlightmap</b> command." . PHP_EOL, $output);
                                         $myInput = new ArrayInput();
                                         $myInput->setItems([
                                             ":packlightmap" => true,
-                                            "a" => $applicationDir,
+                                            "a" => $_appDir,
                                         ]);
                                         $this->application->run($myInput, $output);
                                     }

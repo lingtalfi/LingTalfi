@@ -4,7 +4,7 @@
 
 The Light_DatabaseDocBuilder class
 ================
-2019-03-13 --> 2021-06-25
+2019-03-13 --> 2021-08-02
 
 
 
@@ -52,4 +52,4 @@ See the source code of [Ling\LingTalfi\DocBuilder\Light_Database\Light_DatabaseD
 
 SeeAlso
 ==============
-Previous class: [Light_CsrfSimpleDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_CsrfSimple/Light_CsrfSimpleDocBuilder.md)<br>Next class: [Light_DatabaseInfoDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_DatabaseInfo/Light_DatabaseInfoDocBuilder.md)<br>
+Previous class: [Light_CsrfSimpleDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_CsrfSimple/Light_CsrfSimpleDocBuilder.md)<br>Next class: [Light_DatabaseFakeDataMakerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_DatabaseFakeDataMaker/Light_DatabaseFakeDataMakerDocBuilder.md)<br>

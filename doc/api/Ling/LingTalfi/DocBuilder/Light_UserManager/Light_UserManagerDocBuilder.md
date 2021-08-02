@@ -4,7 +4,7 @@
 
 The Light_UserManagerDocBuilder class
 ================
-2019-03-13 --> 2021-06-25
+2019-03-13 --> 2021-08-02
 
 
 

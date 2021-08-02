@@ -4,7 +4,7 @@
 
 The SimplePdoWrapperDocBuilder class
 ================
-2019-03-13 --> 2021-06-25
+2019-03-13 --> 2021-08-02
 
 
 
@@ -52,4 +52,4 @@ See the source code of [Ling\LingTalfi\DocBuilder\SimplePdoWrapper\SimplePdoWrap
 
 SeeAlso
 ==============
-Previous class: [SimpleCurlDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SimpleCurl/SimpleCurlDocBuilder.md)<br>Next class: [SqlQueryDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SqlQuery/SqlQueryDocBuilder.md)<br>
+Previous class: [SimpleCurlDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SimpleCurl/SimpleCurlDocBuilder.md)<br>Next class: [SqlFiddlerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SqlFiddler/SqlFiddlerDocBuilder.md)<br>

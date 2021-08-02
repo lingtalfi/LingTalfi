@@ -78,6 +78,7 @@ class Light_Kit_StoreDocBuilder
                 "Ling\Light\Controller\LightController",
                 "Ling\Light_Database\Light_PlanetInstaller\LightDatabaseBasePlanetInstaller",
                 "Ling\Light_PlanetInstaller\PlanetInstaller\LightBasePlanetInstaller",
+                "Ling\Light_DatabaseFakeDataMaker\Generator\LightDatabaseFakeDataGenerator",
 
             ],
             /**
@@ -151,6 +152,10 @@ class Light_Kit_StoreDocBuilder
                 "alcp service" => "https://github.com/lingtalfi/TheBar/blob/master/discussions/alcp-service.md",
                 "kit service" => "https://github.com/lingtalfi/Light_Kit",
                 "the LightKitPageRenderer->renderPage method" => "https://github.com/lingtalfi/Light_Kit/blob/master/doc/api/Ling/Light_Kit/PageRenderer/LightKitPageRenderer/renderPage.md",
+                "list useful information" => "https://github.com/lingtalfi/SqlFiddler/blob/master/doc/pages/conception-notes.md#the-list-useful-information",
+                "list super useful information" => "https://github.com/lingtalfi/SqlFiddler/blob/master/doc/pages/conception-notes.md#the-list-super-useful-information",
+                "light philosophy page" => "https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/light-general-philosophy.md",
+                "Light_DatabaseFakeDataMaker conception notes" => "https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/light-general-philosophy.md",
             ],
             /**
              * An array of external classes to url.
@@ -178,6 +183,8 @@ class Light_Kit_StoreDocBuilder
                 "Ling\Light_PasswordProtector\Service\LightPasswordProtector" => "https://github.com/lingtalfi/Light_PasswordProtector/blob/master/doc/api/Ling/Light_PasswordProtector/Service/LightPasswordProtector.md",
                 "Ling\Light_Kit\PageRenderer\LightKitPageRenderer" => "https://github.com/lingtalfi/Light_Kit/blob/master/doc/api/Ling/Light_Kit/PageRenderer/LightKitPageRenderer.md",
                 "Ling\Light_PlanetInstaller\PlanetInstaller\LightPlanetInstallerInit2HookInterface" => "https://github.com/lingtalfi/Light_PlanetInstaller/blob/master/doc/api/Ling/Light_PlanetInstaller/PlanetInstaller/LightPlanetInstallerInit2HookInterface.md",
+                "Ling\Light_DatabaseFakeDataMaker\Generator\LightDatabaseFakeDataGenerator" => "https://github.com/lingtalfi/Light_DatabaseFakeDataMaker/blob/master/doc/api/Ling/Light_DatabaseFakeDataMaker/Generator/LightDatabaseFakeDataGenerator.md",
+                "Ling\Light_DatabaseFakeDataMaker\Generator\LightDatabaseFakeDataGeneratorInterface" => "https://github.com/lingtalfi/Light_DatabaseFakeDataMaker/blob/master/doc/api/Ling/Light_DatabaseFakeDataMaker/Generator/LightDatabaseFakeDataGeneratorInterface.md",
 
             ],
             "ignoreFilesStartingWith" => [
