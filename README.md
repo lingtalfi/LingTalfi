@@ -38,6 +38,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.25.8 -- 2021-12-02
+
+    - removed -v flag while pushing to github
+  
 - 1.25.7 -- 2021-12-02
 
     - test commit
