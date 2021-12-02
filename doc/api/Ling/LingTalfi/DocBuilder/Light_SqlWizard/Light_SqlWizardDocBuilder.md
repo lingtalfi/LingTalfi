@@ -4,7 +4,7 @@
 
 The Light_SqlWizardDocBuilder class
 ================
-2019-03-13 --> 2021-08-02
+2019-03-13 --> 2021-12-02
 
 
 
@@ -52,4 +52,4 @@ See the source code of [Ling\LingTalfi\DocBuilder\Light_SqlWizard\Light_SqlWizar
 
 SeeAlso
 ==============
-Previous class: [Light_SpinKitHelperDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_SpinKitHelper/Light_SpinKitHelperDocBuilder.md)<br>Next class: [Light_TablePrefixInfoDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_TablePrefixInfo/Light_TablePrefixInfoDocBuilder.md)<br>
+Previous class: [Light_SpinKitHelperDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_SpinKitHelper/Light_SpinKitHelperDocBuilder.md)<br>Next class: [Light_StripeToolsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_StripeTools/Light_StripeToolsDocBuilder.md)<br>

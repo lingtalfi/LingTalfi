@@ -155,6 +155,7 @@ class Light_Kit_EditorDocBuilder
                 "Light_PlanetInstaller conception notes" => 'https://github.com/lingtalfi/Light_PlanetInstaller/blob/master/doc/pages/conception-notes.md',
                 "Light_Kit conception notes" => 'https://github.com/lingtalfi/Light_Kit/blob/master/doc/pages/conception-notes.md',
                 "widget coordinates" => 'https://github.com/lingtalfi/Light_Kit/blob/master/doc/pages/conception-notes.md#widget-coordinates',
+                "light philosophy page" => 'https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/light-general-philosophy.md',
             ],
             /**
              * An array of external classes to url.

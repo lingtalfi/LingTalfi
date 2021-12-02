@@ -154,6 +154,7 @@ class Light_Kit_StoreDocBuilder
                 "the LightKitPageRenderer->renderPage method" => "https://github.com/lingtalfi/Light_Kit/blob/master/doc/api/Ling/Light_Kit/PageRenderer/LightKitPageRenderer/renderPage.md",
                 "list useful information" => "https://github.com/lingtalfi/SqlFiddler/blob/master/doc/pages/conception-notes.md#the-list-useful-information",
                 "list super useful information" => "https://github.com/lingtalfi/SqlFiddler/blob/master/doc/pages/conception-notes.md#the-list-super-useful-information",
+                "list superuseful information" => "https://github.com/lingtalfi/SqlFiddler/blob/master/doc/pages/conception-notes.md#the-list-super-useful-information",
                 "light philosophy page" => "https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/light-general-philosophy.md",
                 "Light_DatabaseFakeDataMaker conception notes" => "https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/light-general-philosophy.md",
             ],

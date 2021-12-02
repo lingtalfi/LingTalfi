@@ -1,6 +1,6 @@
 Ling/LingTalfi
 ================
-2019-03-13 --> 2021-08-02
+2019-03-13 --> 2021-12-02
 
 
 
@@ -80,6 +80,10 @@ Table of contents
     - [JFileUploaderDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JFileUploader/JFileUploaderDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the JFileUploader planet.
 - [JFormCollectDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JFormCollect/JFormCollectDocBuilder.md) &ndash; The JFormCollectDocBuilder class.
     - [JFormCollectDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JFormCollect/JFormCollectDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the JFormCollect planet.
+- [JLingHelpersDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JLingHelpers/JLingHelpersDocBuilder.md) &ndash; The JLingHelpersDocBuilder class.
+    - [JLingHelpersDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JLingHelpers/JLingHelpersDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the JLingHelpers planet.
+- [JModulesDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JModules/JModulesDocBuilder.md) &ndash; The JModulesDocBuilder class.
+    - [JModulesDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JModules/JModulesDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the JModules planet.
 - [JPostFormDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JPostForm/JPostFormDocBuilder.md) &ndash; The JPostFormDocBuilder class.
     - [JPostFormDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JPostForm/JPostFormDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the JPostForm planet.
 - [JQueryDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JQuery/JQueryDocBuilder.md) &ndash; The JQueryDocBuilder class.
@@ -92,6 +96,8 @@ Table of contents
     - [JSortableListsDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JSortableLists/JSortableListsDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the JSortableLists planet.
 - [JimToolboxDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JimToolbox/JimToolboxDocBuilder.md) &ndash; The JimToolboxDocBuilder class.
     - [JimToolboxDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JimToolbox/JimToolboxDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the JimToolbox planet.
+- [JqZoomDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JqZoom/JqZoomDocBuilder.md) &ndash; The JqZoomDocBuilder class.
+    - [JqZoomDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JqZoom/JqZoomDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the JqZoom planet.
 - [JumboExploderDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JumboExploder/JumboExploderDocBuilder.md) &ndash; The JumboExploderDocBuilder class.
     - [JumboExploderDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/JumboExploder/JumboExploderDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the JumboExploder planet.
 - [KitDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Kit/KitDocBuilder.md) &ndash; The KitDocBuilder class.
@@ -176,6 +182,8 @@ Table of contents
     - [Light_HtmlPageCopilotDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_HtmlPageCopilot/Light_HtmlPageCopilotDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_HtmlPageCopilot planet.
 - [Light_InitializerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Initializer/Light_InitializerDocBuilder.md) &ndash; The Light_InitializerDocBuilder class.
     - [Light_InitializerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Initializer/Light_InitializerDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Initializer planet.
+- [Light_It4ToolsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_It4Tools/Light_It4ToolsDocBuilder.md) &ndash; The Light_It4ToolsDocBuilder class.
+    - [Light_It4ToolsDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_It4Tools/Light_It4ToolsDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_It4Tools planet.
 - [Light_JimToolboxDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_JimToolbox/Light_JimToolboxDocBuilder.md) &ndash; The Light_JimToolboxDocBuilder class.
     - [Light_JimToolboxDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_JimToolbox/Light_JimToolboxDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_JimToolbox planet.
 - [Light_KitDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Kit/Light_KitDocBuilder.md) &ndash; The Light_KitDocBuilder class.
@@ -242,6 +250,10 @@ Table of contents
     - [Light_NuggetDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_Nugget/Light_NuggetDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_Nugget planet.
 - [Light_PasswordProtectorDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PasswordProtector/Light_PasswordProtectorDocBuilder.md) &ndash; The Light_PasswordProtectorDocBuilder class.
     - [Light_PasswordProtectorDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PasswordProtector/Light_PasswordProtectorDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_PasswordProtector planet.
+- [Light_PaymentMethodsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PaymentMethods/Light_PaymentMethodsDocBuilder.md) &ndash; The Light_PaymentMethodsDocBuilder class.
+    - [Light_PaymentMethodsDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PaymentMethods/Light_PaymentMethodsDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_PaymentMethods planet.
+- [Light_PaymentMethods_StripeDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PaymentMethods_Stripe/Light_PaymentMethods_StripeDocBuilder.md) &ndash; The Light_PaymentMethods_StripeDocBuilder class.
+    - [Light_PaymentMethods_StripeDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PaymentMethods_Stripe/Light_PaymentMethods_StripeDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_PaymentMethods_Stripe planet.
 - [Light_PlanetInstallerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PlanetInstaller/Light_PlanetInstallerDocBuilder.md) &ndash; The Light_PlanetInstallerDocBuilder class.
     - [Light_PlanetInstallerDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PlanetInstaller/Light_PlanetInstallerDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_PlanetInstaller planet.
 - [Light_PluginDatabaseInstallerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_PluginDatabaseInstaller/Light_PluginDatabaseInstallerDocBuilder.md) &ndash; The Light_PluginDatabaseInstallerDocBuilder class.
@@ -274,6 +286,8 @@ Table of contents
     - [Light_SpinKitHelperDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_SpinKitHelper/Light_SpinKitHelperDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_SpinKitHelper planet.
 - [Light_SqlWizardDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_SqlWizard/Light_SqlWizardDocBuilder.md) &ndash; The Light_SqlWizardDocBuilder class.
     - [Light_SqlWizardDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_SqlWizard/Light_SqlWizardDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_SqlWizard planet.
+- [Light_StripeToolsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_StripeTools/Light_StripeToolsDocBuilder.md) &ndash; The Light_StripeToolsDocBuilder class.
+    - [Light_StripeToolsDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_StripeTools/Light_StripeToolsDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_StripeTools planet.
 - [Light_TablePrefixInfoDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_TablePrefixInfo/Light_TablePrefixInfoDocBuilder.md) &ndash; The Light_TablePrefixInfoDocBuilder class.
     - [Light_TablePrefixInfoDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_TablePrefixInfo/Light_TablePrefixInfoDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the Light_TablePrefixInfo planet.
 - [Light_TaskSchedulerDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/Light_TaskScheduler/Light_TaskSchedulerDocBuilder.md) &ndash; The Light_TaskSchedulerDocBuilder class.
@@ -318,6 +332,8 @@ Table of contents
     - [ParentChildDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ParentChild/ParentChildDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the ParentChild planet.
 - [ParenthesisMirrorParserDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ParenthesisMirrorParser/ParenthesisMirrorParserDocBuilder.md) &ndash; The ParenthesisMirrorParserDocBuilder class.
     - [ParenthesisMirrorParserDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/ParenthesisMirrorParser/ParenthesisMirrorParserDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the ParenthesisMirrorParser planet.
+- [PaypalToolsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/PaypalTools/PaypalToolsDocBuilder.md) &ndash; The PaypalToolsDocBuilder class.
+    - [PaypalToolsDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/PaypalTools/PaypalToolsDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the PaypalTools planet.
 - [PhpExcelToolDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/PhpExcelTool/PhpExcelToolDocBuilder.md) &ndash; The PhpExcelToolDocBuilder class.
     - [PhpExcelToolDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/PhpExcelTool/PhpExcelToolDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the PhpExcelTool planet.
 - [PhpFileValidatorDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/PhpFileValidator/PhpFileValidatorDocBuilder.md) &ndash; The PhpFileValidatorDocBuilder class.
@@ -348,6 +364,8 @@ Table of contents
     - [SqlQueryDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SqlQuery/SqlQueryDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the SqlQuery planet.
 - [SqlWizardDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SqlWizard/SqlWizardDocBuilder.md) &ndash; The SqlWizardDocBuilder class.
     - [SqlWizardDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SqlWizard/SqlWizardDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the SqlWizard planet.
+- [StripeToolsDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/StripeTools/StripeToolsDocBuilder.md) &ndash; The StripeToolsDocBuilder class.
+    - [StripeToolsDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/StripeTools/StripeToolsDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the StripeTools planet.
 - [SvelteTemplateBuilderDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SvelteTemplateBuilder/SvelteTemplateBuilderDocBuilder.md) &ndash; The SvelteTemplateBuilderDocBuilder class.
     - [SvelteTemplateBuilderDocBuilder::buildDoc](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/SvelteTemplateBuilder/SvelteTemplateBuilderDocBuilder/buildDoc.md) &ndash; Launch this function to generate the documentation for the SvelteTemplateBuilder planet.
 - [TemporaryVirtualFileSystemDocBuilder](https://github.com/lingtalfi/LingTalfi/blob/master/doc/api/Ling/LingTalfi/DocBuilder/TemporaryVirtualFileSystem/TemporaryVirtualFileSystemDocBuilder.md) &ndash; The TemporaryVirtualFileSystemDocBuilder class.
