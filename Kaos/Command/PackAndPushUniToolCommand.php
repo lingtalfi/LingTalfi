@@ -224,7 +224,7 @@ EEE;
                     }
 
                     H::info(H::i($indentLevel + 2) . "Do the pushing" . PHP_EOL, $output);
-                    passthru("cd \"$naiveImporterDir\"; git push --tags -f git@github.com:lingtalfi/universe-naive-importer.git");
+                    passthru("cd \"$naiveImporterDir\"; git push --tags -f -v git@github.com:lingtalfi/universe-naive-importer.git master");
                     H::success(H::i($indentLevel + 1) . "Uni-tool was pushed successfully to github.com." . PHP_EOL, $output);
 
 

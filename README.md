@@ -38,6 +38,10 @@ Or just download it and place it where you want otherwise.
 History Log
 =============
 
+- 1.25.7 -- 2021-12-02
+
+    - test commit
+
 - 1.25.6 -- 2021-12-02
 
     - fix PackAndPushUniToolCommand still having the git prompt password problem
